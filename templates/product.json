@@ -202,7 +202,7 @@
             "toggle_element": "button",
             "add_btn_label": "<strong>Add</strong>",
             "stacking": "row",
-            "accent_color": "accent-1",
+            "accent_color": "text",
             "color_scheme": "background-1",
             "product_list": [
               "game-bro™-protective-case",
@@ -222,9 +222,9 @@
             "product_3_percentage_discount": "0",
             "product_3_fixed_amount_discount": "0",
             "show_images": true,
-            "images_size": "5",
+            "images_size": "4.25",
             "images_corner_radius": 0,
-            "title_size": "1.4",
+            "title_size": "1",
             "title_link": false,
             "desc_size": "1.2",
             "price_position": "next_to_title",
@@ -242,8 +242,8 @@
             "show_custom_bg": false,
             "regular_bg_color": "#f2f2f2",
             "selected_bg_color": "#f2f2f2",
-            "margin_top": 21,
-            "margin_bottom": 21
+            "margin_top": 3,
+            "margin_bottom": 0
           }
         },
         "buy_buttons": {
