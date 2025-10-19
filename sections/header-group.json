@@ -63,9 +63,9 @@
         "mobile_padding_bottom": 12,
         "desktop_padding_top": 16,
         "desktop_padding_bottom": 16,
-        "custom_colors_background": "#FFFFFF",
+        "custom_colors_background": "#ffffff",
         "custom_gradient_background": "",
-        "custom_colors_text": "#2E2A39"
+        "custom_colors_text": "#2e2a39"
       }
     },
     "fe1c8c67-b84c-4466-a515-70df3134c1c0": {
@@ -76,12 +76,12 @@
           "settings": {
             "text": "ANNOUNCE BAR",
             "text_alignment": "center",
-            "mobile_text_size": 16,
+            "mobile_text_size": 14,
             "desktop_text_size": 20,
             "icon": "storefront",
             "filled_icon": false,
-            "mobile_icon_size": 20,
-            "desktop_icon_size": 26,
+            "mobile_icon_size": 15,
+            "desktop_icon_size": 18,
             "desktop_layout": "horizontal",
             "mobile_layout": "horizontal",
             "hidden_products": "",
@@ -112,7 +112,7 @@
         "padding_bottom": 16,
         "custom_colors_background": "#dd1d1d",
         "custom_gradient_background": "",
-        "custom_colors_text": "#FFFFFF"
+        "custom_colors_text": "#ffffff"
       }
     },
     "header": {
@@ -121,7 +121,7 @@
         "sticky_header_type": "on-scroll-up",
         "show_line_separator": true,
         "color_scheme": "background-1",
-        "logo_link": "\/",
+        "logo_link": "/",
         "logo_position": "middle-center",
         "menu": "main-menu",
         "menu_type_desktop": "dropdown",
