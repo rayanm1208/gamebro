@@ -349,14 +349,14 @@
         "de158e68-5d0d-4819-a625-e2dabdff87d1": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Collapsible row",
-            "heading_size": "medium",
-            "icon": "check_box",
+            "heading": "Features & Performance",
+            "heading_size": "small",
+            "icon": "description",
             "filled_icon": false,
             "collapse_icon": "carret",
             "display_top_border": true,
             "open": false,
-            "content": "",
+            "content": "<p>🎮 15 000+ pre-installed classics (PS1, SNES, GBA, Dreamcast…)<br/>⚡ Instant boot – play in &lt; 10 seconds<br/>💾 Auto-save & resume system<br/>🔋 6-hour battery life + fast USB-C charge<br/>📺 HDMI output – connect to any TV<br/>🧠 Lag-free emulation + premium chipset</p>",
             "page": "",
             "margin_top": 24,
             "margin_bottom": 0
@@ -365,14 +365,30 @@
         "collapsible_tab_kzyAEq": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Collapsible row",
-            "heading_size": "medium",
-            "icon": "check_box",
+            "heading": "Play Together & Trading",
+            "heading_size": "small",
+            "icon": "stadia_controller",
             "filled_icon": false,
             "collapse_icon": "carret",
             "display_top_border": true,
             "open": false,
-            "content": "",
+            "content": "<p>Enjoy true multiplayer sessions by pairing two Game-bro™ consoles over Wi-Fi — perfect for head-to-head races, battles, or cooperative adventures.</p><p>Game-bro™ brings back the <strong>old-school fun of couch battles and link-cable trades — without the cables.</strong></p><p>From Mario Kart races to Pokémon exchanges, everything works seamlessly.<br/><br/>No setup, no lag — just <strong>pure 90’s multiplayer magic, reborn.</strong></p>",
+            "page": "",
+            "margin_top": 24,
+            "margin_bottom": 0
+          }
+        },
+        "collapsible_tab_gjAhtp": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "1-Year Warranty",
+            "heading_size": "medium",
+            "icon": "security",
+            "filled_icon": false,
+            "collapse_icon": "carret",
+            "display_top_border": true,
+            "open": false,
+            "content": "<p>Every Game-bro™ console is protected by a <strong>12-month manufacturer’s warranty</strong> covering any operational fault.<br/><br/>If a problem occurs, our support team will <strong>repair or replace your device</strong> quickly and transparently.</p>",
             "page": "",
             "margin_top": 24,
             "margin_bottom": 0
@@ -381,14 +397,14 @@
         "collapsible_tab_yKa4At": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Collapsible row",
-            "heading_size": "medium",
-            "icon": "check_box",
+            "heading": "Console Specs",
+            "heading_size": "small",
+            "icon": "settings",
             "filled_icon": false,
             "collapse_icon": "carret",
             "display_top_border": true,
             "open": false,
-            "content": "",
+            "content": "<p><strong>CPU:</strong> RK3326 64-bit Quad-Core 1.5GHz<br/><strong>RAM:</strong> 1GB DDR3<br/><strong>Display:</strong> 3.5” IPS HD (Full-color, crystal-sharp)<br/><strong>GPU:</strong> Mali-G31 MP2<br/><strong>Storage:</strong> 64GB internal + expandable slot (TF up to 512GB)<br/><strong>Battery:</strong> 3200mAh lithium — up to <strong>6 hours</strong> playtime<br/><strong>Output:</strong> HDMI & 3.5mm audio</p><p>Built for zero-lag emulation and smooth performance across all generations.</p>",
             "page": "",
             "margin_top": 24,
             "margin_bottom": 0
@@ -441,6 +457,7 @@
         "description",
         "de158e68-5d0d-4819-a625-e2dabdff87d1",
         "collapsible_tab_kzyAEq",
+        "collapsible_tab_gjAhtp",
         "collapsible_tab_yKa4At",
         "reviews_8UgFbe"
       ],
