@@ -334,8 +334,8 @@
             "days_labels": "Mon, Tue, Wed, Thu, Fri, Sat, Sun",
             "months_labels": "Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec",
             "color_scheme": "accent-2",
-            "margin_top": 24,
-            "margin_bottom": 24
+            "margin_top": 12,
+            "margin_bottom": 3
           }
         },
         "description": {
