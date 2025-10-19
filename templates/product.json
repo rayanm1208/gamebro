@@ -429,15 +429,15 @@
             "autoplay": false,
             "autoplay_speed": 5,
             "display_arrows": false,
-            "display_dots": true,
-            "author_1": "<em>Author</em> [stars]",
-            "text_1": "<p>Share positive thoughts and feedback from your customer.</p>",
-            "author_2": "<em>Author</em> [stars]",
-            "text_2": "<p>Share positive thoughts and feedback from your customer.</p>",
-            "author_3": "<em>Author</em> [stars]",
-            "text_3": "<p>Share positive thoughts and feedback from your customer.</p>",
-            "margin_top": 24,
-            "margin_bottom": 24
+            "display_dots": false,
+            "author_1": "Alex R.  [stars]",
+            "text_1": "<p>I grew up with the SNES and PS1, and honestly — this thing nailed the feeling</p>",
+            "author_2": "Mark L [stars]",
+            "text_2": "<p>I ordered Game-bro out of curiosity, thinking it’d be another cheap clone.<br/>The moment I heard the boot sound… it was 1999 again.</p>",
+            "author_3": "Daniel P.[stars]",
+            "text_3": "<p>Solid build, clean interface, no lag.<br/>My girlfriend and I spent 3 hours playing Crash Bandicoot like kids again</p>",
+            "margin_top": 6,
+            "margin_bottom": 0
           }
         }
       },
