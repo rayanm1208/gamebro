@@ -136,6 +136,21 @@
             "margin_bottom": 15
           }
         },
+        "trustpilot_stars_zNP3Tm": {
+          "type": "trustpilot_stars",
+          "settings": {
+            "rating": 4.7,
+            "star_color": "#00b67a",
+            "bg_star_color": "#c8c8c8",
+            "star_symbol_color": "#ffffff",
+            "label": "(xxxx Reviews)",
+            "size": 16,
+            "alignment": "flex-start",
+            "scroll_id": "",
+            "margin_top": 15,
+            "margin_bottom": 15
+          }
+        },
         "price_TYVzKr": {
           "type": "price",
           "settings": {
@@ -264,6 +279,7 @@
       },
       "block_order": [
         "title_RgFznQ",
+        "trustpilot_stars_zNP3Tm",
         "price_TYVzKr",
         "variant_picker_rB9gMN",
         "quantity_selector_Pa4e9r",
@@ -276,7 +292,7 @@
         "product": "game-bro-console",
         "color_scheme": "background-1",
         "secondary_background": false,
-        "media_size": "medium",
+        "media_size": "small",
         "constrain_to_viewport": true,
         "media_fit": "contain",
         "media_position": "left",
@@ -285,8 +301,8 @@
         "enable_video_looping": false,
         "mobile_media_corner_radius": 12,
         "full_media_width": false,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 16,
+        "padding_bottom": 12
       }
     },
     "6aa09428-a417-429d-9159-a4e8afd49590": {
