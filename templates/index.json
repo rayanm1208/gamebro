@@ -678,7 +678,9 @@
       "blocks": {
         "image_rPakTL": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "image": "shopify://shop_images/22_56244901-660d-446e-971b-f9db84d63060.webp"
+          }
         },
         "image_NjThM6": {
           "type": "image",
