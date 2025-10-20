@@ -897,6 +897,63 @@
         "custom_colors_text": "#2e2a39"
       }
     },
+    "image_with_text_QXYrt9": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_FxzYRA": {
+          "type": "heading",
+          "settings": {
+            "title": "Classic Gaming, Zero Setup.",
+            "title_highlight_color": "#6D388B",
+            "heading_size": "h2"
+          }
+        },
+        "text_jr4Ytt": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Game-bro brings 15,000+ retro games in your pocket — no setup, no Wi-Fi, just pure nostalgia.</strong> With a crisp HD screen, 12-hour battery, and instant plug & play, relive your childhood anywhere, anytime.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_FxzYRA",
+        "text_jr4Ytt"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "video": "shopify://files/videos/Design sans titre (4).mp4",
+        "video_autoplay": true,
+        "video_loop": true,
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "section_color_scheme": "background-1",
+        "full_desktop_width": false,
+        "content_layout": "no-overlap",
+        "desktop_media_width": 50,
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_full_media_width": false,
+        "mobile_direction": "normal",
+        "mobile_image_quanlity": "2",
+        "mobile_content_alignment": "left",
+        "mobile_padding_top": 0,
+        "mobile_padding_bottom": 16,
+        "desktop_padding_top": 36,
+        "desktop_padding_bottom": 36,
+        "custom_colors_background": "#2E2A39",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#FFFFFF",
+        "custom_colors_solid_button_background": "#dd1d1d",
+        "custom_colors_solid_button_text": "#ffffff",
+        "custom_colors_outline_button": "#dd1d1d",
+        "custom_section_colors_background": "#FFFFFF",
+        "custom_section_gradient_background": ""
+      }
+    },
     "contact_form_WHP8G7": {
       "type": "contact-form",
       "blocks": {
@@ -976,69 +1033,27 @@
         "custom_colors_solid_button_text": "#ffffff"
       }
     },
-    "image_with_text_QXYrt9": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_FxzYRA": {
-          "type": "heading",
-          "settings": {
-            "title": "Classic Gaming, Zero Setup.",
-            "title_highlight_color": "#6D388B",
-            "heading_size": "h2"
-          }
-        },
-        "text_jr4Ytt": {
-          "type": "text",
-          "settings": {
-            "text": "<p><strong>Game-bro is your pocket-sized time machine — preloaded with over 15,000 retro games from PlayStation, SNES, Game Boy, and more.</strong> No setup, no downloads, no Wi-Fi needed. Just turn it on and dive straight into the classics you grew up with. With its HD screen, 12-hour battery life, and lightweight, compact design, Game-bro lets you relive your childhood anytime, anywhere. Whether you're chasing nostalgia or discovering it for the first time, Game-bro brings the magic back — instantly.</p>",
-            "text_style": "body"
-          }
-        },
-        "button_AxL9ta": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "heading_FxzYRA",
-        "text_jr4Ytt",
-        "button_AxL9ta"
-      ],
-      "name": "t:sections.image-with-text.presets.name",
+    "image_banner_jeLfxk": {
+      "type": "image-banner",
+      "name": "t:sections.image-banner.presets.name",
       "settings": {
         "display_id": false,
         "visibility": "always-display",
-        "video": "shopify://files/videos/Design sans titre (4).mp4",
-        "video_autoplay": true,
-        "video_loop": true,
-        "height": "adapt",
+        "image": "shopify://shop_images/Dark_Blue_Simple_Dark_Tech_and_Gaming_Bio-Link_Website_2.png",
+        "image_1_visibility": "mobile-hidden",
+        "image_2": "shopify://shop_images/Dark_Blue_Simple_Dark_Tech_and_Gaming_Bio-Link_Website_2.png",
+        "image_2_visibility": "desktop-hidden",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "url": "",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
         "color_scheme": "background-1",
-        "section_color_scheme": "background-1",
-        "full_desktop_width": false,
-        "content_layout": "no-overlap",
-        "desktop_media_width": 50,
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "mobile_full_media_width": false,
-        "mobile_direction": "normal",
-        "mobile_image_quanlity": "2",
-        "mobile_content_alignment": "left",
-        "mobile_padding_top": 0,
-        "mobile_padding_bottom": 16,
-        "desktop_padding_top": 36,
-        "desktop_padding_bottom": 36,
-        "custom_colors_background": "#2E2A39",
-        "custom_gradient_background": "",
-        "custom_colors_text": "#FFFFFF",
-        "custom_colors_solid_button_background": "#dd1d1d",
-        "custom_colors_solid_button_text": "#ffffff",
-        "custom_colors_outline_button": "#dd1d1d",
-        "custom_section_colors_background": "#FFFFFF",
-        "custom_section_gradient_background": ""
+        "transparent_container_color": "white",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
       }
     }
   },
@@ -1051,7 +1066,8 @@
     "image_slider_UwFQP7",
     "trustpilot_reviews_TDRpNC",
     "horizontal_ticker_mUJeWk",
+    "image_with_text_QXYrt9",
     "contact_form_WHP8G7",
-    "image_with_text_QXYrt9"
+    "image_banner_jeLfxk"
   ]
 }
