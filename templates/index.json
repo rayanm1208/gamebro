@@ -139,12 +139,12 @@
         "trustpilot_stars_zNP3Tm": {
           "type": "trustpilot_stars",
           "settings": {
-            "rating": 4.7,
+            "rating": 4.6,
             "star_color": "#00b67a",
             "bg_star_color": "#c8c8c8",
             "star_symbol_color": "#ffffff",
-            "label": "(xxxx Reviews)",
-            "size": 16,
+            "label": "8 749 Reviews",
+            "size": 14,
             "alignment": "flex-start",
             "scroll_id": "",
             "margin_top": 15,
