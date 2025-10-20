@@ -17,9 +17,10 @@
         "fc645871-d789-4cfa-8584-4f8a29b6ce92": {
           "type": "image",
           "settings": {
-            "image_width": 100,
+            "image": "shopify://shop_images/gamelab_pic_d5b81325-f55b-48c5-80a4-359834f46b12.webp",
+            "image_width": 305,
             "alignment": "center",
-            "url": "",
+            "url": "shopify://products/game-bro-console",
             "width_desktop": 4,
             "width_mobile": "2"
           }
