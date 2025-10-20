@@ -508,6 +508,63 @@
         "desktop_padding_bottom": 36
       }
     },
+    "image_with_text_g6mKVa": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_nKCKcU": {
+          "type": "heading",
+          "settings": {
+            "title": "Relive the Classics. Anywhere. Anytime.",
+            "title_highlight_color": "#6D388B",
+            "heading_size": "h2"
+          }
+        },
+        "text_gQgGKw": {
+          "type": "text",
+          "settings": {
+            "text": "<p>GameLab puts the golden age of gaming in your pocket.</p><p>15,000+ legendary games, no setup, no downloads, and zero internet required.</p><p>It's fast, portable, and incredibly easy.</p><p>Power it on, pick your game, and disappear for hours.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_nKCKcU",
+        "text_gQgGKw"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "image": "shopify://shop_images/gamelab_pic.webp",
+        "video_autoplay": true,
+        "video_loop": true,
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "section_color_scheme": "background-1",
+        "full_desktop_width": false,
+        "content_layout": "no-overlap",
+        "desktop_media_width": 50,
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_full_media_width": false,
+        "mobile_direction": "normal",
+        "mobile_image_quanlity": "2",
+        "mobile_content_alignment": "left",
+        "mobile_padding_top": 0,
+        "mobile_padding_bottom": 16,
+        "desktop_padding_top": 36,
+        "desktop_padding_bottom": 36,
+        "custom_colors_background": "#2E2A39",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#FFFFFF",
+        "custom_colors_solid_button_background": "#dd1d1d",
+        "custom_colors_solid_button_text": "#ffffff",
+        "custom_colors_outline_button": "#dd1d1d",
+        "custom_section_colors_background": "#FFFFFF",
+        "custom_section_gradient_background": ""
+      }
+    },
     "horizontal_ticker_9qycyU": {
       "type": "horizontal-ticker",
       "blocks": {
@@ -663,63 +720,6 @@
         "custom_section_gradient_background": ""
       }
     },
-    "image_with_text_g6mKVa": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_nKCKcU": {
-          "type": "heading",
-          "settings": {
-            "title": "Relive the Classics. Anywhere. Anytime.",
-            "title_highlight_color": "#6D388B",
-            "heading_size": "h2"
-          }
-        },
-        "text_gQgGKw": {
-          "type": "text",
-          "settings": {
-            "text": "<p>GameLab puts the golden age of gaming in your pocket.</p><p>15,000+ legendary games, no setup, no downloads, and zero internet required.</p><p>It's fast, portable, and incredibly easy.</p><p>Power it on, pick your game, and disappear for hours.</p>",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "heading_nKCKcU",
-        "text_gQgGKw"
-      ],
-      "name": "t:sections.image-with-text.presets.name",
-      "settings": {
-        "display_id": false,
-        "visibility": "always-display",
-        "image": "shopify://shop_images/gamelab_pic.webp",
-        "video_autoplay": true,
-        "video_loop": true,
-        "height": "adapt",
-        "color_scheme": "background-1",
-        "section_color_scheme": "background-1",
-        "full_desktop_width": false,
-        "content_layout": "no-overlap",
-        "desktop_media_width": 50,
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "mobile_full_media_width": false,
-        "mobile_direction": "normal",
-        "mobile_image_quanlity": "2",
-        "mobile_content_alignment": "left",
-        "mobile_padding_top": 0,
-        "mobile_padding_bottom": 16,
-        "desktop_padding_top": 36,
-        "desktop_padding_bottom": 36,
-        "custom_colors_background": "#2E2A39",
-        "custom_gradient_background": "",
-        "custom_colors_text": "#FFFFFF",
-        "custom_colors_solid_button_background": "#dd1d1d",
-        "custom_colors_solid_button_text": "#ffffff",
-        "custom_colors_outline_button": "#dd1d1d",
-        "custom_section_colors_background": "#FFFFFF",
-        "custom_section_gradient_background": ""
-      }
-    },
     "related-products": {
       "type": "related-products",
       "disabled": true,
@@ -744,8 +744,8 @@
   },
   "order": [
     "main",
-    "horizontal_ticker_9qycyU",
     "image_with_text_g6mKVa",
+    "horizontal_ticker_9qycyU",
     "image_with_text_6CYWfp",
     "related-products"
   ]
