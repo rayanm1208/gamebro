@@ -67,7 +67,7 @@
         "padding_bottom": 20,
         "custom_colors_background": "#121212",
         "custom_gradient_background": "",
-        "custom_colors_text": "#ffffff",
+        "custom_colors_text": "#000000",
         "custom_colors_solid_button_background": "#ffffff",
         "custom_colors_solid_button_text": "#121212",
         "custom_colors_outline_button": "#ffffff"
