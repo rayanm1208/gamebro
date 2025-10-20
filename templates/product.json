@@ -664,6 +664,138 @@
         "custom_section_gradient_background": ""
       }
     },
+    "icon_bar_9RgTTV": {
+      "type": "icon-bar",
+      "blocks": {
+        "column_wJW88q": {
+          "type": "column",
+          "settings": {
+            "icon": "battery_full",
+            "filled_icon": false,
+            "title": "Up to 12h Battery Life",
+            "text": "<p></p><p></p>"
+          }
+        },
+        "column_6k6EPq": {
+          "type": "column",
+          "settings": {
+            "icon": "sports_esports",
+            "filled_icon": false,
+            "title": "15,000+ Retro Games",
+            "text": ""
+          }
+        },
+        "column_gDMjpH": {
+          "type": "column",
+          "settings": {
+            "icon": "group",
+            "filled_icon": false,
+            "title": "Multiplayer Ready",
+            "text": ""
+          }
+        },
+        "column_eD7GVL": {
+          "type": "column",
+          "settings": {
+            "icon": "cloud_download",
+            "filled_icon": false,
+            "image": "shopify://shop_images/mobile_hand_24dp_6D388B_FILL0_wght400_GRAD0_opsz24.svg",
+            "title": "Compact Design",
+            "text": ""
+          }
+        },
+        "column_LTTHYR": {
+          "type": "column",
+          "settings": {
+            "icon": "cloud_download",
+            "filled_icon": false,
+            "title": "Storage up to 256GB",
+            "text": "<p></p><p></p>"
+          }
+        },
+        "column_i897MQ": {
+          "type": "column",
+          "settings": {
+            "icon": "language",
+            "filled_icon": false,
+            "title": "Multilingual",
+            "text": "<p></p><p></p>"
+          }
+        },
+        "column_XHfA6M": {
+          "type": "column",
+          "settings": {
+            "icon": "hd",
+            "filled_icon": false,
+            "title": "HD 3.5” IPS Screen",
+            "text": "<p></p><p></p>"
+          }
+        },
+        "column_9pFxG4": {
+          "type": "column",
+          "settings": {
+            "icon": "headphones",
+            "filled_icon": false,
+            "title": "Headphone Jack + Audio Out",
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_wJW88q",
+        "column_6k6EPq",
+        "column_gDMjpH",
+        "column_eD7GVL",
+        "column_LTTHYR",
+        "column_i897MQ",
+        "column_XHfA6M",
+        "column_9pFxG4"
+      ],
+      "name": "Icon Bar",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "title": "",
+        "title_highlight_color": "#6D388B",
+        "heading_size": "h1",
+        "text": "",
+        "color_scheme": "background-1",
+        "icon_layout": "vertical",
+        "icon_size": "medium",
+        "icon_color": "accent-1",
+        "cards_color_scheme": "background-1",
+        "type": "slide",
+        "autoplay": false,
+        "autoplay_speed": 5,
+        "arrows_color_scheme": "inverse",
+        "transparent_arrows": true,
+        "dots_color_scheme": "inverse",
+        "desktop_full_page": true,
+        "columns_desktop": 4,
+        "slider_desktop": false,
+        "per_move_desktop": 1,
+        "desktop_spacing": 8,
+        "desktop_side_padding": 0,
+        "desktop_padding_calc": true,
+        "desktop_adaptive_height": false,
+        "desktop_dots_position": "under",
+        "desktop_arrows_position": "sides",
+        "columns_mobile": "2",
+        "slider_mobile": false,
+        "enable_mobile_preview": false,
+        "mobile_adaptive_height": true,
+        "mobile_dots_position": "hidden",
+        "mobile_arrows_position": "hidden",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "custom_colors_background": "#FFFFFF",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#2E2A39",
+        "custom_cards_colors_background": "#F3F3F3",
+        "custom_cards_gradient_background": "",
+        "custom_cards_colors_text": "#2E2A39"
+      }
+    },
     "image_with_text_6CYWfp": {
       "type": "image-with-text",
       "blocks": {
@@ -789,6 +921,7 @@
         "image_B3Ajpa",
         "image_tGebpn"
       ],
+      "disabled": true,
       "name": "Horizontal Ticker",
       "settings": {
         "visibility": "always-display",
@@ -868,6 +1001,7 @@
     "main",
     "horizontal_ticker_9qycyU",
     "image_with_text_g6mKVa",
+    "icon_bar_9RgTTV",
     "image_with_text_6CYWfp",
     "horizontal_ticker_dAyQnU",
     "related-products",
