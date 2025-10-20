@@ -259,6 +259,7 @@
         },
         "buy_buttons_nTWwEM": {
           "type": "buy_buttons",
+          "disabled": true,
           "settings": {
             "show_dynamic_checkout": false,
             "skip_cart": false,
@@ -275,6 +276,20 @@
             "margin_top": 24,
             "margin_bottom": 24
           }
+        },
+        "button_3YqcGy": {
+          "type": "button",
+          "settings": {
+            "button_label": "Get Yours Now",
+            "button_link": "shopify://products/game-bro-console",
+            "button_style_secondary": false,
+            "full_width": true,
+            "large_font_size": true,
+            "alignment": "flex-start",
+            "mobile_alignment": "center",
+            "margin_top": 21,
+            "margin_bottom": 21
+          }
         }
       },
       "block_order": [
@@ -283,7 +298,8 @@
         "price_TYVzKr",
         "variant_picker_rB9gMN",
         "quantity_selector_Pa4e9r",
-        "buy_buttons_nTWwEM"
+        "buy_buttons_nTWwEM",
+        "button_3YqcGy"
       ],
       "name": "t:sections.featured-product.presets.name",
       "settings": {
