@@ -321,157 +321,132 @@
         "padding_bottom": 12
       }
     },
-    "6aa09428-a417-429d-9159-a4e8afd49590": {
-      "type": "icon-bar",
+    "image_slider_UwFQP7": {
+      "type": "image-slider",
       "blocks": {
-        "template--21507361505575__6aa09428-a417-429d-9159-a4e8afd49590-column-1": {
-          "type": "column",
+        "image_slide_P6MH6w": {
+          "type": "image_slide",
           "settings": {
-            "icon": "check_circle",
-            "filled_icon": false,
-            "title": "Icon",
-            "text": "<p>Pair text with an icon to focus on your chosen product, collection, or blog post<p>"
+            "image": "shopify://shop_images/gif_17_1e015e66-7035-40ad-b5d4-284b30a0fc39.webp",
+            "link": "",
+            "description": "",
+            "desc_alignment": "center",
+            "desc_color_scheme": "background-2"
           }
         },
-        "template--21507361505575__6aa09428-a417-429d-9159-a4e8afd49590-column-2": {
-          "type": "column",
+        "image_slide_kipYAQ": {
+          "type": "image_slide",
           "settings": {
-            "icon": "check_circle",
-            "filled_icon": false,
-            "title": "Icon",
-            "text": "<p>Pair text with an icon to focus on your chosen product, collection, or blog post<p>"
+            "image": "shopify://shop_images/gif_18_1748cda4-ea50-4db5-9c96-ec36a87d1556.webp",
+            "link": "",
+            "description": "",
+            "desc_alignment": "center",
+            "desc_color_scheme": "background-2"
           }
         },
-        "template--21507361505575__6aa09428-a417-429d-9159-a4e8afd49590-column-3": {
-          "type": "column",
+        "image_slide_MwcFQt": {
+          "type": "image_slide",
           "settings": {
-            "icon": "check_circle",
-            "filled_icon": false,
-            "title": "Icon",
-            "text": "<p>Pair text with an icon to focus on your chosen product, collection, or blog post<p>"
+            "image": "shopify://shop_images/gif_19_00b4fcf9-a0b0-4c37-b204-e56c190781f8.webp",
+            "link": "",
+            "description": "",
+            "desc_alignment": "center",
+            "desc_color_scheme": "background-2"
           }
         },
-        "template--21507361505575__6aa09428-a417-429d-9159-a4e8afd49590-column-4": {
-          "type": "column",
+        "image_slide_Ar7qJR": {
+          "type": "image_slide",
           "settings": {
-            "icon": "check_circle",
-            "filled_icon": false,
-            "title": "Icon",
-            "text": "<p>Pair text with an icon to focus on your chosen product, collection, or blog post<p>"
+            "image": "shopify://shop_images/gif_20_b42675fd-7a19-42e3-9c88-a283271c71cc.webp",
+            "link": "",
+            "description": "",
+            "desc_alignment": "center",
+            "desc_color_scheme": "background-2"
+          }
+        },
+        "image_slide_fQedVR": {
+          "type": "image_slide",
+          "settings": {
+            "image": "shopify://shop_images/gif_21_ffa557fa-0cd5-4be9-b764-d1ea1a10bc97.webp",
+            "link": "",
+            "description": "",
+            "desc_alignment": "center",
+            "desc_color_scheme": "background-2"
+          }
+        },
+        "image_slide_MdimXM": {
+          "type": "image_slide",
+          "settings": {
+            "image": "shopify://shop_images/gif_22_d3c5e652-2e40-4cfc-848a-1caf67882678.webp",
+            "link": "",
+            "description": "",
+            "desc_alignment": "center",
+            "desc_color_scheme": "background-2"
+          }
+        },
+        "image_slide_Ui6EYV": {
+          "type": "image_slide",
+          "settings": {
+            "image": "shopify://shop_images/gif_23_dd94d2fa-3fcd-456c-a90f-19f095c08944.webp",
+            "link": "",
+            "description": "",
+            "desc_alignment": "center",
+            "desc_color_scheme": "background-2"
           }
         }
       },
       "block_order": [
-        "template--21507361505575__6aa09428-a417-429d-9159-a4e8afd49590-column-1",
-        "template--21507361505575__6aa09428-a417-429d-9159-a4e8afd49590-column-2",
-        "template--21507361505575__6aa09428-a417-429d-9159-a4e8afd49590-column-3",
-        "template--21507361505575__6aa09428-a417-429d-9159-a4e8afd49590-column-4"
+        "image_slide_P6MH6w",
+        "image_slide_kipYAQ",
+        "image_slide_MwcFQt",
+        "image_slide_Ar7qJR",
+        "image_slide_fQedVR",
+        "image_slide_MdimXM",
+        "image_slide_Ui6EYV"
       ],
+      "name": "Image/Video Slider",
       "settings": {
         "display_id": false,
         "visibility": "always-display",
-        "title": "Icon bar",
-        "title_highlight_color": "#6d388b",
-        "heading_size": "h1",
-        "text": "",
-        "color_scheme": "background-1",
-        "icon_layout": "vertical",
-        "icon_size": "medium",
-        "icon_color": "accent-1",
-        "cards_color_scheme": "background-1",
+        "title": "NONSTOP ACTION. INFINITE GAMES.",
+        "title_highlight_color": "#ffffff",
+        "heading_size": "h2",
+        "color_scheme": "custom",
         "type": "slide",
-        "autoplay": false,
-        "autoplay_speed": 5,
+        "drag": "enabled",
+        "autoplay": true,
+        "autoplay_speed": 15,
+        "center_mode": false,
         "arrows_color_scheme": "inverse",
-        "transparent_arrows": true,
+        "transparent_arrows": false,
         "dots_color_scheme": "inverse",
         "desktop_full_page": false,
-        "columns_desktop": 4,
-        "slider_desktop": false,
-        "per_move_desktop": 1,
-        "desktop_spacing": 40,
+        "desktop_border_radius": 0,
+        "slides_desktop": 3,
+        "per_move_desktop": 3,
+        "desktop_spacing": 16,
         "desktop_side_padding": 0,
         "desktop_padding_calc": true,
         "desktop_adaptive_height": false,
-        "desktop_dots_position": "under",
-        "desktop_arrows_position": "sides",
-        "columns_mobile": "1",
-        "slider_mobile": true,
-        "enable_mobile_preview": false,
+        "desktop_dots_position": "hidden",
+        "desktop_arrows_position": "hidden",
+        "mobile_full_page": true,
+        "mobile_border_radius": 0,
+        "slides_mobile": 3,
+        "per_move_mobile": 1,
+        "mobile_spacing": 12,
+        "mobile_side_padding": 0,
+        "mobile_padding_calc": true,
         "mobile_adaptive_height": false,
-        "mobile_dots_position": "under",
-        "mobile_arrows_position": "under",
-        "padding_top": 36,
-        "padding_bottom": 36,
-        "custom_colors_background": "#ffffff",
+        "mobile_dots_position": "hidden",
+        "mobile_arrows_position": "hidden",
+        "padding_top": 8,
+        "padding_bottom": 8,
+        "custom_colors_background": "#FFFFFF",
         "custom_gradient_background": "",
-        "custom_colors_text": "#2e2a39",
-        "custom_cards_colors_background": "#f3f3f3",
-        "custom_cards_gradient_background": "",
-        "custom_cards_colors_text": "#2e2a39"
-      }
-    },
-    "0f1fc9e4-bc4c-4052-9747-62d1f8472caa": {
-      "type": "results",
-      "blocks": {
-        "template--21507361505575__0f1fc9e4-bc4c-4052-9747-62d1f8472caa-row-1": {
-          "type": "row",
-          "settings": {
-            "percentage": 90,
-            "row_text": "<p>Noticed that this product has significantly improved their life.</p>"
-          }
-        },
-        "template--21507361505575__0f1fc9e4-bc4c-4052-9747-62d1f8472caa-row-2": {
-          "type": "row",
-          "settings": {
-            "percentage": 90,
-            "row_text": "<p>Noticed that this product has significantly improved their life.</p>"
-          }
-        },
-        "template--21507361505575__0f1fc9e4-bc4c-4052-9747-62d1f8472caa-row-3": {
-          "type": "row",
-          "settings": {
-            "percentage": 90,
-            "row_text": "<p>Noticed that this product has significantly improved their life.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--21507361505575__0f1fc9e4-bc4c-4052-9747-62d1f8472caa-row-1",
-        "template--21507361505575__0f1fc9e4-bc4c-4052-9747-62d1f8472caa-row-2",
-        "template--21507361505575__0f1fc9e4-bc4c-4052-9747-62d1f8472caa-row-3"
-      ],
-      "settings": {
-        "display_id": false,
-        "visibility": "always-display",
-        "title": "Results",
-        "title_highlight_color": "#6d388b",
-        "heading_size": "h1",
-        "text": "<p>Talk about results of your customers and how your product improved their life.</p>",
-        "video_muted_autoplay": true,
-        "color_scheme": "background-1",
-        "layout": "results_second",
-        "results_headline": "Results heading",
-        "results_title_highlight_color": "#6d388b",
-        "results_headline_size": "h2",
-        "results_text": "",
-        "results_headline_alignment": "left",
-        "caption": "<p>Caption about the results and/or link for their proof.</p>",
-        "button_label": "",
-        "link": "",
-        "button_style_secondary": false,
-        "atc_button_label": "",
-        "atc_product": "",
-        "atc_skip_cart": false,
-        "padding_top": 36,
-        "padding_bottom": 36,
-        "custom_colors_background": "#ffffff",
-        "custom_gradient_background": "",
-        "custom_colors_text": "#2e2a39",
-        "custom_colors_accent": "#dd1d1d",
-        "custom_colors_solid_button_background": "#dd1d1d",
-        "custom_colors_solid_button_text": "#ffffff",
-        "custom_colors_outline_button": "#dd1d1d"
+        "custom_image_background": "shopify://shop_images/gamelab_2.webp",
+        "custom_mobile_image_background": "shopify://shop_images/gamelab_2.webp",
+        "custom_colors_text": "#ffffff"
       }
     },
     "contact_form_WHP8G7": {
@@ -552,14 +527,35 @@
         "custom_colors_solid_button_background": "#dd1d1d",
         "custom_colors_solid_button_text": "#ffffff"
       }
+    },
+    "image_banner_FzaxP7": {
+      "type": "image-banner",
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "image_1_visibility": "always-display",
+        "image_2_visibility": "always-display",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "url": "",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "transparent_container_color": "white",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
     }
   },
   "order": [
     "cfca4268-6358-426c-98ab-d292aeef11e5",
     "horizontal_ticker_WBCmi8",
     "featured_product_pnggAP",
-    "6aa09428-a417-429d-9159-a4e8afd49590",
-    "0f1fc9e4-bc4c-4052-9747-62d1f8472caa",
-    "contact_form_WHP8G7"
+    "image_slider_UwFQP7",
+    "contact_form_WHP8G7",
+    "image_banner_FzaxP7"
   ]
 }
