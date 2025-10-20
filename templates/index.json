@@ -531,6 +531,7 @@
         "image_slide_P6MH6w": {
           "type": "image_slide",
           "settings": {
+            "image": "shopify://shop_images/gif_17.webp",
             "link": "",
             "description": "",
             "desc_alignment": "center",
@@ -540,6 +541,7 @@
         "image_slide_kipYAQ": {
           "type": "image_slide",
           "settings": {
+            "image": "shopify://shop_images/gif_18.webp",
             "link": "",
             "description": "",
             "desc_alignment": "center",
@@ -549,6 +551,7 @@
         "image_slide_MwcFQt": {
           "type": "image_slide",
           "settings": {
+            "image": "shopify://shop_images/gif_19.webp",
             "link": "",
             "description": "",
             "desc_alignment": "center",
@@ -558,6 +561,7 @@
         "image_slide_Ar7qJR": {
           "type": "image_slide",
           "settings": {
+            "image": "shopify://shop_images/gif_20.webp",
             "link": "",
             "description": "",
             "desc_alignment": "center",
@@ -567,6 +571,7 @@
         "image_slide_fQedVR": {
           "type": "image_slide",
           "settings": {
+            "image": "shopify://shop_images/gif_21.webp",
             "link": "",
             "description": "",
             "desc_alignment": "center",
@@ -576,6 +581,7 @@
         "image_slide_MdimXM": {
           "type": "image_slide",
           "settings": {
+            "image": "shopify://shop_images/gif_22.webp",
             "link": "",
             "description": "",
             "desc_alignment": "center",
@@ -585,6 +591,7 @@
         "image_slide_Ui6EYV": {
           "type": "image_slide",
           "settings": {
+            "image": "shopify://shop_images/gif_23.webp",
             "link": "",
             "description": "",
             "desc_alignment": "center",
@@ -658,6 +665,7 @@
             "stars_rating": 5,
             "title": "It’s My Childhood in My Pocket",
             "text": "<p>Just turned it on and boom — Pokémon, Crash, Metal Slug. Instant nostalgia hit. Best thing I’ve bought all year</p>",
+            "author_avatar": "shopify://shop_images/istockphoto-2203702421-612x612.jpg",
             "author": "<strong>Alex M</strong>"
           }
         },
@@ -670,6 +678,7 @@
             "stars_rating": 4,
             "title": "No Setup, Just Pure Fun",
             "text": "<p>I’ve spent years fiddling with emulators. Game-bro did all the work for me. It just works. Brilliant.</p>",
+            "author_avatar": "shopify://shop_images/istockphoto-1207856385-612x612.jpg",
             "author": "<strong>Daniel R.</strong>"
           }
         },
@@ -682,6 +691,7 @@
             "stars_rating": 5,
             "title": "Game-Bro = Time Machine",
             "text": "<p>Played Donkey Kong Country at the airport. It was like teleporting back to 1996.</p>",
+            "author_avatar": "shopify://shop_images/istockphoto-856732928-612x612.jpg",
             "author": "<strong>Tom K</strong>"
           }
         },
@@ -694,6 +704,7 @@
             "stars_rating": 4,
             "title": "Almost Perfect",
             "text": "<p>Just missing Bluetooth, but everything else is top tier. I use it daily</p>",
+            "author_avatar": "shopify://shop_images/istockphoto-1540766473-612x612.jpg",
             "author": "<strong>Josh B</strong>"
           }
         },
@@ -706,6 +717,7 @@
             "stars_rating": 5,
             "title": "My Inner Kid Is Screaming",
             "text": "<p>It’s not just a console. It’s <em>mine</em>. My memories, my games, my world. I’m obsessed.</p>",
+            "author_avatar": "shopify://shop_images/istockphoto-143071480-612x612.jpg",
             "author": "<strong>Kevin D</strong>"
           }
         },
@@ -718,6 +730,7 @@
             "stars_rating": 5,
             "title": "Was Skeptical. Now Addicted",
             "text": "<p>YouTube sold me. But actually using it? Pure joy. I’ve barely touched my PS5.</p>",
+            "author_avatar": "shopify://shop_images/istockphoto-1136355316-612x612.jpg",
             "author": "<strong>Alycia G.</strong>"
           }
         }
@@ -962,6 +975,71 @@
         "custom_colors_solid_button_background": "#dd1d1d",
         "custom_colors_solid_button_text": "#ffffff"
       }
+    },
+    "image_with_text_QXYrt9": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_FxzYRA": {
+          "type": "heading",
+          "settings": {
+            "title": "Classic Gaming, Zero Setup.",
+            "title_highlight_color": "#6D388B",
+            "heading_size": "h2"
+          }
+        },
+        "text_jr4Ytt": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Game-bro is your pocket-sized time machine — preloaded with over 15,000 retro games from PlayStation, SNES, Game Boy, and more.</strong> No setup, no downloads, no Wi-Fi needed. Just turn it on and dive straight into the classics you grew up with. With its HD screen, 12-hour battery life, and lightweight, compact design, Game-bro lets you relive your childhood anytime, anywhere. Whether you're chasing nostalgia or discovering it for the first time, Game-bro brings the magic back — instantly.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_AxL9ta": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_FxzYRA",
+        "text_jr4Ytt",
+        "button_AxL9ta"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "video": "shopify://files/videos/Design sans titre (4).mp4",
+        "video_autoplay": true,
+        "video_loop": true,
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "section_color_scheme": "background-1",
+        "full_desktop_width": false,
+        "content_layout": "no-overlap",
+        "desktop_media_width": 50,
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_full_media_width": false,
+        "mobile_direction": "normal",
+        "mobile_image_quanlity": "2",
+        "mobile_content_alignment": "left",
+        "mobile_padding_top": 0,
+        "mobile_padding_bottom": 16,
+        "desktop_padding_top": 36,
+        "desktop_padding_bottom": 36,
+        "custom_colors_background": "#2E2A39",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#FFFFFF",
+        "custom_colors_solid_button_background": "#dd1d1d",
+        "custom_colors_solid_button_text": "#ffffff",
+        "custom_colors_outline_button": "#dd1d1d",
+        "custom_section_colors_background": "#FFFFFF",
+        "custom_section_gradient_background": ""
+      }
     }
   },
   "order": [
@@ -973,6 +1051,7 @@
     "image_slider_UwFQP7",
     "trustpilot_reviews_TDRpNC",
     "horizontal_ticker_mUJeWk",
-    "contact_form_WHP8G7"
+    "contact_form_WHP8G7",
+    "image_with_text_QXYrt9"
   ]
 }
