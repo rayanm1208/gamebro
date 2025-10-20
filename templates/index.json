@@ -118,9 +118,9 @@
         "mobile_padding_bottom": 12,
         "desktop_padding_top": 16,
         "desktop_padding_bottom": 16,
-        "custom_colors_background": "#FFFFFF",
+        "custom_colors_background": "#ffffff",
         "custom_gradient_background": "",
-        "custom_colors_text": "#2E2A39"
+        "custom_colors_text": "#2e2a39"
       }
     },
     "featured_product_pnggAP": {
@@ -321,13 +321,216 @@
         "padding_bottom": 12
       }
     },
+    "logo_list_m3W7qP": {
+      "type": "logo-list",
+      "blocks": {
+        "logo_iyTgq7": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/52.webp",
+            "link": "",
+            "target_blank": false
+          }
+        },
+        "logo_mNyk8V": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/51.webp",
+            "link": "",
+            "target_blank": false
+          }
+        },
+        "logo_J3Qwn6": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/49.webp",
+            "link": "",
+            "target_blank": false
+          }
+        },
+        "logo_XkccNA": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/54.webp",
+            "link": "",
+            "target_blank": false
+          }
+        },
+        "logo_H3FbYy": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/50.webp",
+            "link": "",
+            "target_blank": false
+          }
+        },
+        "logo_3yCcef": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/48.webp",
+            "link": "",
+            "target_blank": false
+          }
+        },
+        "logo_i7Y7NH": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Grand_Theft_Auto_logo_series_svg.png",
+            "link": "",
+            "target_blank": false
+          }
+        },
+        "logo_LaY9n3": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/53.webp",
+            "link": "",
+            "target_blank": false
+          }
+        }
+      },
+      "block_order": [
+        "logo_iyTgq7",
+        "logo_mNyk8V",
+        "logo_J3Qwn6",
+        "logo_XkccNA",
+        "logo_H3FbYy",
+        "logo_3yCcef",
+        "logo_i7Y7NH",
+        "logo_LaY9n3"
+      ],
+      "name": "Featured on",
+      "settings": {
+        "display_id": false,
+        "visibility": "desktop-hidden",
+        "title": "",
+        "title_highlight_color": "#6D388B",
+        "heading_size": "h2",
+        "gray_logos": false,
+        "color_scheme": "background-1",
+        "layout": "horizontal",
+        "desktop_logo_height": 40,
+        "columns_mobile": 3,
+        "mobile_logo_height": 50,
+        "mobile_slider": true,
+        "autoplay": true,
+        "autoplay_speed": 2.5,
+        "show_dots": false,
+        "padding_top": 24,
+        "padding_bottom": 8,
+        "custom_colors_background": "#FFFFFF",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#121212"
+      }
+    },
+    "logo_list_7hbpXP": {
+      "type": "logo-list",
+      "blocks": {
+        "logo_a6nEN8": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/52.webp",
+            "link": "",
+            "target_blank": false
+          }
+        },
+        "logo_jW4T9J": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/51.webp",
+            "link": "",
+            "target_blank": false
+          }
+        },
+        "logo_CMPFtz": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/49.webp",
+            "link": "",
+            "target_blank": false
+          }
+        },
+        "logo_pTwmiH": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/54.webp",
+            "link": "",
+            "target_blank": false
+          }
+        },
+        "logo_NKnJa8": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/50.webp",
+            "link": "",
+            "target_blank": false
+          }
+        },
+        "logo_WzfjGH": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/48.webp",
+            "link": "",
+            "target_blank": false
+          }
+        },
+        "logo_wNbGmx": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Grand_Theft_Auto_logo_series_svg.png",
+            "link": "",
+            "target_blank": false
+          }
+        },
+        "logo_d4HkdA": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/53.webp",
+            "link": "",
+            "target_blank": false
+          }
+        }
+      },
+      "block_order": [
+        "logo_a6nEN8",
+        "logo_jW4T9J",
+        "logo_CMPFtz",
+        "logo_pTwmiH",
+        "logo_NKnJa8",
+        "logo_WzfjGH",
+        "logo_wNbGmx",
+        "logo_d4HkdA"
+      ],
+      "name": "Featured on",
+      "settings": {
+        "display_id": false,
+        "visibility": "mobile-hidden",
+        "title": "",
+        "title_highlight_color": "#6D388B",
+        "heading_size": "h2",
+        "gray_logos": false,
+        "color_scheme": "background-1",
+        "layout": "horizontal",
+        "desktop_logo_height": 40,
+        "columns_mobile": 1,
+        "mobile_logo_height": 50,
+        "mobile_slider": true,
+        "autoplay": true,
+        "autoplay_speed": 1,
+        "show_dots": false,
+        "padding_top": 24,
+        "padding_bottom": 8,
+        "custom_colors_background": "#FFFFFF",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#121212"
+      }
+    },
     "image_slider_UwFQP7": {
       "type": "image-slider",
       "blocks": {
         "image_slide_P6MH6w": {
           "type": "image_slide",
           "settings": {
-            "image": "shopify://shop_images/gif_17_1e015e66-7035-40ad-b5d4-284b30a0fc39.webp",
             "link": "",
             "description": "",
             "desc_alignment": "center",
@@ -337,7 +540,6 @@
         "image_slide_kipYAQ": {
           "type": "image_slide",
           "settings": {
-            "image": "shopify://shop_images/gif_18_1748cda4-ea50-4db5-9c96-ec36a87d1556.webp",
             "link": "",
             "description": "",
             "desc_alignment": "center",
@@ -347,7 +549,6 @@
         "image_slide_MwcFQt": {
           "type": "image_slide",
           "settings": {
-            "image": "shopify://shop_images/gif_19_00b4fcf9-a0b0-4c37-b204-e56c190781f8.webp",
             "link": "",
             "description": "",
             "desc_alignment": "center",
@@ -357,7 +558,6 @@
         "image_slide_Ar7qJR": {
           "type": "image_slide",
           "settings": {
-            "image": "shopify://shop_images/gif_20_b42675fd-7a19-42e3-9c88-a283271c71cc.webp",
             "link": "",
             "description": "",
             "desc_alignment": "center",
@@ -367,7 +567,6 @@
         "image_slide_fQedVR": {
           "type": "image_slide",
           "settings": {
-            "image": "shopify://shop_images/gif_21_ffa557fa-0cd5-4be9-b764-d1ea1a10bc97.webp",
             "link": "",
             "description": "",
             "desc_alignment": "center",
@@ -377,7 +576,6 @@
         "image_slide_MdimXM": {
           "type": "image_slide",
           "settings": {
-            "image": "shopify://shop_images/gif_22_d3c5e652-2e40-4cfc-848a-1caf67882678.webp",
             "link": "",
             "description": "",
             "desc_alignment": "center",
@@ -387,7 +585,6 @@
         "image_slide_Ui6EYV": {
           "type": "image_slide",
           "settings": {
-            "image": "shopify://shop_images/gif_23_dd94d2fa-3fcd-456c-a90f-19f095c08944.webp",
             "link": "",
             "description": "",
             "desc_alignment": "center",
@@ -442,7 +639,7 @@
         "mobile_arrows_position": "hidden",
         "padding_top": 8,
         "padding_bottom": 8,
-        "custom_colors_background": "#FFFFFF",
+        "custom_colors_background": "#ffffff",
         "custom_gradient_background": "",
         "custom_image_background": "shopify://shop_images/gamelab_2.webp",
         "custom_mobile_image_background": "shopify://shop_images/gamelab_2.webp",
@@ -457,11 +654,10 @@
           "settings": {
             "star_color": "#00b67a",
             "bg_star_color": "#c8c8c8",
-            "star_symbol_color": "#fff",
+            "star_symbol_color": "#ffffff",
             "stars_rating": 5,
             "title": "It’s My Childhood in My Pocket",
             "text": "<p>Just turned it on and boom — Pokémon, Crash, Metal Slug. Instant nostalgia hit. Best thing I’ve bought all year</p>",
-            "author_avatar": "shopify://shop_images/istockphoto-2203702421-612x612.jpg",
             "author": "<strong>Alex M</strong>"
           }
         },
@@ -470,11 +666,10 @@
           "settings": {
             "star_color": "#00b67a",
             "bg_star_color": "#c8c8c8",
-            "star_symbol_color": "#fff",
+            "star_symbol_color": "#ffffff",
             "stars_rating": 4,
             "title": "No Setup, Just Pure Fun",
             "text": "<p>I’ve spent years fiddling with emulators. Game-bro did all the work for me. It just works. Brilliant.</p>",
-            "author_avatar": "shopify://shop_images/istockphoto-1207856385-612x612.jpg",
             "author": "<strong>Daniel R.</strong>"
           }
         },
@@ -483,11 +678,10 @@
           "settings": {
             "star_color": "#00b67a",
             "bg_star_color": "#c8c8c8",
-            "star_symbol_color": "#fff",
+            "star_symbol_color": "#ffffff",
             "stars_rating": 5,
             "title": "Game-Bro = Time Machine",
             "text": "<p>Played Donkey Kong Country at the airport. It was like teleporting back to 1996.</p>",
-            "author_avatar": "shopify://shop_images/istockphoto-1540766473-612x612.jpg",
             "author": "<strong>Tom K</strong>"
           }
         },
@@ -500,7 +694,6 @@
             "stars_rating": 4,
             "title": "Almost Perfect",
             "text": "<p>Just missing Bluetooth, but everything else is top tier. I use it daily</p>",
-            "author_avatar": "shopify://shop_images/istockphoto-143071480-612x612.jpg",
             "author": "<strong>Josh B</strong>"
           }
         },
@@ -513,7 +706,6 @@
             "stars_rating": 5,
             "title": "My Inner Kid Is Screaming",
             "text": "<p>It’s not just a console. It’s <em>mine</em>. My memories, my games, my world. I’m obsessed.</p>",
-            "author_avatar": "shopify://shop_images/istockphoto-856732928-612x612.jpg",
             "author": "<strong>Kevin D</strong>"
           }
         },
@@ -526,7 +718,6 @@
             "stars_rating": 5,
             "title": "Was Skeptical. Now Addicted",
             "text": "<p>YouTube sold me. But actually using it? Pure joy. I’ve barely touched my PS5.</p>",
-            "author_avatar": "shopify://shop_images/istockphoto-1136355316-612x612.jpg",
             "author": "<strong>Alycia G.</strong>"
           }
         }
@@ -547,7 +738,7 @@
         "desktop_content_position": "above",
         "desktop_content_alignment": "center",
         "title": "Trustpilot reviews",
-        "title_highlight_color": "#6D388B",
+        "title_highlight_color": "#6d388b",
         "heading_size": "h1",
         "subtitle": "Excellent [rating] <strong>/ 5</strong> [rating_stars]",
         "subheading_rating_text": "<strong>4.8</strong>",
@@ -556,7 +747,7 @@
         "subheading_font": "body",
         "star_color": "#00b67a",
         "bg_star_color": "#c8c8c8",
-        "star_symbol_color": "#fff",
+        "star_symbol_color": "#ffffff",
         "stars_rating": 5,
         "text": "",
         "cards_border_radius": 16,
@@ -592,6 +783,105 @@
         "custom_cards_colors_background": "#ffffff",
         "custom_cards_gradient_background": "",
         "custom_cards_colors_text": "#000000"
+      }
+    },
+    "horizontal_ticker_mUJeWk": {
+      "type": "horizontal-ticker",
+      "blocks": {
+        "image_rPakTL": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/22_56244901-660d-446e-971b-f9db84d63060.webp"
+          }
+        },
+        "image_NjThM6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/19_e16dca14-fc3b-486d-9841-00e3cf78bcfd.webp"
+          }
+        },
+        "image_3hYkK7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/23_1920c520-4822-4f73-a032-805a209eceb0.webp"
+          }
+        },
+        "image_UeqCk8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/18_f7090f5c-95f0-497b-ae41-880bc238bfbd.webp"
+          }
+        },
+        "image_cA3LEV": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/20_b502f183-6ec7-4d72-aac9-016cc4773aa4.webp"
+          }
+        },
+        "image_FCkwra": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/17_64c3bc50-adaf-4447-8849-f7cbcffe4d58.webp"
+          }
+        },
+        "image_DEVw9w": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/16_2bb19407-932a-475a-866a-937c37e4ee76.webp"
+          }
+        },
+        "image_AYJEqc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/GAMELAB_PRODUCT_IMG_7.webp"
+          }
+        },
+        "image_wXPwUn": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/21_197b24c5-d40d-4b54-8b58-9f420ce9677e.webp"
+          }
+        }
+      },
+      "block_order": [
+        "image_rPakTL",
+        "image_NjThM6",
+        "image_3hYkK7",
+        "image_UeqCk8",
+        "image_cA3LEV",
+        "image_FCkwra",
+        "image_DEVw9w",
+        "image_AYJEqc",
+        "image_wXPwUn"
+      ],
+      "name": "Horizontal Ticker",
+      "settings": {
+        "visibility": "always-display",
+        "speed": 3,
+        "direction": "normal",
+        "stop_on_hover": false,
+        "mobile_spacing": 21,
+        "desktop_spacing": 23,
+        "color_scheme": "background-1",
+        "mobile_text_size": 16,
+        "desktop_text_size": 18,
+        "italic_text": false,
+        "uppercase_text": false,
+        "bold_text": false,
+        "mobile_image_height": 53,
+        "desktop_image_height": 65,
+        "mobile_reviews_width": 300,
+        "desktop_reviews_width": 400,
+        "hidden_products": "",
+        "enable_specific_display": false,
+        "displayed_products": "",
+        "mobile_padding_top": 12,
+        "mobile_padding_bottom": 12,
+        "desktop_padding_top": 16,
+        "desktop_padding_bottom": 16,
+        "custom_colors_background": "#ffffff",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#2e2a39"
       }
     },
     "contact_form_WHP8G7": {
@@ -672,88 +962,17 @@
         "custom_colors_solid_button_background": "#dd1d1d",
         "custom_colors_solid_button_text": "#ffffff"
       }
-    },
-    "horizontal_ticker_mUJeWk": {
-      "type": "horizontal-ticker",
-      "blocks": {
-        "image_rPakTL": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/22_56244901-660d-446e-971b-f9db84d63060.webp"
-          }
-        },
-        "image_NjThM6": {
-          "type": "image",
-          "settings": {}
-        },
-        "image_3hYkK7": {
-          "type": "image",
-          "settings": {}
-        },
-        "image_UeqCk8": {
-          "type": "image",
-          "settings": {}
-        },
-        "image_cA3LEV": {
-          "type": "image",
-          "settings": {}
-        },
-        "image_FCkwra": {
-          "type": "image",
-          "settings": {}
-        },
-        "image_DEVw9w": {
-          "type": "image",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "image_rPakTL",
-        "image_NjThM6",
-        "image_3hYkK7",
-        "image_UeqCk8",
-        "image_cA3LEV",
-        "image_FCkwra",
-        "image_DEVw9w"
-      ],
-      "name": "Horizontal Ticker",
-      "settings": {
-        "visibility": "always-display",
-        "speed": 3,
-        "direction": "normal",
-        "stop_on_hover": false,
-        "mobile_spacing": 60,
-        "desktop_spacing": 100,
-        "color_scheme": "background-1",
-        "mobile_text_size": 16,
-        "desktop_text_size": 18,
-        "italic_text": false,
-        "uppercase_text": false,
-        "bold_text": false,
-        "mobile_image_height": 26,
-        "desktop_image_height": 40,
-        "mobile_reviews_width": 300,
-        "desktop_reviews_width": 400,
-        "hidden_products": "",
-        "enable_specific_display": false,
-        "displayed_products": "",
-        "mobile_padding_top": 12,
-        "mobile_padding_bottom": 12,
-        "desktop_padding_top": 16,
-        "desktop_padding_bottom": 16,
-        "custom_colors_background": "#FFFFFF",
-        "custom_gradient_background": "",
-        "custom_colors_text": "#2E2A39"
-      }
     }
   },
   "order": [
     "cfca4268-6358-426c-98ab-d292aeef11e5",
     "horizontal_ticker_WBCmi8",
     "featured_product_pnggAP",
+    "logo_list_m3W7qP",
+    "logo_list_7hbpXP",
     "image_slider_UwFQP7",
     "trustpilot_reviews_TDRpNC",
-    "contact_form_WHP8G7",
-    "horizontal_ticker_mUJeWk"
+    "horizontal_ticker_mUJeWk",
+    "contact_form_WHP8G7"
   ]
 }
