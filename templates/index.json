@@ -538,9 +538,10 @@
             "bg_star_color": "#c8c8c8",
             "star_symbol_color": "#fff",
             "stars_rating": 5,
-            "title": "",
-            "text": "<p>It’s like holding my childhood in my hands. Everything works out of the box. No setup, just pure nostalgia.</p>",
-            "author": "Alex M"
+            "title": "It’s My Childhood in My Pocket",
+            "text": "<p>Just turned it on and boom — Pokémon, Crash, Metal Slug. Instant nostalgia hit. Best thing I’ve bought all year</p>",
+            "author_avatar": "shopify://shop_images/istockphoto-2203702421-612x612.jpg",
+            "author": "<strong>Alex M</strong>"
           }
         },
         "column_8WeqGH": {
@@ -549,10 +550,11 @@
             "star_color": "#00b67a",
             "bg_star_color": "#c8c8c8",
             "star_symbol_color": "#fff",
-            "stars_rating": 5,
-            "title": "Heading",
-            "text": "<p>Share positive thoughts and feedback from your customer..</p>",
-            "author": "<em><strong>Author</strong></em>"
+            "stars_rating": 4,
+            "title": "No Setup, Just Pure Fun",
+            "text": "<p>I’ve spent years fiddling with emulators. Game-bro did all the work for me. It just works. Brilliant.</p>",
+            "author_avatar": "shopify://shop_images/istockphoto-1207856385-612x612.jpg",
+            "author": "<strong>Daniel R.</strong>"
           }
         },
         "column_3EWpLh": {
@@ -562,16 +564,59 @@
             "bg_star_color": "#c8c8c8",
             "star_symbol_color": "#fff",
             "stars_rating": 5,
-            "title": "Heading",
-            "text": "<p>Share positive thoughts and feedback from your customer..</p>",
-            "author": "<em><strong>Author</strong></em>"
+            "title": "Game-Bro = Time Machine",
+            "text": "<p>Played Donkey Kong Country at the airport. It was like teleporting back to 1996.</p>",
+            "author_avatar": "shopify://shop_images/istockphoto-1540766473-612x612.jpg",
+            "author": "<strong>Tom K</strong>"
+          }
+        },
+        "column_kWAkWc": {
+          "type": "column",
+          "settings": {
+            "star_color": "#00b67a",
+            "bg_star_color": "#c8c8c8",
+            "star_symbol_color": "#ffffff",
+            "stars_rating": 4,
+            "title": "Almost Perfect",
+            "text": "<p>Just missing Bluetooth, but everything else is top tier. I use it daily</p>",
+            "author_avatar": "shopify://shop_images/istockphoto-143071480-612x612.jpg",
+            "author": "<strong>Josh B</strong>"
+          }
+        },
+        "column_7jaagw": {
+          "type": "column",
+          "settings": {
+            "star_color": "#00b67a",
+            "bg_star_color": "#c8c8c8",
+            "star_symbol_color": "#ffffff",
+            "stars_rating": 5,
+            "title": "My Inner Kid Is Screaming",
+            "text": "<p>It’s not just a console. It’s <em>mine</em>. My memories, my games, my world. I’m obsessed.</p>",
+            "author_avatar": "shopify://shop_images/istockphoto-856732928-612x612.jpg",
+            "author": "<strong>Kevin D</strong>"
+          }
+        },
+        "column_TJwGip": {
+          "type": "column",
+          "settings": {
+            "star_color": "#00b67a",
+            "bg_star_color": "#c8c8c8",
+            "star_symbol_color": "#ffffff",
+            "stars_rating": 5,
+            "title": "Was Skeptical. Now Addicted",
+            "text": "<p>YouTube sold me. But actually using it? Pure joy. I’ve barely touched my PS5.</p>",
+            "author_avatar": "shopify://shop_images/istockphoto-1136355316-612x612.jpg",
+            "author": "<strong>Alycia G.</strong>"
           }
         }
       },
       "block_order": [
         "column_G3WedG",
         "column_8WeqGH",
-        "column_3EWpLh"
+        "column_3EWpLh",
+        "column_kWAkWc",
+        "column_7jaagw",
+        "column_TJwGip"
       ],
       "name": "Trustpilot reviews",
       "settings": {
@@ -585,8 +630,8 @@
         "heading_size": "h1",
         "subtitle": "Excellent [rating] <strong>/ 5</strong> [rating_stars]",
         "subheading_rating_text": "<strong>4.8</strong>",
-        "subheading_mobile_text_size": 18,
-        "subheading_desktop_text_size": 20,
+        "subheading_mobile_text_size": 15,
+        "subheading_desktop_text_size": 18,
         "subheading_font": "body",
         "star_color": "#00b67a",
         "bg_star_color": "#c8c8c8",
@@ -598,21 +643,21 @@
         "show_stars": true,
         "cards_color_scheme": "custom",
         "type": "slide",
-        "autoplay": false,
+        "autoplay": true,
         "autoplay_speed": 5,
         "arrows_color_scheme": "inverse",
-        "transparent_arrows": true,
+        "transparent_arrows": false,
         "dots_color_scheme": "inverse",
-        "desktop_full_page": false,
+        "desktop_full_page": true,
         "columns_desktop": 3,
-        "slider_desktop": false,
+        "slider_desktop": true,
         "per_move_desktop": 1,
-        "desktop_spacing": 24,
+        "desktop_spacing": 20,
         "desktop_side_padding": 0,
         "desktop_padding_calc": true,
         "desktop_adaptive_height": false,
-        "desktop_dots_position": "under",
-        "desktop_arrows_position": "sides",
+        "desktop_dots_position": "hidden",
+        "desktop_arrows_position": "hidden",
         "slider_mobile": true,
         "enable_mobile_preview": false,
         "mobile_adaptive_height": false,
