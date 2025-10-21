@@ -972,6 +972,86 @@
         "padding_bottom": 24
       }
     },
+    "trustpilot_reviews_zrTYKn": {
+      "type": "trustpilot-reviews",
+      "name": "Trustpilot reviews",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "color_scheme": "background-1",
+        "desktop_content_position": "above",
+        "desktop_content_alignment": "center",
+        "title": "Trustpilot reviews",
+        "title_highlight_color": "#6D388B",
+        "heading_size": "h1",
+        "subtitle": "Excellent [rating] <strong>/ 5</strong> [rating_stars]",
+        "subheading_rating_text": "<strong>4.8</strong>",
+        "subheading_mobile_text_size": 18,
+        "subheading_desktop_text_size": 20,
+        "subheading_font": "body",
+        "star_color": "#00b67a",
+        "bg_star_color": "#c8c8c8",
+        "star_symbol_color": "#fff",
+        "stars_rating": 5,
+        "text": "",
+        "cards_border_radius": 16,
+        "card_alignment": "center",
+        "show_stars": true,
+        "cards_color_scheme": "background-2",
+        "type": "slide",
+        "autoplay": false,
+        "autoplay_speed": 5,
+        "arrows_color_scheme": "inverse",
+        "transparent_arrows": true,
+        "dots_color_scheme": "inverse",
+        "desktop_full_page": false,
+        "columns_desktop": 3,
+        "slider_desktop": false,
+        "per_move_desktop": 1,
+        "desktop_spacing": 24,
+        "desktop_side_padding": 0,
+        "desktop_padding_calc": true,
+        "desktop_adaptive_height": false,
+        "desktop_dots_position": "hidden",
+        "desktop_arrows_position": "hidden",
+        "slider_mobile": true,
+        "enable_mobile_preview": false,
+        "mobile_adaptive_height": false,
+        "mobile_dots_position": "hidden",
+        "mobile_arrows_position": "hidden",
+        "padding_top": 36,
+        "padding_bottom": 0,
+        "custom_colors_background": "#FFFFFF",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#2E2A39",
+        "custom_cards_colors_background": "#F3F3F3",
+        "custom_cards_gradient_background": "",
+        "custom_cards_colors_text": "#2E2A39"
+      }
+    },
+    "image_banner_Vxq4af": {
+      "type": "image-banner",
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "image": "shopify://shop_images/Purple_and_Pink_Retro_Pixel_Game_Night_Presentation_1.png",
+        "image_1_visibility": "mobile-hidden",
+        "image_2": "shopify://shop_images/TRUSTPILOT_2.png",
+        "image_2_visibility": "desktop-hidden",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "url": "",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "transparent_container_color": "white",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "image_banner_TybM6b": {
       "type": "image-banner",
       "name": "t:sections.image-banner.presets.name",
@@ -1006,234 +1086,6 @@
         "padding_top": 12,
         "padding_bottom": 12
       }
-    },
-    "image_slider_hdTNmk": {
-      "type": "image-slider",
-      "blocks": {
-        "image_slide_Jnh38H": {
-          "type": "image_slide",
-          "settings": {
-            "image": "shopify://shop_images/483964184_683805890876590_3330848425723036898_n.webp",
-            "link": "",
-            "description": "",
-            "desc_alignment": "center",
-            "desc_color_scheme": "inverse"
-          }
-        },
-        "image_slide_GwaaaT": {
-          "type": "image_slide",
-          "settings": {
-            "link": "",
-            "description": "",
-            "desc_alignment": "center",
-            "desc_color_scheme": "background-2"
-          }
-        },
-        "image_slide_dd9Hz8": {
-          "type": "image_slide",
-          "settings": {
-            "link": "",
-            "description": "",
-            "desc_alignment": "center",
-            "desc_color_scheme": "background-2"
-          }
-        },
-        "image_slide_G8Dyf9": {
-          "type": "image_slide",
-          "settings": {
-            "link": "",
-            "description": "",
-            "desc_alignment": "center",
-            "desc_color_scheme": "background-2"
-          }
-        }
-      },
-      "block_order": [
-        "image_slide_Jnh38H",
-        "image_slide_GwaaaT",
-        "image_slide_dd9Hz8",
-        "image_slide_G8Dyf9"
-      ],
-      "name": "Image/Video Slider",
-      "settings": {
-        "display_id": false,
-        "visibility": "always-display",
-        "title": "Image/Video slider",
-        "title_highlight_color": "#6D388B",
-        "heading_size": "h1",
-        "color_scheme": "background-1",
-        "type": "slide",
-        "drag": "enabled",
-        "autoplay": false,
-        "autoplay_speed": 5,
-        "center_mode": false,
-        "arrows_color_scheme": "inverse",
-        "transparent_arrows": false,
-        "dots_color_scheme": "inverse",
-        "desktop_full_page": false,
-        "desktop_border_radius": 0,
-        "slides_desktop": 3,
-        "per_move_desktop": 1,
-        "desktop_spacing": 28,
-        "desktop_side_padding": 0,
-        "desktop_padding_calc": true,
-        "desktop_adaptive_height": false,
-        "desktop_dots_position": "under",
-        "desktop_arrows_position": "sides",
-        "mobile_full_page": false,
-        "mobile_border_radius": 0,
-        "slides_mobile": 2,
-        "per_move_mobile": 1,
-        "mobile_spacing": 12,
-        "mobile_side_padding": 0,
-        "mobile_padding_calc": true,
-        "mobile_adaptive_height": false,
-        "mobile_dots_position": "under",
-        "mobile_arrows_position": "sides",
-        "padding_top": 36,
-        "padding_bottom": 36,
-        "custom_colors_background": "#FFFFFF",
-        "custom_gradient_background": "",
-        "custom_colors_text": "#121212"
-      }
-    },
-    "trustpilot_reviews_KkHhmb": {
-      "type": "trustpilot-reviews",
-      "blocks": {
-        "column_k3gLxr": {
-          "type": "column",
-          "settings": {
-            "star_color": "#00b67a",
-            "bg_star_color": "#c8c8c8",
-            "star_symbol_color": "#fff",
-            "stars_rating": 5,
-            "title": "fezfefezfe",
-            "text": "<p>Share positive thoughts and feedback from your customer..</p>",
-            "author": "<em><strong>Author</strong></em>"
-          }
-        },
-        "column_cANddT": {
-          "type": "column",
-          "settings": {
-            "star_color": "#00b67a",
-            "bg_star_color": "#c8c8c8",
-            "star_symbol_color": "#fff",
-            "stars_rating": 5,
-            "title": "Heading",
-            "text": "<p>Share positive thoughts and feedback from your customer..</p>",
-            "author": "<em><strong>Author</strong></em>"
-          }
-        },
-        "column_n9qbGX": {
-          "type": "column",
-          "settings": {
-            "star_color": "#00b67a",
-            "bg_star_color": "#c8c8c8",
-            "star_symbol_color": "#fff",
-            "stars_rating": 5,
-            "title": "Heading",
-            "text": "<p>Share positive thoughts and feedback from your customer..</p>",
-            "author": "<em><strong>Author</strong></em>"
-          }
-        },
-        "column_CUkxER": {
-          "type": "column",
-          "settings": {
-            "star_color": "#00b67a",
-            "bg_star_color": "#c8c8c8",
-            "star_symbol_color": "#fff",
-            "stars_rating": 5,
-            "title": "Heading",
-            "text": "<p>Share positive thoughts and feedback from your customer..</p>",
-            "author": "<em><strong>Author</strong></em>"
-          }
-        },
-        "column_6nAKTh": {
-          "type": "column",
-          "settings": {
-            "star_color": "#00b67a",
-            "bg_star_color": "#c8c8c8",
-            "star_symbol_color": "#fff",
-            "stars_rating": 5,
-            "title": "Heading",
-            "text": "<p>Share positive thoughts and feedback from your customer..</p>",
-            "author": "<em><strong>Author</strong></em>"
-          }
-        }
-      },
-      "block_order": [
-        "column_k3gLxr",
-        "column_cANddT",
-        "column_n9qbGX",
-        "column_CUkxER",
-        "column_6nAKTh"
-      ],
-      "name": "Trustpilot reviews",
-      "settings": {
-        "display_id": false,
-        "visibility": "always-display",
-        "color_scheme": "custom",
-        "desktop_content_position": "above",
-        "desktop_content_alignment": "center",
-        "title": "Trustpilot reviews",
-        "title_highlight_color": "#6D388B",
-        "heading_size": "h1",
-        "subtitle": "Excellent [rating] <strong>/ 5</strong> [rating_stars]",
-        "subheading_rating_text": "<strong>4.8</strong>",
-        "subheading_mobile_text_size": 18,
-        "subheading_desktop_text_size": 20,
-        "subheading_font": "body",
-        "star_color": "#00b67a",
-        "bg_star_color": "#c8c8c8",
-        "star_symbol_color": "#ffffff",
-        "stars_rating": 5,
-        "text": "",
-        "cards_border_radius": 16,
-        "card_alignment": "center",
-        "show_stars": true,
-        "cards_color_scheme": "custom",
-        "type": "slide",
-        "autoplay": true,
-        "autoplay_speed": 2,
-        "arrows_color_scheme": "inverse",
-        "transparent_arrows": false,
-        "dots_color_scheme": "inverse",
-        "desktop_full_page": false,
-        "columns_desktop": 3,
-        "slider_desktop": true,
-        "per_move_desktop": 1,
-        "desktop_spacing": 24,
-        "desktop_side_padding": 0,
-        "desktop_padding_calc": true,
-        "desktop_adaptive_height": false,
-        "desktop_dots_position": "hidden",
-        "desktop_arrows_position": "hidden",
-        "slider_mobile": true,
-        "enable_mobile_preview": true,
-        "mobile_adaptive_height": false,
-        "mobile_dots_position": "hidden",
-        "mobile_arrows_position": "hidden",
-        "padding_top": 36,
-        "padding_bottom": 36,
-        "custom_colors_background": "#000000",
-        "custom_gradient_background": "",
-        "custom_colors_text": "#ffffff",
-        "custom_cards_colors_background": "#ffffff",
-        "custom_cards_gradient_background": "",
-        "custom_cards_colors_text": "#000000"
-      }
-    },
-    "custom_liquid_4aA7dF": {
-      "type": "custom-liquid",
-      "name": "t:sections.custom-liquid.presets.name",
-      "settings": {
-        "display_id": false,
-        "visibility": "always-display",
-        "custom_liquid": "<section id=\"shopify-section-template--26317799686527__trustpilot_reviews_KkHhmb\" class=\"shopify-section section\">\n  <style data-shopify=\"\">\n    .section-template--26317799686527__trustpilot_reviews_KkHhmb-padding {\n      padding-top: 27px;\n      padding-bottom: 27px;\n    }\n    @media screen and (min-width: 750px) {\n      .section-template--26317799686527__trustpilot_reviews_KkHhmb-padding {\n        padding-top: 0px;\n        padding-bottom: 0px;\n      }\n    }\n    .trustpilot-reviews-template--26317799686527__trustpilot_reviews_KkHhmb .trustpilot-review {\n      --border-radius: 16px;\n    }\n    .color-scheme-template--26317799686527__trustpilot_reviews_KkHhmb.color-custom {\n      --color-background: 0, 0, 0;\n      --gradient-background: #000000;\n      --color-foreground: 255, 255, 255;\n    }\n    .cards-color-scheme-template--26317799686527__trustpilot_reviews_KkHhmb.color-custom {\n      --color-background: 255, 255, 255;\n      --gradient-background: #ffffff;\n      --color-foreground: 0, 0, 0;\n    }\n    .trustpilot-review .customer-photo {\n      margin-bottom: 0px;\n    }\n    .trustpilot-review .customer-photo img {\n      width: 100%;\n      border-radius: 0px;\n      object-fit: block;\n    }\n  </style>\n\n  <div class=\"color-scheme-template--26317799686527__trustpilot_reviews_KkHhmb color-custom gradient content-for-grouping animate-section animate--hidden always-display animate--shown\">\n    <div class=\"trustpilot-reviews trustpilot-reviews-template--26317799686527__trustpilot_reviews_KkHhmb trustpilot-reviews--desktop-content-above page-width mobile-full-page section-template--26317799686527__trustpilot_reviews_KkHhmb-padding\"\n         style=\"--columns-desktop: 3; --columns-mobile:1; --gap-desktop:2.4rem; --gap-mobile:1.5rem;\">\n      \n      <div class=\"trustpilot-reviews__content-container content-rte center desktop-center mobile-page-width-padding animate-item animate-item--child index-0\">\n        <h2 class=\"h1 title-with-highlight\" style=\"--hightlight-color:#6D388B\">Trustpilot reviews</h2>\n        <h2 class=\"trustpilot-reviews__subheading trustpilot-reviews__subheading--body custom-font-size flex-center\" style=\"--mobile-text-size:1.8rem; --desktop-text-size:2.0rem;\">\n          Excellent <span style=\"font-size: 1.25em;\"><strong>4.8</strong></span> <strong>/ 5</strong>\n          <div class=\"rating-stars__container rating-stars__container--underlay\" style=\"--rating:5; --star-color:#00b67a; --bg-star-color:#c8c8c8;\">\n            <!-- SVG stars omitted for brevity -->\n          </div>\n        </h2>\n      </div>\n\n      <splide-component data-type=\"slide\" data-autoplay=\"false\" data-autoplay-speed=\"5\" data-arrows-color=\"inverse\"\n                        data-dots-color=\"inverse\" data-slides-desktop=\"3\" data-per-move-desktop=\"1\" data-gap-desktop=\"24\"\n                        data-side-padding-desktop=\"0\" data-padding-calc-desktop=\"true\" data-slides-mobile=\"1\"\n                        data-gap-mobile=\"15\" data-side-padding-mobile=\"15\" data-destroy-desktop=\"true\"\n                        class=\"trustpilot__reviews-container\">\n        <div class=\"splide splide--desktop-dots-under splide--mobile-dots-under splide--desktop-arrows-sides splide--desktop-arrows-outside splide--mobile-arrows-under splide--transparent-arrows splide--destroy-desktop\">\n          <div class=\"splide__track\" style=\"padding-left:15px; padding-right:15px;\">\n            <ul class=\"splide__list\">\n\n              <!-- Slide 1 -->\n              <li class=\"splide__slide\">\n                <div class=\"splide__slide__container\" style=\"--index:0;\">\n                  <div class=\"trustpilot-review custom-border-radius center cards-color-scheme-template--26317799686527__trustpilot_reviews_KkHhmb color-custom\">\n                    <div class=\"customer-photo\">\n                      <img src=\"https://cdn.shopify.com/s/files/1/0951/3700/5951/files/1.jpg?v=1761049268\">\n                    </div>\n                    <h3 class=\"h4\">“Absolutely love this console. So many childhood memories packed into one device. Runs great, looks even better in real life!”</h3>\n                    <div class=\"testimonial-card__author-container\">\n                      <p class=\"testimonial-card__author margin-0\"><em><strong>Lucas D.</strong></em></p>\n                    </div>\n                    <div class=\"rating-stars__container rating-stars__container--underlay\" style=\"--rating:5; --star-color:#00b67a; --bg-star-color:#c8c8c8;\">\n                      <!-- SVG stars omitted -->\n                    </div>\n                  </div>\n                </div>\n              </li>\n\n              <!-- Slide 2 -->\n              <li class=\"splide__slide\">\n                <div class=\"splide__slide__container\" style=\"--index:1;\">\n                  <div class=\"trustpilot-review custom-border-radius center cards-color-scheme-template--26317799686527__trustpilot_reviews_KkHhmb color-custom\">\n                    <div class=\"customer-photo\">\n                      <img src=\"https://yourcdn.com/uploads/customer2.jpg\" alt=\"Console gift with retro packaging\">\n                    </div>\n                    <h3 class=\"h4\">“Perfect gift for my boyfriend. He’s obsessed with old‑school games. Delivered fast, super clean product.”</h3>\n                    <div class=\"testimonial-card__author-container\">\n                      <p class=\"testimonial-card__author margin-0\"><em><strong>Emily S.</strong></em></p>\n                    </div>\n                    <div class=\"rating-stars__container rating-stars__container--underlay\" style=\"--rating:5; --star-color:#00b67a; --bg-star-color:#c8c8c8;\">\n                      <!-- SVG stars omitted -->\n                    </div>\n                  </div>\n                </div>\n              </li>\n\n              <!-- Slide 3 -->\n              <li class=\"splide__slide\">\n                <div class=\"splide__slide__container\" style=\"--index:2;\">\n                  <div class=\"trustpilot-review custom-border-radius center cards-color-scheme-template--26317799686527__trustpilot_reviews_KkHhmb color-custom\">\n                    <div class=\"customer-photo\">\n                      <img src=\"https://yourcdn.com/uploads/customer3.jpg\" alt=\"Close‑up of Gamebro screen\">\n                    </div>\n                    <h3 class=\"h4\">“Even better than expected. Nostalgia hit hard. Setup was easy and everything runs super smooth!”</h3>\n                    <div class=\"testimonial-card__author-container\">\n                      <p class=\"testimonial-card__author margin-0\"><em><strong>Max R.</strong></em></p>\n                    </div>\n                    <div class=\"rating-stars__container rating-stars__container--underlay\" style=\"--rating:5; --star-color:#00b67a; --bg-star-color:#c8c8c8;\">\n                      <!-- SVG stars omitted -->\n                    </div>\n                  </div>\n                </div>\n              </li>\n\n            </ul>\n          </div>\n          <!-- Dots & Arrows markup omitted for brevity -->\n        </div>\n      </splide-component>\n\n    </div>\n  </div>\n</section>",
-        "color_scheme": "background-1",
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
     }
   },
   "order": [
@@ -1244,10 +1096,9 @@
     "image_with_text_6CYWfp",
     "horizontal_ticker_dAyQnU",
     "related-products",
+    "trustpilot_reviews_zrTYKn",
+    "image_banner_Vxq4af",
     "image_banner_TybM6b",
-    "custom_liquid_Rz8DiE",
-    "image_slider_hdTNmk",
-    "trustpilot_reviews_KkHhmb",
-    "custom_liquid_4aA7dF"
+    "custom_liquid_Rz8DiE"
   ]
 }
