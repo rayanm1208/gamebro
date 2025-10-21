@@ -123,7 +123,7 @@
         "show_line_separator": true,
         "color_scheme": "background-1",
         "logo_link": "/",
-        "logo_position": "middle-center",
+        "logo_position": "top-center",
         "menu": "main-menu",
         "menu_type_desktop": "dropdown",
         "highlight_active_link": true,
