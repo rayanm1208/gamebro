@@ -271,6 +271,18 @@
       "cart-drawer": {
         "type": "cart-drawer",
         "blocks": {
+          "image_FRMbGX": {
+            "type": "image",
+            "settings": {
+              "position": "body",
+              "image": "shopify://shop_images/TRUSTPILOT_3.png",
+              "width": 100,
+              "alignment": "center",
+              "border_radius": 0,
+              "margin_top": 0,
+              "margin_bottom": 0
+            }
+          },
           "6269cf6e-8e24-4068-8e2a-35bb4addad4e": {
             "type": "countdown_timer",
             "settings": {
@@ -538,6 +550,7 @@
           }
         },
         "block_order": [
+          "image_FRMbGX",
           "6269cf6e-8e24-4068-8e2a-35bb4addad4e",
           "926ea95f-fd8a-43e7-b215-de4f6cbc19f9",
           "058d6d0a-ba0d-48cb-9432-de85da1e5aef",
@@ -550,7 +563,7 @@
           "product_upsells_xi9TWk"
         ],
         "settings": {
-          "test_mode": false,
+          "test_mode": true,
           "heading_text": "My Cart",
           "heading_alignment": "flex-start",
           "desktop_width": "normal",
