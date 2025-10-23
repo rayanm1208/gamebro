@@ -77,7 +77,7 @@
             "custom_labels": "[name] : [selected]",
             "skip_unavailable": false,
             "swatches_size": "small",
-            "swatches_custom_colors": "image_alt",
+            "swatches_custom_colors": "custom",
             "swatches_custom_colors_list": "#Midnight-dash",
             "full_width_dropdowns": false,
             "breaks_style": "normal",
