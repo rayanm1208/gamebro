@@ -78,7 +78,7 @@
             "skip_unavailable": false,
             "swatches_size": "small",
             "swatches_custom_colors": "image_alt",
-            "swatches_custom_colors_list": "",
+            "swatches_custom_colors_list": "#Midnight-dash",
             "full_width_dropdowns": false,
             "breaks_style": "normal",
             "breaks_headline": "BUNDLE & SAVE",

@@ -57,7 +57,7 @@
     "swatches_border_radius": 100,
     "swatches_border_opacity": 0,
     "swatches_selected_border_opacity": 50,
-    "swatches_predefined_colors_list": "",
+    "swatches_predefined_colors_list": "<p>Black = Midnight-dash</p><p>White = #FFFFFF</p><p>Red = #FF0000</p><p>Blue = #0000FF</p><p>Green = #008000</p><p>Yellow = #FFFF00</p><p>Orange = #FFA500</p><p>Purple = #800080</p><p>Pink = #FFC0CB</p><p>Brown = #A52A2A</p><p>Gray = #808080</p><p>Navy = #000080</p><p>Teal = #008080</p><p>Maroon = #800000</p><p>Olive = #808000</p><p>Lime = #00FF00</p><p>Aqua = #00FFFF</p><p>Silver = #C0C0C0</p><p>Gold = #FFD700</p><p>Beige = #F5F5DC</p>",
     "variant_pills_accent_color": "text",
     "variant_pills_bold_text": false,
     "variant_pills_border_thickness": 1,
