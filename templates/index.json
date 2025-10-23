@@ -171,7 +171,7 @@
         "variant_picker_rB9gMN": {
           "type": "variant_picker",
           "settings": {
-            "picker_types": "pills, pills, pills",
+            "picker_types": "swatches",
             "custom_labels": "",
             "disable_prepend": false,
             "swatches_size": "medium",
@@ -404,7 +404,7 @@
         "display_id": false,
         "visibility": "desktop-hidden",
         "title": "",
-        "title_highlight_color": "#6D388B",
+        "title_highlight_color": "#6d388b",
         "heading_size": "h2",
         "gray_logos": false,
         "color_scheme": "background-1",
@@ -418,7 +418,7 @@
         "show_dots": false,
         "padding_top": 24,
         "padding_bottom": 8,
-        "custom_colors_background": "#FFFFFF",
+        "custom_colors_background": "#ffffff",
         "custom_gradient_background": "",
         "custom_colors_text": "#121212"
       }
@@ -506,7 +506,7 @@
         "display_id": false,
         "visibility": "mobile-hidden",
         "title": "",
-        "title_highlight_color": "#6D388B",
+        "title_highlight_color": "#6d388b",
         "heading_size": "h2",
         "gray_logos": false,
         "color_scheme": "background-1",
@@ -520,7 +520,7 @@
         "show_dots": false,
         "padding_top": 24,
         "padding_bottom": 8,
-        "custom_colors_background": "#FFFFFF",
+        "custom_colors_background": "#ffffff",
         "custom_gradient_background": "",
         "custom_colors_text": "#121212"
       }
@@ -904,7 +904,7 @@
           "type": "heading",
           "settings": {
             "title": "Classic Gaming, Zero Setup.",
-            "title_highlight_color": "#6D388B",
+            "title_highlight_color": "#6d388b",
             "heading_size": "h2"
           }
         },
@@ -944,13 +944,13 @@
         "mobile_padding_bottom": 0,
         "desktop_padding_top": 0,
         "desktop_padding_bottom": 0,
-        "custom_colors_background": "#2E2A39",
+        "custom_colors_background": "#2e2a39",
         "custom_gradient_background": "",
-        "custom_colors_text": "#FFFFFF",
+        "custom_colors_text": "#ffffff",
         "custom_colors_solid_button_background": "#dd1d1d",
         "custom_colors_solid_button_text": "#ffffff",
         "custom_colors_outline_button": "#dd1d1d",
-        "custom_section_colors_background": "#FFFFFF",
+        "custom_section_colors_background": "#ffffff",
         "custom_section_gradient_background": ""
       }
     },
