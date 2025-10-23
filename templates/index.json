@@ -168,14 +168,14 @@
             "margin_bottom": 15
           }
         },
-        "variant_picker_rB9gMN": {
+        "variant_picker_YBxNmN": {
           "type": "variant_picker",
           "settings": {
             "picker_types": "swatches",
             "custom_labels": "",
             "disable_prepend": false,
             "swatches_size": "large",
-            "swatches_border_radius": 100,
+            "swatches_border_radius": 0,
             "swatches_custom_colors": "disabled",
             "swatches_custom_colors_list": "#000000, #FFFFFF",
             "breaks_style": "normal",
@@ -296,7 +296,7 @@
         "title_RgFznQ",
         "trustpilot_stars_zNP3Tm",
         "price_TYVzKr",
-        "variant_picker_rB9gMN",
+        "variant_picker_YBxNmN",
         "quantity_selector_Pa4e9r",
         "buy_buttons_nTWwEM",
         "button_3YqcGy"
