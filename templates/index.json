@@ -174,7 +174,7 @@
             "picker_types": "swatches",
             "custom_labels": "",
             "disable_prepend": false,
-            "swatches_size": "medium",
+            "swatches_size": "large",
             "swatches_border_radius": 100,
             "swatches_custom_colors": "disabled",
             "swatches_custom_colors_list": "#000000, #FFFFFF",
