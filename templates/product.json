@@ -70,15 +70,15 @@
             "margin_bottom": 15
           }
         },
-        "5fcc0428-e768-4cb7-bea3-eb0274198dd1": {
+        "variant_picker_DEWbrQ": {
           "type": "variant_picker",
           "settings": {
-            "picker_types": "couleu",
-            "custom_labels": "[name] : [selected]",
+            "picker_types": "swatches",
+            "custom_labels": "",
             "skip_unavailable": false,
-            "swatches_size": "small",
-            "swatches_custom_colors": "custom",
-            "swatches_custom_colors_list": "#Midnight-dash",
+            "swatches_size": "large",
+            "swatches_custom_colors": "disabled",
+            "swatches_custom_colors_list": "#000000, #FFFFFF",
             "full_width_dropdowns": false,
             "breaks_style": "normal",
             "breaks_headline": "BUNDLE & SAVE",
@@ -446,7 +446,7 @@
         "trustpilot_stars_fcfiw7",
         "a6eb81db-40e4-43e0-972f-32db010a4a56",
         "price",
-        "5fcc0428-e768-4cb7-bea3-eb0274198dd1",
+        "variant_picker_DEWbrQ",
         "urgency_QcyybV",
         "04ba004e-2f54-4936-8b1c-8bcadf6573f6",
         "product_upsell_mpi3Jt",
