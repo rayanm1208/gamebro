@@ -563,8 +563,8 @@
           "product_upsells_xi9TWk"
         ],
         "settings": {
-          "test_mode": true,
-          "heading_text": "My Cart",
+          "test_mode": false,
+          "heading_text": "",
           "heading_alignment": "flex-start",
           "desktop_width": "normal",
           "mobile_width": "full",
