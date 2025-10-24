@@ -100,7 +100,7 @@
         "urgency_QcyybV": {
           "type": "urgency",
           "settings": {
-            "urgency": "HOT PRODUCT | LOW STOCK",
+            "urgency": "SOLD OUT",
             "color_scheme": "background-2",
             "margin_top": 0,
             "margin_bottom": 15
@@ -305,6 +305,12 @@
             "mobile_transparent_bg": false
           }
         },
+        "custom_liquid_dXzmDW": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{% if product.available == false %}\n<div class=\"restock-notify-section\" style=\"text-align:center; padding: 30px; border: 1px solid #eee; border-radius: 12px; margin-top: 30px;\">\n  <h3 style=\"font-size: 22px; font-weight: 600; margin-bottom: 10px;\">🚀 Be the first to know when it's back!</h3>\n  <p style=\"font-size: 16px; color: #555;\">Game-bro™ is currently out of stock — sign up to get notified as soon as it’s available again.</p>\n\n  <form id=\"restock-form\" style=\"max-width:400px;margin:20px auto;\">\n    <input type=\"email\" id=\"restock-email\" name=\"email\" placeholder=\"Enter your email\" required\n      style=\"width:100%;padding:12px;border:1px solid #ccc;border-radius:6px;font-size:15px;\">\n    <button type=\"submit\"\n      style=\"margin-top:12px;width:100%;padding:12px;background:#000;color:#fff;border:none;border-radius:6px;font-size:16px;cursor:pointer;\">\n      Notify Me\n    </button>\n  </form>\n\n  <p id=\"restock-message\" style=\"margin-top:10px;color:#28a745;display:none;\">✅ You’ll get an email as soon as it’s restocked!</p>\n</div>\n\n<script>\ndocument.getElementById('restock-form').addEventListener('submit', function(e) {\n  e.preventDefault();\n  const email = document.getElementById('restock-email').value;\n\n  // Envoi à ton email via Shopify Contact form\n  fetch('/contact', {\n    method: 'POST',\n    headers: {'Content-Type': 'application/x-www-form-urlencoded'},\n    body: new URLSearchParams({\n      'form_type': 'contact',\n      'utf8': '✓',\n      'contact[email]': email,\n      'contact[tags]': 'restock-notification {{ product.title }}'\n    })\n  }).then(() => {\n    document.getElementById('restock-message').style.display = 'block';\n    document.getElementById('restock-form').reset();\n  });\n});\n</script>\n{% endif %}"
+          }
+        },
         "e0a0b690-50df-4ca4-acfd-ce2980696cce": {
           "type": "shipping_checkpoints",
           "settings": {
@@ -453,6 +459,7 @@
         "buy_buttons",
         "payment_badges_cpwxwi",
         "e7a28cbe-03cb-4c9d-a2c4-0e3e76ffb3e5",
+        "custom_liquid_dXzmDW",
         "e0a0b690-50df-4ca4-acfd-ce2980696cce",
         "description",
         "de158e68-5d0d-4819-a625-e2dabdff87d1",
@@ -506,6 +513,51 @@
         "mobile_padding_bottom": 16,
         "desktop_padding_top": 36,
         "desktop_padding_bottom": 36
+      }
+    },
+    "newsletter_Q94Abf": {
+      "type": "newsletter",
+      "blocks": {
+        "heading_nacpLY": {
+          "type": "heading",
+          "settings": {
+            "title": "Subscribe to our emails",
+            "title_highlight_color": "#6D388B",
+            "heading_size": "h1"
+          }
+        },
+        "paragraph_8DYNje": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Be the first to know about new collections and exclusive offers.</p>"
+          }
+        },
+        "email_form_LD3kQi": {
+          "type": "email_form",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "heading_nacpLY",
+        "paragraph_8DYNje",
+        "email_form_LD3kQi"
+      ],
+      "name": "t:sections.newsletter.presets.name",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "button_type": "solid",
+        "button_label": "Sign up",
+        "button_style_secondary": false,
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52,
+        "custom_colors_background": "#FFFFFF",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#2E2A39",
+        "custom_colors_solid_button_background": "#dd1d1d",
+        "custom_colors_solid_button_text": "#ffffff"
       }
     },
     "horizontal_ticker_9qycyU": {
@@ -1134,6 +1186,7 @@
   },
   "order": [
     "main",
+    "newsletter_Q94Abf",
     "horizontal_ticker_9qycyU",
     "image_with_text_g6mKVa",
     "icon_bar_9RgTTV",
