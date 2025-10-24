@@ -147,7 +147,7 @@
         "badges": "custom",
         "show_vendor": false,
         "show_rating": false,
-        "enable_quick_add": true,
+        "enable_quick_add": false,
         "swatches_option_name": "",
         "swatches_position": "top",
         "swatches_desktop_size": 28,
@@ -1054,13 +1054,13 @@
     "cfca4268-6358-426c-98ab-d292aeef11e5",
     "horizontal_ticker_WBCmi8",
     "featured_collection_NFpadg",
-    "featured_product_pnggAP",
     "logo_list_m3W7qP",
     "logo_list_7hbpXP",
     "image_slider_UwFQP7",
     "trustpilot_reviews_TDRpNC",
     "horizontal_ticker_mUJeWk",
     "image_with_text_QXYrt9",
+    "featured_product_pnggAP",
     "custom_liquid_44YUJf",
     "image_banner_jeLfxk"
   ]
