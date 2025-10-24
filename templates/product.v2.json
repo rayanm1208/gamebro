@@ -1,0 +1,1217 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "text_size": "h1",
+            "title_alignment": "left",
+            "uppercase_title": false,
+            "margin_top": 0,
+            "margin_bottom": 0
+          }
+        },
+        "trustpilot_stars_fcfiw7": {
+          "type": "trustpilot_stars",
+          "settings": {
+            "rating": 4.2,
+            "star_color": "#00b67a",
+            "bg_star_color": "#c8c8c8",
+            "star_symbol_color": "#ffffff",
+            "label": "9141 Reviews",
+            "size": 14,
+            "alignment": "flex-start",
+            "scroll_id": "",
+            "margin_top": 3,
+            "margin_bottom": 6
+          }
+        },
+        "a6eb81db-40e4-43e0-972f-32db010a4a56": {
+          "type": "rating_stars",
+          "disabled": true,
+          "settings": {
+            "rating": 4.4,
+            "star_color": "#ffcc00",
+            "bg_stars_style": "full",
+            "bg_star_color": "#ececec",
+            "label": "(xxxx Reviews)",
+            "size": 16,
+            "alignment": "flex-start",
+            "scroll_id": "",
+            "margin_top": 0,
+            "margin_bottom": 9
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "layout": "price_first",
+            "price_color": "accent-1",
+            "compare_price_color": "text",
+            "displayed_badge": "sale",
+            "icon_scale": 140,
+            "custom_badge_text": "[icon_1] SPECIAL OFFER",
+            "icon_1": "redeem",
+            "filled_icon_1": false,
+            "icon_2": "check_circle",
+            "filled_icon_2": false,
+            "margin_top": 9,
+            "margin_bottom": 15
+          }
+        },
+        "variant_picker_DEWbrQ": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_types": "swatches",
+            "custom_labels": "",
+            "skip_unavailable": false,
+            "swatches_size": "large",
+            "swatches_custom_colors": "disabled",
+            "swatches_custom_colors_list": "#000000, #FFFFFF",
+            "full_width_dropdowns": false,
+            "breaks_style": "normal",
+            "breaks_headline": "BUNDLE & SAVE",
+            "breaks_color_scheme": "accent-1",
+            "breaks_badges": "[empty], Most popular, [empty]",
+            "breaks_displayed_images": "variant_images",
+            "breaks_custom_images": "",
+            "breaks_image_width": 70,
+            "breaks_space_images": true,
+            "breaks_labels": "[name], [name], [name]",
+            "breaks_benefits": "[empty], Free Shipping, Free Shipping",
+            "breaks_captions": "Variant 1 caption, Variant 2 caption, Variant 3 caption",
+            "breaks_price_texts": "[price], [price], [price]",
+            "breaks_compare_price_texts": "[compare_price], [compare_price], [compare_price]",
+            "margin_top": 15,
+            "margin_bottom": 15
+          }
+        },
+        "urgency_QcyybV": {
+          "type": "urgency",
+          "settings": {
+            "urgency": "👾 Halloween Offers — Play in the Dark",
+            "color_scheme": "background-2",
+            "margin_top": 0,
+            "margin_bottom": 15
+          }
+        },
+        "04ba004e-2f54-4936-8b1c-8bcadf6573f6": {
+          "type": "quantity_selector",
+          "settings": {
+            "full_width_classic": false,
+            "atc_append": "none",
+            "atc_append_heights": "stretch-quantity",
+            "enable_quantity_discounts": true,
+            "style": "normal",
+            "headline": "BUNDLE & SAVE",
+            "preselected": "option_2",
+            "display_selected_indicator": true,
+            "border_radius": 12,
+            "border_width": 3,
+            "color_scheme": "accent-2",
+            "enable_variant_selectors": true,
+            "enable_variant_selectors_on_quantity_of_1": true,
+            "update_prices": true,
+            "skip_unavailable": true,
+            "full_width_pickers": true,
+            "hide_pickers_overlay": true,
+            "pickers_label": "",
+            "image_width": 50,
+            "space_images": true,
+            "vertical_images_position": "top",
+            "vertical_prices_layout": "vertical",
+            "option_1_quantity": 1,
+            "option_1_badge": "",
+            "option_1_badge_style": "1",
+            "option_1_badge_color": "background-2",
+            "option_1_image": "shopify://shop_images/51_4815acd7-57d7-4508-910c-50e2ed8800db.webp",
+            "option_1_label": "Single Console",
+            "option_1_benefit": "",
+            "option_1_benefit_position": "top",
+            "option_1_benefit_style": "outlined",
+            "option_1_benefit_color": "accent-1",
+            "option_1_caption": "",
+            "option_1_percentage_off_text": "0",
+            "option_1_fixed_amount_off": "",
+            "option_1_price_text": "[price]",
+            "option_1_compare_price": "price",
+            "option_1_compare_price_text": "",
+            "option_2_quantity": 2,
+            "option_2_badge": "MOST POPULAR",
+            "option_2_badge_style": "1",
+            "option_2_badge_color": "accent-1",
+            "option_2_image": "shopify://shop_images/52_6faee3a6-53e1-4627-82ad-7107d29f82b0.webp",
+            "option_2_label": "2 Consoles",
+            "option_2_benefit": "",
+            "option_2_benefit_style": "outlined",
+            "option_2_benefit_color": "accent-2",
+            "option_2_caption": "You save [amount_saved]",
+            "option_2_percentage_off_text": "0",
+            "option_2_fixed_amount_off": "20",
+            "option_2_price_text": "[price]",
+            "option_2_compare_price": "price",
+            "option_2_compare_price_text": "[compare_price]",
+            "option_3_quantity": 0,
+            "option_3_badge": "",
+            "option_3_badge_style": "1",
+            "option_3_badge_color": "accent-1",
+            "option_3_label": "Buy [quantity]",
+            "option_3_benefit": "",
+            "option_3_benefit_style": "outlined",
+            "option_3_benefit_color": "accent-1",
+            "option_3_caption": "You save [amount_saved]",
+            "option_3_percentage_off_text": "0",
+            "option_3_fixed_amount_off": "0",
+            "option_3_price_text": "[price]",
+            "option_3_compare_price": "compare_price",
+            "option_3_compare_price_text": "[compare_price]",
+            "option_4_quantity": 0,
+            "option_4_badge": "",
+            "option_4_badge_style": "1",
+            "option_4_badge_color": "accent-1",
+            "option_4_label": "Buy [quantity]",
+            "option_4_benefit": "",
+            "option_4_benefit_style": "outlined",
+            "option_4_benefit_color": "accent-1",
+            "option_4_caption": "You save [amount_saved]",
+            "option_4_percentage_off_text": "0",
+            "option_4_fixed_amount_off": "0",
+            "option_4_price_text": "[price]",
+            "option_4_compare_price": "compare_price",
+            "option_4_compare_price_text": "[compare_price]",
+            "margin_top": 15,
+            "margin_bottom": 15
+          }
+        },
+        "product_upsell_mpi3Jt": {
+          "type": "product_upsell",
+          "settings": {
+            "style": "toggle_switch",
+            "btn_position": "right",
+            "toggle_element": "button",
+            "add_btn_label": "<strong>Add</strong>",
+            "stacking": "row",
+            "accent_color": "text",
+            "color_scheme": "background-1",
+            "product_list": [
+              "game-bro™-protective-case",
+              "game-bro™-wifi-dongle-pack"
+            ],
+            "enable_dynamic_recommendations": false,
+            "prdouct_1_preselected": false,
+            "product_1_desc": "",
+            "product_1_percentage_discount": "0",
+            "product_1_fixed_amount_discount": "0",
+            "prdouct_2_preselected": false,
+            "product_2_desc": "",
+            "product_2_percentage_discount": "0",
+            "product_2_fixed_amount_discount": "0",
+            "prdouct_3_preselected": false,
+            "product_3_desc": "",
+            "product_3_percentage_discount": "0",
+            "product_3_fixed_amount_discount": "0",
+            "show_images": true,
+            "images_size": "4.25",
+            "images_corner_radius": 0,
+            "title_size": "1",
+            "title_link": false,
+            "desc_size": "1.2",
+            "price_position": "next_to_title",
+            "price_size": "1.4",
+            "hide_compare_price": false,
+            "show_variant_picker": true,
+            "update_prices": false,
+            "skip_unavailable": false,
+            "corner_radius": 0,
+            "show_box_shadow": false,
+            "show_border": false,
+            "regular_border_color": "#e6e6e6",
+            "selected_border_color": "#6d388b",
+            "border_width": "0.2",
+            "show_custom_bg": false,
+            "regular_bg_color": "#f2f2f2",
+            "selected_bg_color": "#f2f2f2",
+            "margin_top": 3,
+            "margin_bottom": 0
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "skip_cart": false,
+            "uppercase_text": true,
+            "icon_scale": 120,
+            "icon_spacing": 10,
+            "display_price": false,
+            "enable_custom_color": false,
+            "custom_color": "#53af01",
+            "enable_secondary_btn": true,
+            "secondary_btn_label": "Buy It Now",
+            "secondary_btn_enable_custom_color": false,
+            "secondary_btn_custom_color": "#dd1d1d",
+            "margin_top": 24,
+            "margin_bottom": 24
+          }
+        },
+        "payment_badges_cpwxwi": {
+          "type": "payment_badges",
+          "settings": {
+            "enabled_payment_types": "stripe, apple_pay, visa, paypal, google_pay,american_express, klarna, master, bitcoin",
+            "margin_top": 0,
+            "margin_bottom": 3
+          }
+        },
+        "e7a28cbe-03cb-4c9d-a2c4-0e3e76ffb3e5": {
+          "type": "sticky_atc",
+          "settings": {
+            "function": "add_to_cart",
+            "display_when": "after_scroll",
+            "button_label": "Add to cart",
+            "enable_custom_btn_color": false,
+            "custom_btn_color": "#dd1d1d",
+            "color_scheme": "background-1",
+            "star_color": "#ffcc00",
+            "stars_label": "1849 Reviews",
+            "picker_type": "combined",
+            "desktop_show_image": true,
+            "desktop_show_title": true,
+            "desktop_rating_stars": false,
+            "desktop_show_price": true,
+            "desktop_show_sale_badge": true,
+            "desktop_variant_picker": true,
+            "desktop_full_button_width": false,
+            "desktop_show_price_in_button": false,
+            "desktop_transparent_bg": false,
+            "mobile_show_image": false,
+            "mobile_show_title": true,
+            "mobile_rating_stars": false,
+            "mobile_show_price": true,
+            "mobile_show_sale_badge": false,
+            "mobile_variant_picker": false,
+            "mobile_full_button_width": false,
+            "mobile_show_price_in_button": false,
+            "mobile_transparent_bg": false
+          }
+        },
+        "custom_liquid_dXzmDW": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{% if product.available == false %}\n<div class=\"restock-container\" style=\"text-align:center; background:#0a0a0a; padding:25px 18px; border-radius:16px; margin-top:30px; box-shadow:0 0 20px rgba(120,0,255,0.15); color:#fff;\">\n  \n  <h2 style=\"font-size:24px; font-weight:700; color:#fff; margin-bottom:8px;\">\n    Be the first to know when {{ product.title }} is back!\n  </h2>\n  <p style=\"font-size:15px; color:#bbb; margin-bottom:20px; line-height:1.4;\">\n    Select your favorite color and enter your email below — we’ll notify you as soon as it’s restocked.\n  </p>\n\n  <form id=\"restock-form\" style=\"max-width:380px; margin:0 auto;\">\n    \n    <!-- Select Color -->\n    <label for=\"restock-color\" style=\"display:block; text-align:left; font-weight:600; margin-bottom:4px; font-size:14px;\">Color</label>\n    <select id=\"restock-color\" name=\"color\" required\n      style=\"width:100%; padding:10px; border-radius:8px; border:1px solid #444; background:#111; color:#fff; margin-bottom:12px; font-size:14px;\">\n      <option value=\"\">Select color</option>\n      <option>Blue Quest</option>\n      <option>Electric Yellow</option>\n      <option>Mystic Flame</option>\n      <option>Emerald Mode</option>\n      <option>Crimson Creed</option>\n      <option>Nitro Blaze</option>\n      <option>Dark Rose</option>\n      <option>White Strike</option>\n      <option>Midnight Dash</option>\n    </select>\n\n    <!-- Email Field -->\n    <input type=\"email\" id=\"restock-email\" name=\"email\" placeholder=\"Enter your email address\" required\n      style=\"width:100%; padding:10px; border:1px solid #444; border-radius:8px; background:#111; color:#fff; margin-bottom:12px; font-size:14px;\">\n    \n    <!-- Submit Button -->\n    <button type=\"submit\"\n      style=\"width:100%; padding:12px; background:linear-gradient(90deg, #7b2ff7, #f107a3); color:#fff; font-size:15px; border:none; border-radius:8px; font-weight:600; cursor:pointer; transition:opacity .3s;\">\n      Notify Me When Available\n    </button>\n  </form>\n\n  <p id=\"restock-message\" style=\"display:none; margin-top:10px; color:#00ffb3; font-size:14px;\">\n    ✅ Thanks! You’ll receive an email when your selected color is back in stock.\n  </p>\n</div>\n\n<script>\ndocument.getElementById('restock-form').addEventListener('submit', function(e) {\n  e.preventDefault();\n  \n  const email = document.getElementById('restock-email').value;\n  const color = document.getElementById('restock-color').value;\n  \n  if(!color) {\n    alert('Please select a color first!');\n    return;\n  }\n\n  fetch('/contact', {\n    method: 'POST',\n    headers: {'Content-Type': 'application/x-www-form-urlencoded'},\n    body: new URLSearchParams({\n      'form_type': 'contact',\n      'utf8': '✓',\n      'contact[email]': email,\n      'contact[tags]': 'restock-notification {{ product.title }} - ' + color\n    })\n  }).then(() => {\n    document.getElementById('restock-message').style.display = 'block';\n    document.getElementById('restock-form').reset();\n  });\n});\n</script>\n{% endif %}"
+          }
+        },
+        "e0a0b690-50df-4ca4-acfd-ce2980696cce": {
+          "type": "shipping_checkpoints",
+          "settings": {
+            "icon_1": "add_shopping_cart",
+            "filled_icon_1": false,
+            "top_text_1": "<strong>[start_date]</strong>",
+            "bottom_text_1": "Ordered",
+            "min_days_1": 0,
+            "max_days_1": 0,
+            "icon_2": "local_shipping",
+            "filled_icon_2": false,
+            "top_text_2": "<strong>[start_date] - [end_date]</strong>",
+            "bottom_text_2": "Order Ready",
+            "min_days_2": 1,
+            "max_days_2": 3,
+            "icon_3": "redeem",
+            "filled_icon_3": false,
+            "top_text_3": "<strong>[start_date] - [end_date]</strong>",
+            "bottom_text_3": "Delivered",
+            "min_days_3": 5,
+            "max_days_3": 7,
+            "icon_4": "",
+            "filled_icon_4": false,
+            "top_text_4": "",
+            "bottom_text_4": "",
+            "date_format": "mm_dd",
+            "days_labels": "Mon, Tue, Wed, Thu, Fri, Sat, Sun",
+            "months_labels": "Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec",
+            "color_scheme": "accent-2",
+            "margin_top": 12,
+            "margin_bottom": 3
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "margin_top": 24,
+            "margin_bottom": 24
+          }
+        },
+        "de158e68-5d0d-4819-a625-e2dabdff87d1": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Features & Performance",
+            "heading_size": "small",
+            "icon": "description",
+            "filled_icon": false,
+            "collapse_icon": "carret",
+            "display_top_border": true,
+            "open": false,
+            "content": "<p>🎮 15 000+ pre-installed classics (PS1, SNES, GBA, Dreamcast…)<br/>⚡ Instant boot – play in &lt; 10 seconds<br/>💾 Auto-save & resume system<br/>🔋 6-hour battery life + fast USB-C charge<br/>📺 HDMI output – connect to any TV<br/>🧠 Lag-free emulation + premium chipset</p>",
+            "page": "",
+            "margin_top": 24,
+            "margin_bottom": 0
+          }
+        },
+        "collapsible_tab_kzyAEq": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Play Together & Trading",
+            "heading_size": "small",
+            "icon": "stadia_controller",
+            "filled_icon": false,
+            "collapse_icon": "carret",
+            "display_top_border": true,
+            "open": false,
+            "content": "<p>Enjoy true multiplayer sessions by pairing two Game-bro™ consoles over Wi-Fi — perfect for head-to-head races, battles, or cooperative adventures.</p><p>Game-bro™ brings back the <strong>old-school fun of couch battles and link-cable trades — without the cables.</strong></p><p>From Mario Kart races to Pokémon exchanges, everything works seamlessly.<br/><br/>No setup, no lag — just <strong>pure 90’s multiplayer magic, reborn.</strong></p>",
+            "page": "",
+            "margin_top": 24,
+            "margin_bottom": 0
+          }
+        },
+        "collapsible_tab_gjAhtp": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "1-Year Warranty",
+            "heading_size": "medium",
+            "icon": "security",
+            "filled_icon": false,
+            "collapse_icon": "carret",
+            "display_top_border": true,
+            "open": false,
+            "content": "<p>Every Game-bro™ console is protected by a <strong>12-month manufacturer’s warranty</strong> covering any operational fault.<br/><br/>If a problem occurs, our support team will <strong>repair or replace your device</strong> quickly and transparently.</p>",
+            "page": "",
+            "margin_top": 24,
+            "margin_bottom": 0
+          }
+        },
+        "collapsible_tab_yKa4At": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Console Specs",
+            "heading_size": "small",
+            "icon": "settings",
+            "filled_icon": false,
+            "collapse_icon": "carret",
+            "display_top_border": true,
+            "open": false,
+            "content": "<p><strong>CPU:</strong> RK3326 64-bit Quad-Core 1.5GHz<br/><strong>RAM:</strong> 1GB DDR3<br/><strong>Display:</strong> 3.5” IPS HD (Full-color, crystal-sharp)<br/><strong>GPU:</strong> Mali-G31 MP2<br/><strong>Storage:</strong> 64GB internal + expandable slot (TF up to 512GB)<br/><strong>Battery:</strong> 3200mAh lithium — up to <strong>6 hours</strong> playtime<br/><strong>Output:</strong> HDMI & 3.5mm audio</p><p>Built for zero-lag emulation and smooth performance across all generations.</p>",
+            "page": "",
+            "margin_top": 24,
+            "margin_bottom": 0
+          }
+        },
+        "reviews_8UgFbe": {
+          "type": "reviews",
+          "settings": {
+            "color_scheme": "background-1",
+            "show_custom_bg": false,
+            "custom_bg_color": "#f2f2f2",
+            "corner_radius": 12,
+            "border_width": 0,
+            "border_color": "#b7b7b7",
+            "avatar_alignment": "top",
+            "avatar_corner_radius": 40,
+            "star_color": "#ffcc00",
+            "stars_translate": 0,
+            "checkmark_color": "#6d388b",
+            "checkmark_icon_color": "#ffffff",
+            "slider_type": "slide",
+            "autoplay": false,
+            "autoplay_speed": 5,
+            "display_arrows": false,
+            "display_dots": false,
+            "author_1": "Alex R.  [stars]",
+            "text_1": "<p>I grew up with the SNES and PS1, and honestly — this thing nailed the feeling</p>",
+            "author_2": "Mark L [stars]",
+            "text_2": "<p>I ordered Game-bro out of curiosity, thinking it’d be another cheap clone.<br/>The moment I heard the boot sound… it was 1999 again.</p>",
+            "author_3": "Daniel P.[stars]",
+            "text_3": "<p>Solid build, clean interface, no lag.<br/>My girlfriend and I spent 3 hours playing Crash Bandicoot like kids again</p>",
+            "margin_top": 6,
+            "margin_bottom": 0
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "trustpilot_stars_fcfiw7",
+        "a6eb81db-40e4-43e0-972f-32db010a4a56",
+        "price",
+        "variant_picker_DEWbrQ",
+        "urgency_QcyybV",
+        "04ba004e-2f54-4936-8b1c-8bcadf6573f6",
+        "product_upsell_mpi3Jt",
+        "buy_buttons",
+        "payment_badges_cpwxwi",
+        "e7a28cbe-03cb-4c9d-a2c4-0e3e76ffb3e5",
+        "custom_liquid_dXzmDW",
+        "e0a0b690-50df-4ca4-acfd-ce2980696cce",
+        "description",
+        "de158e68-5d0d-4819-a625-e2dabdff87d1",
+        "collapsible_tab_kzyAEq",
+        "collapsible_tab_gjAhtp",
+        "collapsible_tab_yKa4At",
+        "reviews_8UgFbe"
+      ],
+      "custom_css": [],
+      "name": "PRODUIT",
+      "settings": {
+        "display_id": false,
+        "enable_sticky_info": true,
+        "display_variant_image_first": false,
+        "disable_prepend": true,
+        "hide_variants": false,
+        "variant_image_filtering": "none",
+        "image_zoom": "none",
+        "arrows_color_scheme": "inverse",
+        "transparent_arrows": false,
+        "dots_color_scheme": "inverse",
+        "video_player": "play_btn",
+        "enable_video_looping": false,
+        "autoplay_videos_pause_btn": false,
+        "video_sound_btn": false,
+        "video_timeline": false,
+        "play_btn_color_scheme": "accent-1",
+        "sound_btn_color_scheme": "inverse",
+        "timeline_color": "accent-1",
+        "media_size": "medium",
+        "media_position": "left",
+        "gallery_layout": "thumbnail_slider",
+        "desktop_thumbnails_count": 5,
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "desktop_arrows_position": "hidden",
+        "mobile_media_corner_radius": 0,
+        "mobile_spacing_pixels": 0,
+        "mobile_arrows_position": "sides",
+        "mobile_pagination": "dots_overlay",
+        "mobile_thumbnails": "hide",
+        "mobile_thumbnails_count": 5,
+        "mobile_scroll_padding_percentage": 0,
+        "mobile_scroll_padding_pixels": 14,
+        "enable_mobile_outher_spacing": false,
+        "mobile_slides_container_width": 100,
+        "mobile_slides_inner_width": 100,
+        "trust_badge_position": "top-right",
+        "trust_badge_size": "medium",
+        "mobile_padding_top": 0,
+        "mobile_padding_bottom": 16,
+        "desktop_padding_top": 36,
+        "desktop_padding_bottom": 36
+      }
+    },
+    "custom_liquid_Rz8DiE": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "custom_liquid": "{% if product.available == false %}\n<div class=\"restock-container\" style=\"text-align:center; background:#0a0a0a; padding:40px 20px; border-radius:16px; margin-top:40px; box-shadow:0 0 20px rgba(120,0,255,0.2); color:#fff;\">\n  \n  <h2 style=\"font-size:26px; font-weight:700; color:#fff; margin-bottom:10px;\">\n    Be the first to know when {{ product.title }} is back!\n  </h2>\n  <p style=\"font-size:16px; color:#bbb; margin-bottom:25px;\">\n    Select your favorite color and enter your email below — we’ll notify you as soon as it’s restocked.\n  </p>\n\n  <form id=\"restock-form\" style=\"max-width:400px; margin:0 auto;\">\n    \n    <!-- Select Color -->\n    <label for=\"restock-color\" style=\"display:block; text-align:left; font-weight:600; margin-bottom:6px;\">Color</label>\n    <select id=\"restock-color\" name=\"color\" required\n      style=\"width:100%; padding:12px; border-radius:8px; border:1px solid #444; background:#111; color:#fff; margin-bottom:15px;\">\n      <option value=\"\">Select color</option>\n      <option>Blue Quest</option>\n      <option>Electric Yellow</option>\n      <option>Mystic Flame</option>\n      <option>Emerald Mode</option>\n      <option>Crimson Creed</option>\n      <option>Nitro Blaze</option>\n      <option>Dark Rose</option>\n      <option>White Strike</option>\n      <option>Midnight Dash</option>\n    </select>\n\n    <!-- Email Field -->\n    <input type=\"email\" id=\"restock-email\" name=\"email\" placeholder=\"Enter your email address\" required\n      style=\"width:100%; padding:12px; border:1px solid #444; border-radius:8px; background:#111; color:#fff; margin-bottom:15px; font-size:15px;\">\n    \n    <!-- Submit Button -->\n    <button type=\"submit\"\n      style=\"width:100%; padding:14px; background:linear-gradient(90deg, #7b2ff7, #f107a3); color:#fff; font-size:16px; border:none; border-radius:8px; font-weight:600; cursor:pointer; transition:opacity .3s;\">\n      Notify Me When Available\n    </button>\n  </form>\n\n  <p id=\"restock-message\" style=\"display:none; margin-top:15px; color:#00ffb3; font-size:15px;\">\n    ✅ Thanks! You’ll receive an email when your selected color is back in stock.\n  </p>\n</div>\n\n<script>\ndocument.getElementById('restock-form').addEventListener('submit', function(e) {\n  e.preventDefault();\n  \n  const email = document.getElementById('restock-email').value;\n  const color = document.getElementById('restock-color').value;\n  \n  if(!color) {\n    alert('Please select a color first!');\n    return;\n  }\n\n  // Send to Shopify contact form\n  fetch('/contact', {\n    method: 'POST',\n    headers: {'Content-Type': 'application/x-www-form-urlencoded'},\n    body: new URLSearchParams({\n      'form_type': 'contact',\n      'utf8': '✓',\n      'contact[email]': email,\n      'contact[tags]': 'restock-notification {{ product.title }} - ' + color\n    })\n  }).then(() => {\n    document.getElementById('restock-message').style.display = 'block';\n    document.getElementById('restock-form').reset();\n  });\n});\n</script>\n{% endif %}",
+        "color_scheme": "background-1",
+        "padding_top": 12,
+        "padding_bottom": 12
+      }
+    },
+    "horizontal_ticker_9qycyU": {
+      "type": "horizontal-ticker",
+      "blocks": {
+        "image_mDG7Cb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/55.webp"
+          }
+        },
+        "image_xhjMiQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/52.webp"
+          }
+        },
+        "image_jxxxFz": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/51.webp"
+          }
+        },
+        "image_VRhm97": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/49.webp"
+          }
+        },
+        "image_WFMgEP": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/54.webp"
+          }
+        },
+        "image_We7Fzt": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/50.webp"
+          }
+        },
+        "image_pDfiL4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/53.webp"
+          }
+        },
+        "image_KxdAFx": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/48.webp"
+          }
+        },
+        "image_KY7hL4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Grand_Theft_Auto_logo_series_svg.png"
+          }
+        }
+      },
+      "block_order": [
+        "image_mDG7Cb",
+        "image_xhjMiQ",
+        "image_jxxxFz",
+        "image_VRhm97",
+        "image_WFMgEP",
+        "image_We7Fzt",
+        "image_pDfiL4",
+        "image_KxdAFx",
+        "image_KY7hL4"
+      ],
+      "name": "Horizontal Ticker",
+      "settings": {
+        "visibility": "always-display",
+        "speed": 5,
+        "direction": "normal",
+        "stop_on_hover": false,
+        "mobile_spacing": 16,
+        "desktop_spacing": 16,
+        "color_scheme": "background-1",
+        "mobile_text_size": 16,
+        "desktop_text_size": 18,
+        "italic_text": false,
+        "uppercase_text": false,
+        "bold_text": false,
+        "mobile_image_height": 39,
+        "desktop_image_height": 57,
+        "mobile_reviews_width": 300,
+        "desktop_reviews_width": 400,
+        "hidden_products": "",
+        "enable_specific_display": false,
+        "displayed_products": "",
+        "mobile_padding_top": 12,
+        "mobile_padding_bottom": 24,
+        "desktop_padding_top": 16,
+        "desktop_padding_bottom": 16,
+        "custom_colors_background": "#ffffff",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#2e2a39"
+      }
+    },
+    "image_with_text_g6mKVa": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_nKCKcU": {
+          "type": "heading",
+          "settings": {
+            "title": "<strong>A Legendary Library in Your Pocket</strong>",
+            "title_highlight_color": "#ffffff",
+            "heading_size": "h2"
+          }
+        },
+        "text_gQgGKw": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>15,000+ preloaded games from 20 iconic retro consoles.</strong></p><p>Relive everything you thought was lost — from PlayStation and SNES to SEGA, Game Boy, NeoGeo, and more.<br/><br/>Game-bro is your <strong>ultimate all-in-one handheld</strong>, fully ready out of the box.<br/><br/>Want to go further? <strong>Add your own games</strong> via <strong>WiFi or SD card</strong> in seconds.</p><p></p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_nKCKcU",
+        "text_gQgGKw"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "image": "shopify://shop_images/gamelab_5.webp",
+        "video_autoplay": true,
+        "video_loop": true,
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "section_color_scheme": "background-1",
+        "full_desktop_width": false,
+        "content_layout": "no-overlap",
+        "desktop_media_width": 50,
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_full_media_width": false,
+        "mobile_direction": "normal",
+        "mobile_image_quanlity": "2",
+        "mobile_content_alignment": "left",
+        "mobile_padding_top": 0,
+        "mobile_padding_bottom": 16,
+        "desktop_padding_top": 36,
+        "desktop_padding_bottom": 36,
+        "custom_colors_background": "#2e2a39",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#ffffff",
+        "custom_colors_solid_button_background": "#dd1d1d",
+        "custom_colors_solid_button_text": "#ffffff",
+        "custom_colors_outline_button": "#dd1d1d",
+        "custom_section_colors_background": "#ffffff",
+        "custom_section_gradient_background": ""
+      }
+    },
+    "icon_bar_9RgTTV": {
+      "type": "icon-bar",
+      "blocks": {
+        "column_wJW88q": {
+          "type": "column",
+          "settings": {
+            "icon": "battery_full",
+            "filled_icon": false,
+            "title": "Up to 12h Battery Life",
+            "text": "<p></p><p></p>"
+          }
+        },
+        "column_6k6EPq": {
+          "type": "column",
+          "settings": {
+            "icon": "sports_esports",
+            "filled_icon": false,
+            "title": "15,000+ Retro Games",
+            "text": ""
+          }
+        },
+        "column_gDMjpH": {
+          "type": "column",
+          "settings": {
+            "icon": "group",
+            "filled_icon": false,
+            "title": "Multiplayer Ready",
+            "text": ""
+          }
+        },
+        "column_eD7GVL": {
+          "type": "column",
+          "settings": {
+            "icon": "cloud_download",
+            "filled_icon": false,
+            "title": "Compact Design",
+            "text": ""
+          }
+        },
+        "column_LTTHYR": {
+          "type": "column",
+          "settings": {
+            "icon": "cloud_download",
+            "filled_icon": false,
+            "title": "Storage up to 256GB",
+            "text": "<p></p><p></p>"
+          }
+        },
+        "column_i897MQ": {
+          "type": "column",
+          "settings": {
+            "icon": "language",
+            "filled_icon": false,
+            "title": "Multilingual",
+            "text": "<p></p><p></p>"
+          }
+        },
+        "column_XHfA6M": {
+          "type": "column",
+          "settings": {
+            "icon": "hd",
+            "filled_icon": false,
+            "title": "HD 3.5” IPS Screen",
+            "text": "<p></p><p></p>"
+          }
+        },
+        "column_9pFxG4": {
+          "type": "column",
+          "settings": {
+            "icon": "headphones",
+            "filled_icon": false,
+            "title": "Headphone Jack + Audio Out",
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_wJW88q",
+        "column_6k6EPq",
+        "column_gDMjpH",
+        "column_eD7GVL",
+        "column_LTTHYR",
+        "column_i897MQ",
+        "column_XHfA6M",
+        "column_9pFxG4"
+      ],
+      "name": "Icon Bar",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "title": "",
+        "title_highlight_color": "#6d388b",
+        "heading_size": "h1",
+        "text": "",
+        "color_scheme": "background-1",
+        "icon_layout": "vertical",
+        "icon_size": "medium",
+        "icon_color": "accent-1",
+        "cards_color_scheme": "background-1",
+        "type": "slide",
+        "autoplay": false,
+        "autoplay_speed": 5,
+        "arrows_color_scheme": "inverse",
+        "transparent_arrows": true,
+        "dots_color_scheme": "inverse",
+        "desktop_full_page": true,
+        "columns_desktop": 4,
+        "slider_desktop": false,
+        "per_move_desktop": 1,
+        "desktop_spacing": 8,
+        "desktop_side_padding": 0,
+        "desktop_padding_calc": true,
+        "desktop_adaptive_height": false,
+        "desktop_dots_position": "under",
+        "desktop_arrows_position": "sides",
+        "columns_mobile": "2",
+        "slider_mobile": false,
+        "enable_mobile_preview": false,
+        "mobile_adaptive_height": true,
+        "mobile_dots_position": "hidden",
+        "mobile_arrows_position": "hidden",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "custom_colors_background": "#ffffff",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#2e2a39",
+        "custom_cards_colors_background": "#f3f3f3",
+        "custom_cards_gradient_background": "",
+        "custom_cards_colors_text": "#2e2a39"
+      }
+    },
+    "image_with_text_6CYWfp": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_mXKHXn": {
+          "type": "heading",
+          "settings": {
+            "title": "Play Together.Trade Together.",
+            "title_highlight_color": "#6d388b",
+            "heading_size": "h2"
+          }
+        },
+        "text_DdqLta": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair two GameLabs and jump into head-to-head fun, racing, fighters, party chaos.</p><p>When you want evolutions and swaps, add the Wi-Fi dongle, connect both consoles to the same home network, and trade in supported titles.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_mXKHXn",
+        "text_DdqLta"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "video": "shopify://files/videos/Design sans titre (2).mp4",
+        "video_autoplay": true,
+        "video_loop": true,
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "section_color_scheme": "background-1",
+        "full_desktop_width": false,
+        "content_layout": "no-overlap",
+        "desktop_media_width": 50,
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_full_media_width": false,
+        "mobile_direction": "normal",
+        "mobile_image_quanlity": "2",
+        "mobile_content_alignment": "left",
+        "mobile_padding_top": 0,
+        "mobile_padding_bottom": 16,
+        "desktop_padding_top": 36,
+        "desktop_padding_bottom": 36,
+        "custom_colors_background": "#2e2a39",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#ffffff",
+        "custom_colors_solid_button_background": "#dd1d1d",
+        "custom_colors_solid_button_text": "#ffffff",
+        "custom_colors_outline_button": "#dd1d1d",
+        "custom_section_colors_background": "#ffffff",
+        "custom_section_gradient_background": ""
+      }
+    },
+    "horizontal_ticker_dAyQnU": {
+      "type": "horizontal-ticker",
+      "blocks": {
+        "image_FtLrjw": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/22_56244901-660d-446e-971b-f9db84d63060.webp"
+          }
+        },
+        "image_NME3gB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/19_e16dca14-fc3b-486d-9841-00e3cf78bcfd.webp"
+          }
+        },
+        "image_daCzf9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/23_1920c520-4822-4f73-a032-805a209eceb0.webp"
+          }
+        },
+        "image_VGmpin": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/18_f7090f5c-95f0-497b-ae41-880bc238bfbd.webp"
+          }
+        },
+        "image_QmUNrj": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/20_b502f183-6ec7-4d72-aac9-016cc4773aa4.webp"
+          }
+        },
+        "image_6DtnRx": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/17_64c3bc50-adaf-4447-8849-f7cbcffe4d58.webp"
+          }
+        },
+        "image_QLmz9q": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/16_2bb19407-932a-475a-866a-937c37e4ee76.webp"
+          }
+        },
+        "image_B3Ajpa": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/GAMELAB_PRODUCT_IMG_7.webp"
+          }
+        },
+        "image_tGebpn": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/21_197b24c5-d40d-4b54-8b58-9f420ce9677e.webp"
+          }
+        }
+      },
+      "block_order": [
+        "image_FtLrjw",
+        "image_NME3gB",
+        "image_daCzf9",
+        "image_VGmpin",
+        "image_QmUNrj",
+        "image_6DtnRx",
+        "image_QLmz9q",
+        "image_B3Ajpa",
+        "image_tGebpn"
+      ],
+      "name": "Horizontal Ticker",
+      "settings": {
+        "visibility": "always-display",
+        "speed": 5,
+        "direction": "normal",
+        "stop_on_hover": false,
+        "mobile_spacing": 16,
+        "desktop_spacing": 16,
+        "color_scheme": "background-1",
+        "mobile_text_size": 16,
+        "desktop_text_size": 18,
+        "italic_text": false,
+        "uppercase_text": false,
+        "bold_text": false,
+        "mobile_image_height": 39,
+        "desktop_image_height": 57,
+        "mobile_reviews_width": 300,
+        "desktop_reviews_width": 400,
+        "hidden_products": "",
+        "enable_specific_display": false,
+        "displayed_products": "",
+        "mobile_padding_top": 12,
+        "mobile_padding_bottom": 12,
+        "desktop_padding_top": 16,
+        "desktop_padding_bottom": 16,
+        "custom_colors_background": "#ffffff",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#2e2a39"
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "disabled": true,
+      "settings": {
+        "display_id": false,
+        "title": "You may also like",
+        "title_highlight_color": "#6d388b",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 24
+      }
+    },
+    "trustpilot_reviews_zrTYKn": {
+      "type": "trustpilot-reviews",
+      "name": "Trustpilot reviews",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "color_scheme": "background-1",
+        "desktop_content_position": "above",
+        "desktop_content_alignment": "center",
+        "title": "Trustpilot reviews",
+        "title_highlight_color": "#6d388b",
+        "heading_size": "h1",
+        "subtitle": "Excellent [rating] <strong>/ 5</strong> [rating_stars]",
+        "subheading_rating_text": "<strong>4.8</strong>",
+        "subheading_mobile_text_size": 18,
+        "subheading_desktop_text_size": 20,
+        "subheading_font": "body",
+        "star_color": "#00b67a",
+        "bg_star_color": "#c8c8c8",
+        "star_symbol_color": "#ffffff",
+        "stars_rating": 5,
+        "text": "",
+        "cards_border_radius": 16,
+        "card_alignment": "center",
+        "show_stars": true,
+        "cards_color_scheme": "background-2",
+        "type": "slide",
+        "autoplay": false,
+        "autoplay_speed": 5,
+        "arrows_color_scheme": "inverse",
+        "transparent_arrows": true,
+        "dots_color_scheme": "inverse",
+        "desktop_full_page": false,
+        "columns_desktop": 3,
+        "slider_desktop": false,
+        "per_move_desktop": 1,
+        "desktop_spacing": 24,
+        "desktop_side_padding": 0,
+        "desktop_padding_calc": true,
+        "desktop_adaptive_height": false,
+        "desktop_dots_position": "hidden",
+        "desktop_arrows_position": "hidden",
+        "slider_mobile": true,
+        "enable_mobile_preview": false,
+        "mobile_adaptive_height": false,
+        "mobile_dots_position": "hidden",
+        "mobile_arrows_position": "hidden",
+        "padding_top": 36,
+        "padding_bottom": 0,
+        "custom_colors_background": "#ffffff",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#2e2a39",
+        "custom_cards_colors_background": "#f3f3f3",
+        "custom_cards_gradient_background": "",
+        "custom_cards_colors_text": "#2e2a39"
+      }
+    },
+    "image_banner_Vxq4af": {
+      "type": "image-banner",
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "image": "shopify://shop_images/Purple_and_Pink_Retro_Pixel_Game_Night_Presentation_1.png",
+        "image_1_visibility": "mobile-hidden",
+        "image_2": "shopify://shop_images/TRUSTPILOT_2.png",
+        "image_2_visibility": "desktop-hidden",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "url": "",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "transparent_container_color": "white",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "image_banner_TybM6b": {
+      "type": "image-banner",
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "image": "shopify://shop_images/Mode_d_utilisation.webp",
+        "image_1_visibility": "mobile-hidden",
+        "image_2": "shopify://shop_images/Mode_d_utilisation.webp",
+        "image_2_visibility": "desktop-hidden",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "url": "",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "transparent_container_color": "white",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "bundle_deals_7C6LbA": {
+      "type": "bundle-deals",
+      "blocks": {
+        "product_UHNUz6": {
+          "type": "product",
+          "settings": {
+            "product": "game-bro™-console-copie",
+            "percentage_discount": "0",
+            "fixed_amount_discount": "0",
+            "required": false
+          }
+        }
+      },
+      "block_order": [
+        "product_UHNUz6"
+      ],
+      "name": "Bundle deals",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "title": "<strong>All-In-One Bundle</strong>",
+        "title_highlight_color": "#ffffff",
+        "heading_size": "h1",
+        "text": "<p><strong>5 essentials, 1 unbeatable price. Save €29 and start gaming instantly.</strong></p>",
+        "color_scheme": "background-1",
+        "layout": "horizontal-images-left",
+        "enable_price_changes": true,
+        "skip_unavailable": false,
+        "prices_under": true,
+        "skip_cart": false,
+        "total_price_label": "Total Price :",
+        "btn_label": "Add selected to cart",
+        "percentage_discount": "0",
+        "fixed_amount_discount": "20",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "custom_colors_background": "#ffffff",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#2e2a39",
+        "custom_colors_accent": "#dd1d1d",
+        "custom_colors_solid_button_background": "#dd1d1d",
+        "custom_colors_solid_button_text": "#ffffff"
+      }
+    },
+    "featured_collection_EREwVc": {
+      "type": "featured-collection",
+      "name": "t:sections.featured-collection.presets.name",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "title": "Same Experience. In Stock.",
+        "title_highlight_color": "#6d388b",
+        "heading_size": "h1",
+        "description": "<p>While this one is sold out, the <strong>Game-bro™ Console</strong> offers the same performance, design, and game library — available right now.</p>",
+        "show_description": false,
+        "description_style": "body",
+        "color_scheme": "background-1",
+        "collection": "cc",
+        "products_to_show": 2,
+        "stretch_cards": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "cards_color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "badges": "custom",
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "swatches_option_name": "",
+        "swatches_position": "top",
+        "swatches_desktop_size": 36,
+        "swatches_mobile_size": 24,
+        "type": "slide",
+        "autoplay": false,
+        "autoplay_speed": 5,
+        "arrows_color_scheme": "inverse",
+        "transparent_arrows": true,
+        "dots_color_scheme": "inverse",
+        "desktop_full_page": false,
+        "columns_desktop": 1,
+        "slider_desktop": false,
+        "per_move_desktop": 1,
+        "desktop_spacing": 0,
+        "desktop_side_padding": 0,
+        "desktop_padding_calc": true,
+        "desktop_adaptive_height": true,
+        "desktop_dots_position": "hidden",
+        "desktop_arrows_position": "hidden",
+        "columns_mobile": "1",
+        "slider_mobile": true,
+        "enable_mobile_preview": false,
+        "mobile_adaptive_height": false,
+        "mobile_dots_position": "under",
+        "mobile_arrows_position": "under",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "custom_colors_background": "#ffffff",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#2e2a39",
+        "custom_colors_solid_button_background": "#dd1d1d",
+        "custom_colors_solid_button_text": "#ffffff"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "custom_liquid_Rz8DiE",
+    "horizontal_ticker_9qycyU",
+    "image_with_text_g6mKVa",
+    "icon_bar_9RgTTV",
+    "image_with_text_6CYWfp",
+    "horizontal_ticker_dAyQnU",
+    "related-products",
+    "trustpilot_reviews_zrTYKn",
+    "image_banner_Vxq4af",
+    "image_banner_TybM6b",
+    "bundle_deals_7C6LbA",
+    "featured_collection_EREwVc"
+  ]
+}
