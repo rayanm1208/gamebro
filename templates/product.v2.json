@@ -99,6 +99,7 @@
         },
         "urgency_QcyybV": {
           "type": "urgency",
+          "disabled": true,
           "settings": {
             "urgency": "👾 Halloween Offers — Play in the Dark",
             "color_scheme": "background-2",
