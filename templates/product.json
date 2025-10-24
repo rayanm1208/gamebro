@@ -99,9 +99,8 @@
         },
         "urgency_QcyybV": {
           "type": "urgency",
-          "disabled": true,
           "settings": {
-            "urgency": "SOLD OUT",
+            "urgency": "Hallow",
             "color_scheme": "background-2",
             "margin_top": 0,
             "margin_bottom": 15
@@ -109,7 +108,6 @@
         },
         "04ba004e-2f54-4936-8b1c-8bcadf6573f6": {
           "type": "quantity_selector",
-          "disabled": true,
           "settings": {
             "full_width_classic": false,
             "atc_append": "none",
@@ -198,7 +196,6 @@
         },
         "product_upsell_mpi3Jt": {
           "type": "product_upsell",
-          "disabled": true,
           "settings": {
             "style": "toggle_switch",
             "btn_position": "right",
@@ -270,7 +267,6 @@
         },
         "payment_badges_cpwxwi": {
           "type": "payment_badges",
-          "disabled": true,
           "settings": {
             "enabled_payment_types": "stripe, apple_pay, visa, paypal, google_pay,american_express, klarna, master, bitcoin",
             "margin_top": 0,
@@ -317,7 +313,6 @@
         },
         "e0a0b690-50df-4ca4-acfd-ce2980696cce": {
           "type": "shipping_checkpoints",
-          "disabled": true,
           "settings": {
             "icon_1": "add_shopping_cart",
             "filled_icon_1": false,
@@ -351,7 +346,6 @@
         },
         "description": {
           "type": "description",
-          "disabled": true,
           "settings": {
             "margin_top": 24,
             "margin_bottom": 24
@@ -359,7 +353,6 @@
         },
         "de158e68-5d0d-4819-a625-e2dabdff87d1": {
           "type": "collapsible_tab",
-          "disabled": true,
           "settings": {
             "heading": "Features & Performance",
             "heading_size": "small",
@@ -376,7 +369,6 @@
         },
         "collapsible_tab_kzyAEq": {
           "type": "collapsible_tab",
-          "disabled": true,
           "settings": {
             "heading": "Play Together & Trading",
             "heading_size": "small",
@@ -393,7 +385,6 @@
         },
         "collapsible_tab_gjAhtp": {
           "type": "collapsible_tab",
-          "disabled": true,
           "settings": {
             "heading": "1-Year Warranty",
             "heading_size": "medium",
@@ -410,7 +401,6 @@
         },
         "collapsible_tab_yKa4At": {
           "type": "collapsible_tab",
-          "disabled": true,
           "settings": {
             "heading": "Console Specs",
             "heading_size": "small",
@@ -427,7 +417,6 @@
         },
         "reviews_8UgFbe": {
           "type": "reviews",
-          "disabled": true,
           "settings": {
             "color_scheme": "background-1",
             "show_custom_bg": false,
