@@ -149,7 +149,7 @@
             "option_1_benefit_position": "top",
             "option_1_benefit_style": "outlined",
             "option_1_benefit_color": "accent-1",
-            "option_1_caption": "",
+            "option_1_caption": "You save [amount_saved]",
             "option_1_percentage_off_text": "30",
             "option_1_fixed_amount_off": "",
             "option_1_price_text": "[price]",
