@@ -154,7 +154,7 @@
             "option_1_fixed_amount_off": "",
             "option_1_price_text": "[price]",
             "option_1_compare_price": "compare_price",
-            "option_1_compare_price_text": "",
+            "option_1_compare_price_text": "[compare_price]",
             "option_2_quantity": 2,
             "option_2_badge": "MOST POPULAR",
             "option_2_badge_style": "1",
