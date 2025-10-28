@@ -372,7 +372,7 @@
         "heading_size": "h2",
         "gray_logos": false,
         "color_scheme": "background-1",
-        "layout": "horizontal",
+        "layout": "vertical",
         "desktop_logo_height": 40,
         "columns_mobile": 1,
         "mobile_logo_height": 50,
@@ -1014,15 +1014,15 @@
         "padding_bottom": 12
       }
     },
-    "custom_liquid_44YUJf": {
+    "custom_liquid_z8Dhi8": {
       "type": "custom-liquid",
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
         "display_id": false,
         "visibility": "always-display",
-        "custom_liquid": "<div class=\"faq-section\">\n  <h2 class=\"faq-title\">Frequently Asked Questions</h2>\n\n  <div class=\"faq-item\">\n    <button class=\"faq-question\" onclick=\"this.classList.toggle('active'); this.nextElementSibling.classList.toggle('show');\">\n      What is Game-bro?\n      <span class=\"faq-toggle\">+</span>\n    </button>\n    <div class=\"faq-answer\">\n      <p>Game-bro is a portable retro gaming console preloaded with 15,000+ classic games from PlayStation, Nintendo, SEGA, and more. No internet required — just turn it on and play!</p>\n    </div>\n  </div>\n\n  <div class=\"faq-item\">\n    <button class=\"faq-question\" onclick=\"this.classList.toggle('active'); this.nextElementSibling.classList.toggle('show');\">\n      Do I need Wi-Fi to play ?\n      <span class=\"faq-toggle\">+</span>\n    </button>\n    <div class=\"faq-answer\">\n      <p>Nope! Gamelab works 100% offline. All games are pre-installed and ready to go. You can even add new games without internet.</p>\n    </div>\n  </div>\n\n  <div class=\"faq-item\">\n    <button class=\"faq-question\" onclick=\"this.classList.toggle('active'); this.nextElementSibling.classList.toggle('show');\">\n      How long does the battery last ?\n      <span class=\"faq-toggle\">+</span>\n    </button>\n    <div class=\"faq-answer\">\n      <p>The battery lasts up to 6–8 hours on a single charge, depending on usage. Perfect for long trips, commutes, or cozy nights in.</p>\n    </div>\n  </div>\n\n  <div class=\"faq-item\">\n    <button class=\"faq-question\" onclick=\"this.classList.toggle('active'); this.nextElementSibling.classList.toggle('show');\">\n      Can I connect it to a TV ?\n      <span class=\"faq-toggle\">+</span>\n    </button>\n    <div class=\"faq-answer\">\n      <p>Yes! Gamelab supports TV output with the included cable. Plug it in and enjoy your favorite classics on the big screen.</p>\n    </div>\n  </div>\n\n  <div class=\"faq-item\">\n    <button class=\"faq-question\" onclick=\"this.classList.toggle('active'); this.nextElementSibling.classList.toggle('show');\">\n      What if I’m not satisfied?\n      <span class=\"faq-toggle\">+</span>\n    </button>\n    <div class=\"faq-answer\">\n      <p>No worries — we offer a 30-day money-back guarantee. If you're not happy, just contact us and we'll make it right.</p>\n    </div>\n  </div>\n</div>\n\n<style>\n.faq-section {\n  max-width: 800px;\n  margin: 10px auto;\n  padding: 10px;\n  color: white;\n  font-family: 'Inria Serif', serif;\n}\n.faq-title {\n  text-align: center;\n  font-size: 1.7rem;\n  margin: 5px 0 15px 0;\n  font-weight: 700;\n}\n.faq-item {\n  margin-bottom: 10px;\n}\n.faq-question {\n  width: 100%;\n  background: none;\n  border: 1px solid white;\n  border-radius: 6px;\n  padding: 12px;\n  text-align: left;\n  font-weight: 600;\n  font-family: 'Inria Serif', serif;\n  cursor: pointer;\n  position: relative;\n  color: white;\n  transition: background 0.2s ease;\n}\n.faq-question:hover {\n  background-color: rgba(255, 255, 255, 0.1);\n}\n.faq-toggle {\n  position: absolute;\n  right: 16px;\n  top: 50%;\n  transform: translateY(-50%);\n}\n.faq-answer {\n  max-height: 0;\n  overflow: hidden;\n  transition: max-height 0.3s ease, padding 0.3s ease;\n  padding: 0 10px;\n  color: white;\n  font-family: 'Inria Serif', serif;\n}\n.faq-answer.show {\n  max-height: 300px;\n  padding-top: 6px;\n}\n</style>",
+        "custom_liquid": "<div style=\"background:#000000; border:1px solid #3A0CA3;\n            border-radius:12px; padding:25px 15px; text-align:center;\n            font-family:'Poppins', sans-serif; color:#fff; \n            max-width:600px; margin:20px auto;\">\n\n  <!-- Logo Instagram HD -->\n  <img src=\"https://upload.wikimedia.org/wikipedia/commons/e/e7/Instagram_logo_2016.svg\"\n       alt=\"Instagram Logo\" width=\"36\" height=\"36\"\n       style=\"margin-bottom:10px; border-radius:8px;\">\n\n  <p style=\"font-size:16px; font-weight:400; margin:0 0 18px 0; line-height:1.5;\">\n    <span style=\"color:#FFB703; font-weight:600;\">Follow</span> us for exclusive drops & nostalgia hits →\n  </p>\n\n  <a href=\"https://www.instagram.com/gamebro.official/\" target=\"_blank\"\n     style=\"display:inline-block; background:linear-gradient(90deg, #8A3FFC, #E1306C);\n            color:#fff; font-weight:700; font-size:15px;\n            text-decoration:none; padding:10px 24px; \n            border-radius:10px; transition:0.3s ease;\">\n    @gamebro.official\n  </a>\n</div>",
         "color_scheme": "background-1",
-        "padding_top": 24,
+        "padding_top": 12,
         "padding_bottom": 0
       }
     },
@@ -1061,7 +1061,7 @@
     "horizontal_ticker_mUJeWk",
     "image_with_text_QXYrt9",
     "featured_product_pnggAP",
-    "custom_liquid_44YUJf",
+    "custom_liquid_z8Dhi8",
     "image_banner_jeLfxk"
   ]
 }
