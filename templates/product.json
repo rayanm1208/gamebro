@@ -56,7 +56,7 @@
         "price": {
           "type": "price",
           "settings": {
-            "layout": "price_second",
+            "layout": "price_first",
             "price_color": "accent-2",
             "compare_price_color": "text",
             "displayed_badge": "custom",
@@ -67,33 +67,6 @@
             "icon_2": "check_circle",
             "filled_icon_2": false,
             "margin_top": 9,
-            "margin_bottom": 15
-          }
-        },
-        "clickable_discount_Ed77wC": {
-          "type": "clickable_discount",
-          "settings": {
-            "discount_code": "30",
-            "mobile_text_size": 14,
-            "desktop_text_size": 16,
-            "alignment": "left",
-            "icon_scale": 110,
-            "enable_bg": false,
-            "corner_radius": 40,
-            "padding": 3,
-            "text_1": "<strong>Click to apply a discount</strong>",
-            "text_color_1": "#449502",
-            "icon_1": "sell",
-            "filled_icon_1": true,
-            "icon_color_1": "#449502",
-            "bg_color_1": "#f3f3f3",
-            "text_2": "<strong>A 30% discount will be applied at checkout!</strong>",
-            "text_color_2": "#449502",
-            "icon_2": "sell",
-            "filled_icon_2": true,
-            "icon_color_2": "#449502",
-            "bg_color_2": "#f3f3f3",
-            "margin_top": 15,
             "margin_bottom": 15
           }
         },
@@ -478,7 +451,6 @@
         "trustpilot_stars_fcfiw7",
         "a6eb81db-40e4-43e0-972f-32db010a4a56",
         "price",
-        "clickable_discount_Ed77wC",
         "variant_picker_DEWbrQ",
         "urgency_QcyybV",
         "04ba004e-2f54-4936-8b1c-8bcadf6573f6",
