@@ -55,6 +55,7 @@
         },
         "price": {
           "type": "price",
+          "disabled": true,
           "settings": {
             "layout": "price_second",
             "price_color": "accent-2",
@@ -93,8 +94,8 @@
             "breaks_captions": "Variant 1 caption, Variant 2 caption, Variant 3 caption",
             "breaks_price_texts": "[price], [price], [price]",
             "breaks_compare_price_texts": "[compare_price], [compare_price], [compare_price]",
-            "margin_top": 15,
-            "margin_bottom": 15
+            "margin_top": 0,
+            "margin_bottom": 0
           }
         },
         "urgency_QcyybV": {
