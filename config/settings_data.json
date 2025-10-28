@@ -307,10 +307,10 @@
               "enable_goal_1": true,
               "goal_1_label": "Free Shipping",
               "goal_1_text": "FREE shipping",
-              "goal_1_amount": 50,
+              "goal_1_amount": 41,
               "goal_1_icon": "local_shipping",
               "goal_1_icon_filled": false,
-              "enable_goal_2": true,
+              "enable_goal_2": false,
               "goal_2_label": "20% OFF",
               "goal_2_text": "a 20% discount",
               "goal_2_amount": 73,
@@ -564,7 +564,7 @@
           "product_upsells_xi9TWk"
         ],
         "settings": {
-          "test_mode": false,
+          "test_mode": true,
           "heading_text": "",
           "heading_alignment": "flex-start",
           "desktop_width": "normal",
