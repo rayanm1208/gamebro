@@ -146,7 +146,7 @@
             "option_1_image": "shopify://shop_images/51_4815acd7-57d7-4508-910c-50e2ed8800db.webp",
             "option_1_label": "Single Console",
             "option_1_benefit": "",
-            "option_1_benefit_position": "top",
+            "option_1_benefit_position": "bottom",
             "option_1_benefit_style": "outlined",
             "option_1_benefit_color": "accent-1",
             "option_1_caption": "You save [amount_saved]",
