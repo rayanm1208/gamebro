@@ -1060,6 +1060,18 @@
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
+    },
+    "custom_liquid_p3PFDj": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "custom_liquid": "<!-- POP-UP CONTAINER -->\n<div id=\"promo-popup\" \n     style=\"position: fixed; top: 0; left: 0; width: 100%; height: 100%;\n            background: rgba(0, 0, 0, 0.7); display: flex; justify-content: center; \n            align-items: center; z-index: 9999; visibility: hidden; opacity: 0; \n            transition: opacity 0.4s ease, visibility 0.4s ease;\">\n  \n  <!-- POP-UP BOX -->\n  <div style=\"background:linear-gradient(180deg, #3A0CA3, #7209B7); color:#fff;\n              font-family:Poppins, sans-serif; border-radius:14px; text-align:center;\n              padding:30px 25px; max-width:380px; width:90%; position:relative;\n              box-shadow:0 0 25px rgba(255, 255, 255, 0.15);\">\n    \n    <!-- Close Button -->\n    <button onclick=\"closePopup()\" \n            style=\"position:absolute; top:10px; right:14px; background:none; border:none; \n                   color:#fff; font-size:22px; cursor:pointer;\">✖</button>\n\n    <!-- Title -->\n    <h2 style=\"font-size:20px; font-weight:700; margin-bottom:10px;\">🎮 THE LATE HALLOWEEN SALE 🎃</h2>\n    \n    <!-- Subtitle -->\n    <p style=\"font-size:14px; margin-bottom:20px; color:#FFD166; font-weight:500;\">\n      Get <strong>30% OFF</strong> all Game-bro™ Consoles — until November 4th!\n    </p>\n\n    <!-- Countdown -->\n    <p id=\"popup-timer\" \n       style=\"font-size:16px; font-weight:700; color:#FFB703; margin-bottom:18px;\">\n      00d 00h 00m 00s\n    </p>\n\n    <!-- CTA Button -->\n    <a href=\"https://game-bro.com/products/game-bro-console\" \n       style=\"background:#FFB703; color:#000; font-weight:700; text-decoration:none; \n              padding:10px 25px; border-radius:8px; display:inline-block;\">\n      Shop Now →\n    </a>\n  </div>\n</div>\n\n<!-- SCRIPT -->\n<script>\n  // TIMER FUNCTION\n  function updatePopupTimer() {\n    const endDate = new Date(\"2025-11-04T23:59:59\").getTime();\n    const now = new Date().getTime();\n    const distance = endDate - now;\n\n    if (distance <= 0) {\n      document.getElementById(\"popup-timer\").innerHTML = \"SALE ENDED 👻\";\n      return;\n    }\n\n    const days = Math.floor(distance / (1000 * 60 * 60 * 24));\n    const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));\n    const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));\n    const seconds = Math.floor((distance % (1000 * 60)) / 1000);\n    document.getElementById(\"popup-timer\").innerHTML =\n      `${days}d ${hours}h ${minutes}m ${seconds}s`;\n  }\n\n  // POP-UP VISIBILITY\n  function showPopup() {\n    const popup = document.getElementById(\"promo-popup\");\n    popup.style.visibility = \"visible\";\n    popup.style.opacity = \"1\";\n  }\n\n  function closePopup() {\n    const popup = document.getElementById(\"promo-popup\");\n    popup.style.opacity = \"0\";\n    popup.style.visibility = \"hidden\";\n  }\n\n  // SHOW POP-UP after 4 seconds\n  setTimeout(showPopup, 4000);\n  setInterval(updatePopupTimer, 1000);\n</script>",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -1075,6 +1087,7 @@
     "featured_product_pnggAP",
     "custom_liquid_z8Dhi8",
     "custom_liquid_4CjUyk",
-    "image_banner_jeLfxk"
+    "image_banner_jeLfxk",
+    "custom_liquid_p3PFDj"
   ]
 }
