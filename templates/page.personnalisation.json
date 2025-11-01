@@ -16,18 +16,6 @@
         "padding_bottom": 36
       }
     },
-    "custom_liquid_pjtmhi": {
-      "type": "custom-liquid",
-      "name": "t:sections.custom-liquid.presets.name",
-      "settings": {
-        "display_id": false,
-        "visibility": "always-display",
-        "custom_liquid": "<div style=\"text-align:center; font-family:Poppins, sans-serif; color:#fff;\">\n  <h2>🎨 Customize your Game-bro™</h2>\n  <p style=\"color:#bbb;\">Upload your flag, logo, or pattern — preview it live, perfectly wrapped around your console!</p>\n\n  <!-- Zone de preview -->\n  <div style=\"position:relative; display:inline-block; perspective:800px;\">\n    \n    <!-- Image uploadée avec effet 3D -->\n    <img id=\"custom-design\" src=\"\" \n         style=\"width:320px; height:auto; position:absolute; top:0; left:0; opacity:0.8;\n                filter:brightness(0.9) saturate(1.1); border-radius:20px;\n                transform:rotateX(18deg) rotateY(-10deg) scale(1.03);\n                object-fit:cover; clip-path:polygon(5% 15%, 95% 15%, 95% 95%, 5% 95%);\n                display:none;\">\n\n    <!-- Base de la Game-bro -->\n    <img id=\"gamebro-base\" \n         src=\"{{ 'gamebro_transparent.png' | file_url }}\" \n         style=\"width:320px; height:auto; position:relative; z-index:2;\">\n  </div>\n\n  <!-- Upload -->\n  <div style=\"margin-top:20px;\">\n    <input type=\"file\" id=\"upload\" accept=\"image/*\"\n           style=\"background:#111; border:1px solid #555; padding:10px; border-radius:8px; color:#ccc;\">\n  </div>\n\n  <!-- CTA -->\n  <button style=\"margin-top:20px; background:linear-gradient(90deg,#8A3FFC,#E1306C);\n                 color:#fff; padding:12px 30px; border:none; border-radius:10px; \n                 font-weight:600; cursor:pointer;\">\n    Add to cart\n  </button>\n</div>\n\n<script>\n  const input = document.getElementById('upload');\n  const design = document.getElementById('custom-design');\n\n  input.addEventListener('change', e => {\n    const file = e.target.files[0];\n    if (!file) return;\n\n    const reader = new FileReader();\n    reader.onload = function(event) {\n      design.src = event.target.result;\n      design.style.display = 'block';\n    };\n    reader.readAsDataURL(file);\n  });\n</script>",
-        "color_scheme": "background-1",
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
     "newsletter": {
       "type": "newsletter",
       "blocks": {
@@ -75,7 +63,6 @@
   },
   "order": [
     "main",
-    "custom_liquid_pjtmhi",
     "newsletter"
   ]
 }
