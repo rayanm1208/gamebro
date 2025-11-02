@@ -1019,7 +1019,7 @@
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
         "display_id": false,
-        "visibility": "always-display",
+        "visibility": "desktop-hidden",
         "custom_liquid": "",
         "color_scheme": "background-1",
         "padding_top": 0,
