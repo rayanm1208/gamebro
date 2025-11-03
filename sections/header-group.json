@@ -11,13 +11,13 @@
   "name": "t:sections.header.name",
   "type": "header",
   "sections": {
-    "custom_liquid_dyykHP": {
+    "custom_liquid_w6rahE": {
       "type": "custom-liquid",
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
         "display_id": false,
         "visibility": "always-display",
-        "custom_liquid": "<div id=\"late-halloween-timer\" \n     style=\"background:linear-gradient(90deg, #3A0CA3, #7209B7); \n            color:#fff; font-family:Poppins, sans-serif; text-align:center; \n            padding:6px 0; font-size:11.5px; font-weight:600; \n            letter-spacing:0.3px; line-height:1.2; width:100%;\">\n  🎃 <span style=\"font-weight:700;\">THE LATE HALLOWEEN SALE</span> — Ends in \n  <span id=\"countdown\" style=\"font-weight:800; color:#FFB703;\">loading...</span> ⏰\n</div>\n\n<script>\n(function() {\n  // 👇 Date de fin : 4 novembre 2025 à 23h59 heure France\n  // On calcule la différence à partir de la date locale du visiteur + décalage CET (+1h)\n  const endDate = new Date(2025, 10, 4, 23, 59, 59); // 10 = novembre\n  const offsetHours = 1; // Décalage France (CET)\n\n  function updateCountdown() {\n    const now = new Date();\n    const distance = endDate.getTime() - now.getTime() + (offsetHours * 60 * 60 * 1000);\n\n    if (distance <= 0) {\n      document.getElementById(\"late-halloween-timer\").innerHTML =\n        \"👻 <strong>THE LATE HALLOWEEN SALE HAS ENDED</strong> 🎮\";\n      return;\n    }\n\n    const days = Math.floor(distance / (1000 * 60 * 60 * 24));\n    const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));\n    const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));\n    const seconds = Math.floor((distance % (1000 * 60)) / 1000);\n\n    const countdown = `${days}d ${hours}h ${minutes}m ${seconds}s`;\n    document.getElementById(\"countdown\").textContent = countdown;\n  }\n\n  updateCountdown();\n  setInterval(updateCountdown, 1000);\n})();\n</script>",
+        "custom_liquid": "<!-- 🎃 HALLOWEEN LATE SALE BAR -->\n<div id=\"late-halloween-bar\"\n     style=\"background:linear-gradient(90deg, #3A0CA3, #7209B7); \n            color:#fff; font-family:Poppins, sans-serif; text-align:center; \n            font-size:13px; font-weight:600; letter-spacing:0.3px;\n            padding:6px 0; display:flex; justify-content:center; align-items:center;\n            flex-wrap:wrap; gap:6px; line-height:1.4;\">\n  \n  👻 <span style=\"font-weight:700;\">HALLOWEEN LATE SALE:</span> \n  <span style=\"color:#FFB703; font-weight:700;\">30% OFF</span> on Game-bro™ Consoles!  \n  <span style=\"opacity:0.8;\">— Ends in</span> \n  <span id=\"late-header-timer\" style=\"font-weight:800; color:#FFB703;\">00d 00h 00m 00s</span> ⏰\n</div>\n\n<script>\n  function updateLateHeaderTimer() {\n    const endDate = new Date(\"2025-11-06T23:59:59\").getTime(); // 🔥 Fin : 6 novembre à 23h59\n    const now = new Date().getTime();\n    const distance = endDate - now;\n\n    const bar = document.getElementById(\"late-halloween-bar\");\n\n    if (distance <= 0) {\n      bar.innerHTML = \"🎮 <strong>HALLOWEEN LATE SALE HAS ENDED — Stay tuned for the next drop!</strong> 🕹️\";\n      return;\n    }\n\n    const days = Math.floor(distance / (1000 * 60 * 60 * 24));\n    const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));\n    const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));\n    const seconds = Math.floor((distance % (1000 * 60)) / 1000);\n\n    document.getElementById(\"late-header-timer\").innerHTML =\n      `${days}d ${hours}h ${minutes}m ${seconds}s`;\n  }\n\n  updateLateHeaderTimer();\n  setInterval(updateLateHeaderTimer, 1000);\n</script>",
         "color_scheme": "background-1",
         "padding_top": 0,
         "padding_bottom": 0
@@ -156,7 +156,7 @@
     }
   },
   "order": [
-    "custom_liquid_dyykHP",
+    "custom_liquid_w6rahE",
     "2c2ec774-3430-481f-b927-e9c035b9d24e",
     "fe1c8c67-b84c-4466-a515-70df3134c1c0",
     "header"
