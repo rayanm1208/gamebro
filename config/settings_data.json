@@ -307,7 +307,7 @@
               "enable_goal_1": true,
               "goal_1_label": "Free Shipping",
               "goal_1_text": "FREE shipping",
-              "goal_1_amount": 46,
+              "goal_1_amount": 30,
               "goal_1_icon": "local_shipping",
               "goal_1_icon_filled": false,
               "enable_goal_2": false,
@@ -665,14 +665,7 @@
         }
       }
     },
-    "content_for_index": [],
-    "blocks": {
-      "2187360915322861293": {
-        "type": "shopify://apps/uploadly-file-upload/blocks/app-embed/d91e9a53-de3d-49df-b7a1-ac8a15b213e5",
-        "disabled": false,
-        "settings": {}
-      }
-    }
+    "content_for_index": []
   },
   "presets": {
     "Default": {
