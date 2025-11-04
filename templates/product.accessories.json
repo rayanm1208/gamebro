@@ -116,6 +116,7 @@
         },
         "04ba004e-2f54-4936-8b1c-8bcadf6573f6": {
           "type": "quantity_selector",
+          "disabled": true,
           "settings": {
             "full_width_classic": false,
             "atc_append": "none",
