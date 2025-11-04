@@ -357,6 +357,7 @@
         },
         "description": {
           "type": "description",
+          "disabled": true,
           "settings": {
             "margin_top": 24,
             "margin_bottom": 24
@@ -364,6 +365,7 @@
         },
         "de158e68-5d0d-4819-a625-e2dabdff87d1": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Features & Performance",
             "heading_size": "small",
@@ -380,6 +382,7 @@
         },
         "collapsible_tab_kzyAEq": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Play Together & Trading",
             "heading_size": "small",
@@ -396,6 +399,7 @@
         },
         "collapsible_tab_gjAhtp": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "1-Year Warranty",
             "heading_size": "medium",
@@ -412,6 +416,7 @@
         },
         "collapsible_tab_yKa4At": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Console Specs",
             "heading_size": "small",
@@ -428,6 +433,7 @@
         },
         "reviews_8UgFbe": {
           "type": "reviews",
+          "disabled": true,
           "settings": {
             "color_scheme": "background-1",
             "show_custom_bg": false,
