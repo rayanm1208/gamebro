@@ -116,14 +116,13 @@
         },
         "04ba004e-2f54-4936-8b1c-8bcadf6573f6": {
           "type": "quantity_selector",
-          "disabled": true,
           "settings": {
-            "full_width_classic": false,
+            "full_width_classic": true,
             "atc_append": "none",
             "atc_append_heights": "stretch-quantity",
-            "enable_quantity_discounts": true,
+            "enable_quantity_discounts": false,
             "style": "normal",
-            "headline": "BUNDLE & SAVE",
+            "headline": "",
             "preselected": "option_2",
             "display_selected_indicator": true,
             "border_radius": 12,
@@ -215,7 +214,7 @@
             "color_scheme": "background-1",
             "product_list": [
               "game-bro™-protective-case",
-              "game-bro™-wifi-dongle-pack"
+              "game-bro™-glass-screen-protector-copie"
             ],
             "enable_dynamic_recommendations": false,
             "prdouct_1_preselected": false,
