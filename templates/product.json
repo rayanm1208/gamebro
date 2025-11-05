@@ -1243,10 +1243,10 @@
         "custom_colors_solid_button_text": "#ffffff"
       }
     },
-    "176184160446679d10": {
+    "17623548822c6713e1": {
       "type": "apps",
       "blocks": {
-        "trustoo_io_reviews_review_widget_tGiWUP": {
+        "trustoo_io_reviews_review_widget_zc7fC4": {
           "type": "shopify://apps/trustoo-io-reviews/blocks/review-widget/c8f15077-6475-4e86-ad06-b66038d5ba2c",
           "settings": {
             "product": ""
@@ -1254,7 +1254,7 @@
         }
       },
       "block_order": [
-        "trustoo_io_reviews_review_widget_tGiWUP"
+        "trustoo_io_reviews_review_widget_zc7fC4"
       ],
       "settings": {
         "display_id": false,
@@ -1278,6 +1278,6 @@
     "image_banner_TybM6b",
     "bundle_deals_7C6LbA",
     "featured_collection_EREwVc",
-    "176184160446679d10"
+    "17623548822c6713e1"
   ]
 }
