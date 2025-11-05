@@ -1246,15 +1246,15 @@
     "17623548822c6713e1": {
       "type": "apps",
       "blocks": {
-        "trustoo_io_reviews_review_widget_zc7fC4": {
+        "trustoo_io_reviews_review_widget_BHP34B": {
           "type": "shopify://apps/trustoo-io-reviews/blocks/review-widget/c8f15077-6475-4e86-ad06-b66038d5ba2c",
           "settings": {
-            "product": ""
+            "product": "game-bro-console"
           }
         }
       },
       "block_order": [
-        "trustoo_io_reviews_review_widget_zc7fC4"
+        "trustoo_io_reviews_review_widget_BHP34B"
       ],
       "settings": {
         "display_id": false,
