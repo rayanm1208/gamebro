@@ -1476,6 +1476,18 @@
         "display_id": false,
         "include_margins": true
       }
+    },
+    "custom_liquid_JVXtg6": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "custom_liquid": "",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -1495,6 +1507,7 @@
     "image_banner_TybM6b",
     "bundle_deals_7C6LbA",
     "featured_collection_EREwVc",
-    "1762356026677aac87"
+    "1762356026677aac87",
+    "custom_liquid_JVXtg6"
   ]
 }
