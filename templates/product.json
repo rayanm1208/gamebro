@@ -1243,18 +1243,50 @@
         "custom_colors_solid_button_text": "#ffffff"
       }
     },
-    "1762355991f7799551": {
+    "1762356026677aac87": {
       "type": "apps",
       "blocks": {
-        "trustoo_io_reviews_review_widget_Fr4CxW": {
+        "trustoo_io_reviews_ai_summary_pf4BWT": {
+          "type": "shopify://apps/trustoo-io-reviews/blocks/ai-summary/c8f15077-6475-4e86-ad06-b66038d5ba2c",
+          "settings": {
+            "product": ""
+          }
+        },
+        "trustoo_io_reviews_buyers_shows_NJQJNG": {
+          "type": "shopify://apps/trustoo-io-reviews/blocks/buyers-shows/c8f15077-6475-4e86-ad06-b66038d5ba2c",
+          "settings": {}
+        },
+        "trustoo_io_reviews_card_carousel_icgjjg": {
+          "type": "shopify://apps/trustoo-io-reviews/blocks/card-carousel/c8f15077-6475-4e86-ad06-b66038d5ba2c",
+          "settings": {}
+        },
+        "trustoo_io_reviews_review_widget_ma7Aty": {
           "type": "shopify://apps/trustoo-io-reviews/blocks/review-widget/c8f15077-6475-4e86-ad06-b66038d5ba2c",
           "settings": {
             "product": ""
           }
+        },
+        "trustoo_io_reviews_photo_carousel_gLFepf": {
+          "type": "shopify://apps/trustoo-io-reviews/blocks/photo-carousel/c8f15077-6475-4e86-ad06-b66038d5ba2c",
+          "settings": {}
+        },
+        "trustoo_io_reviews_barrage_carousel_hBLCj8": {
+          "type": "shopify://apps/trustoo-io-reviews/blocks/barrage-carousel/c8f15077-6475-4e86-ad06-b66038d5ba2c",
+          "settings": {}
+        },
+        "trustoo_io_reviews_text_carousel_e7jc3B": {
+          "type": "shopify://apps/trustoo-io-reviews/blocks/text-carousel/c8f15077-6475-4e86-ad06-b66038d5ba2c",
+          "settings": {}
         }
       },
       "block_order": [
-        "trustoo_io_reviews_review_widget_Fr4CxW"
+        "trustoo_io_reviews_ai_summary_pf4BWT",
+        "trustoo_io_reviews_buyers_shows_NJQJNG",
+        "trustoo_io_reviews_card_carousel_icgjjg",
+        "trustoo_io_reviews_review_widget_ma7Aty",
+        "trustoo_io_reviews_photo_carousel_gLFepf",
+        "trustoo_io_reviews_barrage_carousel_hBLCj8",
+        "trustoo_io_reviews_text_carousel_e7jc3B"
       ],
       "settings": {
         "display_id": false,
@@ -1278,6 +1310,6 @@
     "image_banner_TybM6b",
     "bundle_deals_7C6LbA",
     "featured_collection_EREwVc",
-    "1762355991f7799551"
+    "1762356026677aac87"
   ]
 }
