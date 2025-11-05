@@ -1246,32 +1246,15 @@
     "176184160446679d10": {
       "type": "apps",
       "blocks": {
-        "trustoo_io_reviews_review_widget_n4pPYC": {
+        "trustoo_io_reviews_review_widget_tGiWUP": {
           "type": "shopify://apps/trustoo-io-reviews/blocks/review-widget/c8f15077-6475-4e86-ad06-b66038d5ba2c",
-          "settings": {
-            "product": "game-bro-console"
-          }
-        },
-        "trustoo_io_reviews_buyers_shows_mz8MM6": {
-          "type": "shopify://apps/trustoo-io-reviews/blocks/buyers-shows/c8f15077-6475-4e86-ad06-b66038d5ba2c",
-          "settings": {}
-        },
-        "trustoo_io_reviews_ai_summary_mAARNP": {
-          "type": "shopify://apps/trustoo-io-reviews/blocks/ai-summary/c8f15077-6475-4e86-ad06-b66038d5ba2c",
           "settings": {
             "product": ""
           }
-        },
-        "trustoo_io_reviews_barrage_carousel_VY3YRn": {
-          "type": "shopify://apps/trustoo-io-reviews/blocks/barrage-carousel/c8f15077-6475-4e86-ad06-b66038d5ba2c",
-          "settings": {}
         }
       },
       "block_order": [
-        "trustoo_io_reviews_review_widget_n4pPYC",
-        "trustoo_io_reviews_buyers_shows_mz8MM6",
-        "trustoo_io_reviews_ai_summary_mAARNP",
-        "trustoo_io_reviews_barrage_carousel_VY3YRn"
+        "trustoo_io_reviews_review_widget_tGiWUP"
       ],
       "settings": {
         "display_id": false,
