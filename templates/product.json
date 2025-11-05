@@ -903,6 +903,169 @@
         "custom_section_gradient_background": ""
       }
     },
+    "image_slider_wmEwLU": {
+      "type": "image-slider",
+      "blocks": {
+        "video_slide_kn6ND9": {
+          "type": "video_slide",
+          "settings": {
+            "video": "shopify://files/videos/3b5d73087ae44a24910aa79e6b7e2eb8.HD-720p-1.6Mbps-36059824.mp4",
+            "loop": true,
+            "muted_autoplay": true,
+            "display_play_btn": true,
+            "btn_animation": false,
+            "btn_color_scheme": "accent-1",
+            "display_sound_btn": false,
+            "sound_btn_color_scheme": "inverse",
+            "display_timeline": false,
+            "timeline_color": "accent-1",
+            "description": "",
+            "desc_alignment": "center",
+            "desc_color_scheme": "background-2"
+          }
+        },
+        "video_slide_dmj3HR": {
+          "type": "video_slide",
+          "settings": {
+            "video": "shopify://files/videos/b6cfdbcd321c48d8a42a9edc591f5a5b.HD-720p-1.6Mbps-36059821.mp4",
+            "loop": true,
+            "muted_autoplay": true,
+            "display_play_btn": true,
+            "btn_animation": false,
+            "btn_color_scheme": "accent-1",
+            "display_sound_btn": false,
+            "sound_btn_color_scheme": "inverse",
+            "display_timeline": false,
+            "timeline_color": "accent-1",
+            "description": "",
+            "desc_alignment": "center",
+            "desc_color_scheme": "background-2"
+          }
+        },
+        "video_slide_nJnGj3": {
+          "type": "video_slide",
+          "settings": {
+            "video": "shopify://files/videos/61bad7d8a875441ebc44fccf55b7a061.HD-720p-1.6Mbps-36059819.mp4",
+            "loop": true,
+            "muted_autoplay": true,
+            "display_play_btn": true,
+            "btn_animation": false,
+            "btn_color_scheme": "accent-1",
+            "display_sound_btn": false,
+            "sound_btn_color_scheme": "inverse",
+            "display_timeline": false,
+            "timeline_color": "accent-1",
+            "description": "",
+            "desc_alignment": "center",
+            "desc_color_scheme": "background-2"
+          }
+        },
+        "video_slide_aUpJXh": {
+          "type": "video_slide",
+          "settings": {
+            "video": "shopify://files/videos/c2d9c8951ba74ebd95ca3572a8722f58.HD-720p-1.6Mbps-36059822.mp4",
+            "loop": true,
+            "muted_autoplay": true,
+            "display_play_btn": true,
+            "btn_animation": false,
+            "btn_color_scheme": "accent-1",
+            "display_sound_btn": false,
+            "sound_btn_color_scheme": "inverse",
+            "display_timeline": false,
+            "timeline_color": "accent-1",
+            "description": "",
+            "desc_alignment": "center",
+            "desc_color_scheme": "background-2"
+          }
+        },
+        "video_slide_CwAgjd": {
+          "type": "video_slide",
+          "settings": {
+            "video": "shopify://files/videos/9fd4a65ce5c141b78d68eed399175d01.HD-720p-1.6Mbps-36059823.mp4",
+            "loop": true,
+            "muted_autoplay": true,
+            "display_play_btn": true,
+            "btn_animation": false,
+            "btn_color_scheme": "accent-1",
+            "display_sound_btn": false,
+            "sound_btn_color_scheme": "inverse",
+            "display_timeline": false,
+            "timeline_color": "accent-1",
+            "description": "",
+            "desc_alignment": "center",
+            "desc_color_scheme": "background-2"
+          }
+        },
+        "video_slide_cq8DiG": {
+          "type": "video_slide",
+          "settings": {
+            "video": "shopify://files/videos/3b5d73087ae44a24910aa79e6b7e2eb8.HD-720p-1.6Mbps-36059824.mp4",
+            "loop": true,
+            "muted_autoplay": true,
+            "display_play_btn": true,
+            "btn_animation": false,
+            "btn_color_scheme": "accent-1",
+            "display_sound_btn": false,
+            "sound_btn_color_scheme": "inverse",
+            "display_timeline": false,
+            "timeline_color": "accent-1",
+            "description": "",
+            "desc_alignment": "center",
+            "desc_color_scheme": "background-2"
+          }
+        }
+      },
+      "block_order": [
+        "video_slide_kn6ND9",
+        "video_slide_dmj3HR",
+        "video_slide_nJnGj3",
+        "video_slide_aUpJXh",
+        "video_slide_CwAgjd",
+        "video_slide_cq8DiG"
+      ],
+      "name": "Image/Video Slider",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "title": "Community Stories",
+        "title_highlight_color": "#6D388B",
+        "heading_size": "h1",
+        "color_scheme": "background-1",
+        "type": "slide",
+        "drag": "enabled",
+        "autoplay": true,
+        "autoplay_speed": 2,
+        "center_mode": false,
+        "arrows_color_scheme": "inverse",
+        "transparent_arrows": false,
+        "dots_color_scheme": "inverse",
+        "desktop_full_page": false,
+        "desktop_border_radius": 0,
+        "slides_desktop": 3,
+        "per_move_desktop": 1,
+        "desktop_spacing": 28,
+        "desktop_side_padding": 0,
+        "desktop_padding_calc": true,
+        "desktop_adaptive_height": false,
+        "desktop_dots_position": "hidden",
+        "desktop_arrows_position": "hidden",
+        "mobile_full_page": true,
+        "mobile_border_radius": 0,
+        "slides_mobile": 3,
+        "per_move_mobile": 1,
+        "mobile_spacing": 12,
+        "mobile_side_padding": 16,
+        "mobile_padding_calc": true,
+        "mobile_adaptive_height": false,
+        "mobile_dots_position": "hidden",
+        "mobile_arrows_position": "hidden",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "custom_colors_background": "#FFFFFF",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#121212"
+      }
+    },
     "horizontal_ticker_dAyQnU": {
       "type": "horizontal-ticker",
       "blocks": {
@@ -1302,6 +1465,7 @@
     "icon_bar_9RgTTV",
     "image_banner_VmhjmM",
     "image_with_text_6CYWfp",
+    "image_slider_wmEwLU",
     "horizontal_ticker_dAyQnU",
     "related-products",
     "trustpilot_reviews_zrTYKn",
