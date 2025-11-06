@@ -1052,6 +1052,7 @@
     },
     "custom_liquid_p3PFDj": {
       "type": "custom-liquid",
+      "disabled": true,
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
         "display_id": false,
