@@ -37,22 +37,6 @@
             "margin_bottom": 6
           }
         },
-        "a6eb81db-40e4-43e0-972f-32db010a4a56": {
-          "type": "rating_stars",
-          "disabled": true,
-          "settings": {
-            "rating": 4.4,
-            "star_color": "#ffcc00",
-            "bg_stars_style": "full",
-            "bg_star_color": "#ececec",
-            "label": "(xxxx Reviews)",
-            "size": 16,
-            "alignment": "flex-start",
-            "scroll_id": "",
-            "margin_top": 0,
-            "margin_bottom": 9
-          }
-        },
         "price": {
           "type": "price",
           "disabled": true,
@@ -457,7 +441,6 @@
       "block_order": [
         "title",
         "trustpilot_stars_fcfiw7",
-        "a6eb81db-40e4-43e0-972f-32db010a4a56",
         "price",
         "variant_picker_DEWbrQ",
         "urgency_QcyybV",
