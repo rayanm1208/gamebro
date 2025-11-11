@@ -1299,7 +1299,6 @@
     },
     "image_banner_TybM6b": {
       "type": "image-banner",
-      "disabled": true,
       "name": "t:sections.image-banner.presets.name",
       "settings": {
         "display_id": false,
@@ -1440,23 +1439,9 @@
       "block_order": [
         "trustoo_io_reviews_review_widget_ma7Aty"
       ],
-      "disabled": true,
-      "settings": {
-        "display_id": true,
-        "include_margins": true
-      }
-    },
-    "custom_liquid_JVXtg6": {
-      "type": "custom-liquid",
-      "disabled": true,
-      "name": "t:sections.custom-liquid.presets.name",
       "settings": {
         "display_id": false,
-        "visibility": "always-display",
-        "custom_liquid": "",
-        "color_scheme": "background-1",
-        "padding_top": 40,
-        "padding_bottom": 52
+        "include_margins": true
       }
     }
   },
@@ -1477,7 +1462,6 @@
     "image_banner_TybM6b",
     "bundle_deals_7C6LbA",
     "featured_collection_EREwVc",
-    "1762356026677aac87",
-    "custom_liquid_JVXtg6"
+    "1762356026677aac87"
   ]
 }
