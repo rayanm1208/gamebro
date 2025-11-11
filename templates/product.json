@@ -24,7 +24,6 @@
         },
         "rating_stars_car3yH": {
           "type": "rating_stars",
-          "disabled": true,
           "settings": {
             "rating": 4.4,
             "star_color": "#ffcc00",
