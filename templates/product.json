@@ -12,14 +12,14 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "title": {
+        "title_DAhbgV": {
           "type": "title",
           "settings": {
             "text_size": "h1",
             "title_alignment": "left",
             "uppercase_title": false,
             "margin_top": 0,
-            "margin_bottom": 0
+            "margin_bottom": 15
           }
         },
         "rating_stars_car3yH": {
@@ -455,7 +455,7 @@
         }
       },
       "block_order": [
-        "title",
+        "title_DAhbgV",
         "rating_stars_car3yH",
         "trustpilot_stars_fcfiw7",
         "price",
