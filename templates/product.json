@@ -22,8 +22,24 @@
             "margin_bottom": 0
           }
         },
+        "rating_stars_car3yH": {
+          "type": "rating_stars",
+          "settings": {
+            "rating": 4.4,
+            "star_color": "#ffcc00",
+            "bg_stars_style": "full",
+            "bg_star_color": "#ececec",
+            "label": "1921 Reviews",
+            "size": 16,
+            "alignment": "flex-start",
+            "scroll_id": "4165981612316368",
+            "margin_top": 0,
+            "margin_bottom": 15
+          }
+        },
         "trustpilot_stars_fcfiw7": {
           "type": "trustpilot_stars",
+          "disabled": true,
           "settings": {
             "rating": 4.4,
             "star_color": "#00b67a",
@@ -440,6 +456,7 @@
       },
       "block_order": [
         "title",
+        "rating_stars_car3yH",
         "trustpilot_stars_fcfiw7",
         "price",
         "variant_picker_DEWbrQ",
