@@ -1440,6 +1440,7 @@
       "block_order": [
         "trustoo_io_reviews_review_widget_ma7Aty"
       ],
+      "disabled": true,
       "settings": {
         "display_id": true,
         "include_margins": true
@@ -1447,6 +1448,7 @@
     },
     "custom_liquid_JVXtg6": {
       "type": "custom-liquid",
+      "disabled": true,
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
         "display_id": false,
