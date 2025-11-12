@@ -25,11 +25,11 @@
         "rating_stars_car3yH": {
           "type": "rating_stars",
           "settings": {
-            "rating": 4.4,
+            "rating": 4.6,
             "star_color": "#ffcc00",
             "bg_stars_style": "full",
             "bg_star_color": "#ececec",
-            "label": "1921 Reviews",
+            "label": "7 178 Reviews",
             "size": 16,
             "alignment": "flex-start",
             "scroll_id": "",
@@ -1375,7 +1375,7 @@
         "judge_me_reviews_review_widget_aUyzeU": {
           "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
-            "review_data": "sample_data",
+            "review_data": "real_data",
             "max_width": 750,
             "show_shop_reviews": true,
             "empty_state": "empty_widget"
