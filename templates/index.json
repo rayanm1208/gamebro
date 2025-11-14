@@ -15,8 +15,8 @@
         "template--21507361505575__cfca4268-6358-426c-98ab-d292aeef11e5-slide-1": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/Banner_desktop.webp",
-            "mobile_image": "shopify://shop_images/Banner_mobile.webp",
+            "image": "shopify://shop_images/Banniere_Game-bro_desktop.png",
+            "mobile_image": "shopify://shop_images/Banniere_Game-bro.png",
             "image_overlay_opacity": 0,
             "heading": "",
             "title_highlight_color": "#6d388b",
@@ -372,7 +372,7 @@
         "heading_size": "h2",
         "gray_logos": false,
         "color_scheme": "background-1",
-        "layout": "vertical",
+        "layout": "horizontal",
         "desktop_logo_height": 40,
         "columns_mobile": 1,
         "mobile_logo_height": 50,
