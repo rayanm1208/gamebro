@@ -23,10 +23,12 @@
       "settings": {
         "display_id": false,
         "visibility": "always-display",
-        "image_1_visibility": "always-display",
-        "image_2_visibility": "always-display",
+        "image": "shopify://shop_images/10831c45-f4ec-4e67-ac93-d3bc3f1fa93b.png",
+        "image_1_visibility": "mobile-hidden",
+        "image_2": "shopify://shop_images/10831c45-f4ec-4e67-ac93-d3bc3f1fa93b.png",
+        "image_2_visibility": "desktop-hidden",
         "image_overlay_opacity": 0,
-        "image_height": "medium",
+        "image_height": "adapt",
         "url": "",
         "desktop_content_position": "middle-center",
         "show_text_box": true,
@@ -36,51 +38,6 @@
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
         "show_text_below": true
-      }
-    },
-    "newsletter": {
-      "type": "newsletter",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "title": "Subscribe to our emails",
-            "title_highlight_color": "#6d388b",
-            "heading_size": "h1"
-          }
-        },
-        "paragraph": {
-          "type": "paragraph",
-          "settings": {
-            "text": "<p>Join our email list for exclusive offers and the latest news. </p>"
-          }
-        },
-        "email-form": {
-          "type": "email_form",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "heading",
-        "paragraph",
-        "email-form"
-      ],
-      "disabled": true,
-      "settings": {
-        "display_id": false,
-        "visibility": "always-display",
-        "button_type": "solid",
-        "button_label": "Sign up",
-        "button_style_secondary": false,
-        "color_scheme": "background-2",
-        "full_width": true,
-        "padding_top": 68,
-        "padding_bottom": 52,
-        "custom_colors_background": "#ffffff",
-        "custom_gradient_background": "",
-        "custom_colors_text": "#2e2a39",
-        "custom_colors_solid_button_background": "#dd1d1d",
-        "custom_colors_solid_button_text": "#ffffff"
       }
     },
     "icon_bar_6fy8FH": {
@@ -128,7 +85,7 @@
         "title_highlight_color": "#6D388B",
         "heading_size": "h2",
         "text": "",
-        "color_scheme": "background-1",
+        "color_scheme": "custom",
         "icon_layout": "vertical",
         "icon_size": "medium",
         "icon_color": "accent-1",
@@ -155,21 +112,78 @@
         "mobile_adaptive_height": true,
         "mobile_dots_position": "hidden",
         "mobile_arrows_position": "sides",
-        "padding_top": 36,
+        "padding_top": 32,
         "padding_bottom": 36,
-        "custom_colors_background": "#FFFFFF",
+        "custom_colors_background": "#000000",
         "custom_gradient_background": "",
-        "custom_colors_text": "#2E2A39",
-        "custom_cards_colors_background": "#F3F3F3",
+        "custom_colors_text": "#ffffff",
+        "custom_cards_colors_background": "#000000",
         "custom_cards_gradient_background": "",
-        "custom_cards_colors_text": "#2E2A39"
+        "custom_cards_colors_text": "#6d388b"
+      }
+    },
+    "custom_liquid_RKLUwb": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "custom_liquid": "<div id=\"bf-vip-countdown\"\n     style=\"background:#000; color:#fff; padding:30px 15px; text-align:center; font-family:Poppins, system-ui, -apple-system, BlinkMacSystemFont, sans-serif;\">\n  \n  <div style=\"font-size:14px; letter-spacing:0.15em; text-transform:uppercase; opacity:0.8; margin-bottom:6px;\">\n    Black Friday VIP Access\n  </div>\n  \n  <h2 style=\"font-size:26px; margin:0 0 10px; font-weight:700;\">\n    VIP Access Opens In :\n  </h2>\n\n  <div id=\"bf-countdown-timer\"\n       style=\"display:flex; justify-content:center; gap:10px; margin-top:10px; flex-wrap:wrap;\">\n    <div class=\"bf-time-box\" style=\"min-width:70px; padding:10px 8px; background:#111; border-radius:8px; border:1px solid #2c2c2c;\">\n      <div id=\"bf-days\" style=\"font-size:22px; font-weight:700; margin-bottom:4px;\">00</div>\n      <div style=\"font-size:11px; text-transform:uppercase; letter-spacing:0.12em;\">Days</div>\n    </div>\n    <div class=\"bf-time-box\" style=\"min-width:70px; padding:10px 8px; background:#111; border-radius:8px; border:1px solid #2c2c2c;\">\n      <div id=\"bf-hours\" style=\"font-size:22px; font-weight:700; margin-bottom:4px;\">00</div>\n      <div style=\"font-size:11px; text-transform:uppercase; letter-spacing:0.12em;\">Hours</div>\n    </div>\n    <div class=\"bf-time-box\" style=\"min-width:70px; padding:10px 8px; background:#111; border-radius:8px; border:1px solid #2c2c2c;\">\n      <div id=\"bf-minutes\" style=\"font-size:22px; font-weight:700; margin-bottom:4px;\">00</div>\n      <div style=\"font-size:11px; text-transform:uppercase; letter-spacing:0.12em;\">Mins</div>\n    </div>\n    <div class=\"bf-time-box\" style=\"min-width:70px; padding:10px 8px; background:#111; border-radius:8px; border:1px solid #2c2c2c;\">\n      <div id=\"bf-seconds\" style=\"font-size:22px; font-weight:700; margin-bottom:4px;\">00</div>\n      <div style=\"font-size:11px; text-transform:uppercase; letter-spacing:0.12em;\">Secs</div>\n    </div>\n  </div>\n\n  <p id=\"bf-countdown-message\" style=\"margin-top:14px; font-size:13px; opacity:0.7;\">\n    VIP members get access 48 hours before the public sale.\n  </p>\n</div>\n\n<script>\n  document.addEventListener('DOMContentLoaded', function() {\n\n    // 🔥 SET EXACT VIP OPEN DATE (Nov 26, 2025 — 10:00 AM EST)\n    const vipStartDate = new Date(\"2025-11-26T10:00:00-05:00\").getTime();\n\n    const daysEl = document.getElementById('bf-days');\n    const hoursEl = document.getElementById('bf-hours');\n    const minutesEl = document.getElementById('bf-minutes');\n    const secondsEl = document.getElementById('bf-seconds');\n    const container = document.getElementById('bf-vip-countdown');\n\n    function updateCountdown() {\n      const now = new Date().getTime();\n      const distance = vipStartDate - now;\n\n      if (distance <= 0) {\n        container.innerHTML = `\n          <h2 style=\"font-size:26px; margin:0 0 8px; font-weight:700;\">\n            VIP Access is Now Open 🎮\n          </h2>\n          <p style=\"font-size:14px; opacity:0.8; margin:0;\">\n            Enjoy your exclusive Black Friday early access.\n          </p>\n        `;\n        clearInterval(timer);\n        return;\n      }\n\n      const days    = Math.floor(distance / (1000 * 60 * 60 * 24));\n      const hours   = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));\n      const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));\n      const seconds = Math.floor((distance % (1000 * 60)) / 1000);\n\n      daysEl.textContent    = String(days).padStart(2, '0');\n      hoursEl.textContent   = String(hours).padStart(2, '0');\n      minutesEl.textContent = String(minutes).padStart(2, '0');\n      secondsEl.textContent = String(seconds).padStart(2, '0');\n    }\n\n    updateCountdown();\n    const timer = setInterval(updateCountdown, 1000);\n  });\n</script>",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "newsletter": {
+      "type": "newsletter",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "title": "BECOME A VIP",
+            "title_highlight_color": "#6d388b",
+            "heading_size": "h2"
+          }
+        },
+        "paragraph": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Get a 48-hour head start on our Black Friday deals before they open to the public.<br/><br/><strong>VIP list limited to 500 people</strong>.</p>"
+          }
+        },
+        "email-form": {
+          "type": "email_form",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "heading",
+        "paragraph",
+        "email-form"
+      ],
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "button_type": "solid",
+        "button_label": "Sign up for early access",
+        "button_style_secondary": false,
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 44,
+        "padding_bottom": 52,
+        "custom_colors_background": "#ffffff",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#2e2a39",
+        "custom_colors_solid_button_background": "#dd1d1d",
+        "custom_colors_solid_button_text": "#ffffff"
       }
     }
   },
   "order": [
     "main",
     "image_banner_tTiYe3",
-    "newsletter",
-    "icon_bar_6fy8FH"
+    "icon_bar_6fy8FH",
+    "custom_liquid_RKLUwb",
+    "newsletter"
   ]
 }
