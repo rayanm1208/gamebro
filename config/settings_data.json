@@ -307,7 +307,7 @@
               "enable_goal_1": true,
               "goal_1_label": "Free Shipping",
               "goal_1_text": "FREE shipping",
-              "goal_1_amount": 30,
+              "goal_1_amount": 60,
               "goal_1_icon": "local_shipping",
               "goal_1_icon_filled": false,
               "enable_goal_2": false,
