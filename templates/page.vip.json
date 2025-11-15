@@ -11,9 +11,31 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "image_banner_tTiYe3": {
+      "type": "image-banner",
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "image_1_visibility": "always-display",
+        "image_2_visibility": "always-display",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "url": "",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "transparent_container_color": "white",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
       }
     },
     "newsletter": {
@@ -22,6 +44,8 @@
         "heading": {
           "type": "heading",
           "settings": {
+            "title": "Subscribe to our emails",
+            "title_highlight_color": "#6d388b",
             "heading_size": "h1"
           }
         },
@@ -41,16 +65,111 @@
         "paragraph",
         "email-form"
       ],
+      "disabled": true,
       "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "button_type": "solid",
+        "button_label": "Sign up",
+        "button_style_secondary": false,
         "color_scheme": "background-2",
         "full_width": true,
         "padding_top": 68,
-        "padding_bottom": 52
+        "padding_bottom": 52,
+        "custom_colors_background": "#ffffff",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#2e2a39",
+        "custom_colors_solid_button_background": "#dd1d1d",
+        "custom_colors_solid_button_text": "#ffffff"
+      }
+    },
+    "icon_bar_6fy8FH": {
+      "type": "icon-bar",
+      "blocks": {
+        "column_mgf6Jn": {
+          "type": "column",
+          "settings": {
+            "icon": "calendar_month",
+            "filled_icon": false,
+            "title": "Priority access",
+            "text": "<p>Get notified 48 hours before promotions open to the public.<br/></p><p></p>"
+          }
+        },
+        "column_U3afkD": {
+          "type": "column",
+          "settings": {
+            "icon": "shoppingmode",
+            "filled_icon": false,
+            "image": "shopify://shop_images/percent_discount_24dp_6D388B_FILL0_wght400_GRAD0_opsz24.svg",
+            "title": "Historical promotion",
+            "text": "<p>Enjoy an additional discount that the general public will not receive.</p><p></p>"
+          }
+        },
+        "column_4Ep7fV": {
+          "type": "column",
+          "settings": {
+            "icon": "production_quantity_limits",
+            "filled_icon": false,
+            "title": "Limited quantities",
+            "text": "<p>Priority access to stock for VIP members. When units are sold out, offers end, even before Black Friday.</p><p></p>"
+          }
+        }
+      },
+      "block_order": [
+        "column_mgf6Jn",
+        "column_U3afkD",
+        "column_4Ep7fV"
+      ],
+      "name": "Icon Bar",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "title": "The benefits of being a VIP",
+        "title_highlight_color": "#6D388B",
+        "heading_size": "h2",
+        "text": "",
+        "color_scheme": "background-1",
+        "icon_layout": "vertical",
+        "icon_size": "medium",
+        "icon_color": "accent-1",
+        "cards_color_scheme": "background-1",
+        "type": "slide",
+        "autoplay": false,
+        "autoplay_speed": 5,
+        "arrows_color_scheme": "inverse",
+        "transparent_arrows": true,
+        "dots_color_scheme": "inverse",
+        "desktop_full_page": false,
+        "columns_desktop": 3,
+        "slider_desktop": false,
+        "per_move_desktop": 1,
+        "desktop_spacing": 40,
+        "desktop_side_padding": 0,
+        "desktop_padding_calc": true,
+        "desktop_adaptive_height": true,
+        "desktop_dots_position": "under",
+        "desktop_arrows_position": "sides",
+        "columns_mobile": "1",
+        "slider_mobile": true,
+        "enable_mobile_preview": true,
+        "mobile_adaptive_height": true,
+        "mobile_dots_position": "hidden",
+        "mobile_arrows_position": "sides",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "custom_colors_background": "#FFFFFF",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#2E2A39",
+        "custom_cards_colors_background": "#F3F3F3",
+        "custom_cards_gradient_background": "",
+        "custom_cards_colors_text": "#2E2A39"
       }
     }
   },
   "order": [
     "main",
-    "newsletter"
+    "image_banner_tTiYe3",
+    "newsletter",
+    "icon_bar_6fy8FH"
   ]
 }
