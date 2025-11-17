@@ -276,17 +276,18 @@
             "secondary_btn_enable_custom_color": false,
             "secondary_btn_custom_color": "#dd1d1d",
             "margin_top": 24,
-            "margin_bottom": 24
+            "margin_bottom": 6
           }
         },
         "custom_liquid_gcMXFx": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": ""
+            "custom_liquid": "<div style=\"\n  width:100%;\n  padding-top:1px;\n  padding-bottom:1px;\n  display:flex;\n  justify-content:center;\n  background:transparent;\n\">\n  <img \n    src=\"https://cdn.shopify.com/s/files/1/0951/3700/5951/files/badges_paiement.png?v=1763382311\"\n    alt=\"Secure payment badges\"\n    style=\"\n      max-width:100%;\n      width:370px;\n      height:auto;\n      display:block;\n      margin:0 auto;\n    \"\n  >\n</div>"
           }
         },
         "payment_badges_cpwxwi": {
           "type": "payment_badges",
+          "disabled": true,
           "settings": {
             "enabled_payment_types": "stripe, apple_pay, visa, paypal, google_pay,american_express, klarna, master, bitcoin",
             "margin_top": 0,
