@@ -899,7 +899,7 @@
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
         "display_id": false,
-        "visibility": "always-display",
+        "visibility": "mobile-hidden",
         "video": "shopify://files/videos/Design sans titre (2).mp4",
         "video_autoplay": true,
         "video_loop": true,
@@ -909,7 +909,7 @@
         "full_desktop_width": false,
         "content_layout": "no-overlap",
         "desktop_media_width": 50,
-        "layout": "text_first",
+        "layout": "image_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "mobile_full_media_width": false,
@@ -917,7 +917,66 @@
         "mobile_image_quanlity": "2",
         "mobile_content_alignment": "left",
         "mobile_padding_top": 0,
-        "mobile_padding_bottom": 16,
+        "mobile_padding_bottom": 0,
+        "desktop_padding_top": 36,
+        "desktop_padding_bottom": 36,
+        "custom_colors_background": "#2e2a39",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#ffffff",
+        "custom_colors_solid_button_background": "#dd1d1d",
+        "custom_colors_solid_button_text": "#ffffff",
+        "custom_colors_outline_button": "#dd1d1d",
+        "custom_section_colors_background": "#ffffff",
+        "custom_section_gradient_background": ""
+      }
+    },
+    "image_with_text_eYgpdc": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_EeiqKC": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "Play Together.Trade Together.",
+            "title_highlight_color": "#6d388b",
+            "heading_size": "h2"
+          }
+        },
+        "text_Pq6q8g": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Pair two GameLabs and jump into head-to-head fun, racing, fighters, party chaos.</p><p>When you want evolutions and swaps, add the Wi-Fi dongle, connect both consoles to the same home network, and trade in supported titles.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_EeiqKC",
+        "text_Pq6q8g"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "display_id": false,
+        "visibility": "desktop-hidden",
+        "video": "shopify://files/videos/Design sans titre (2).mp4",
+        "video_autoplay": true,
+        "video_loop": true,
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "section_color_scheme": "background-1",
+        "full_desktop_width": false,
+        "content_layout": "no-overlap",
+        "desktop_media_width": 50,
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_full_media_width": false,
+        "mobile_direction": "normal",
+        "mobile_image_quanlity": "2",
+        "mobile_content_alignment": "left",
+        "mobile_padding_top": 0,
+        "mobile_padding_bottom": 0,
         "desktop_padding_top": 36,
         "desktop_padding_bottom": 36,
         "custom_colors_background": "#2e2a39",
@@ -1441,6 +1500,7 @@
     "custom_liquid_qLi3aY",
     "custom_liquid_g4JRER",
     "image_with_text_6CYWfp",
+    "image_with_text_eYgpdc",
     "custom_liquid_aaLapE",
     "horizontal_ticker_dAyQnU",
     "image_slider_wmEwLU",
