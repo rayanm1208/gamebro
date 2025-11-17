@@ -281,15 +281,15 @@
         },
         "custom_liquid_gcMXFx": {
           "type": "custom_liquid",
+          "disabled": true,
           "settings": {
-            "custom_liquid": "<div style=\"\n  width:100%;\n  padding-top:2px;\n  padding-bottom:2px;\n  display:flex;\n  justify-content:center;\n  background:transparent;\n\">\n  <img \n    src=\"https://cdn.shopify.com/s/files/1/0951/3700/5951/files/badge_de_paiement.svg?v=1763383118\"\n    alt=\"Secure payment badges\"\n    style=\"\n      max-width:100%;\n      width:368px;\n      height:auto;\n      display:block;\n      margin:0 auto;\n    \"\n  >\n</div>"
+            "custom_liquid": "<div style=\"\n  width:100%;\n  padding-top:2px;\n  padding-bottom:2px;\n  display:flex;\n  justify-content:center;\n  background:transparent;\n\">\n  <img \n    src=\"https://cdn.shopify.com/s/files/1/0951/3700/5951/files/badge_paiement.svg?v=1763386013\"\n    alt=\"Secure payment badges\"\n    style=\"\n      max-width:100%;\n      width:368px;\n      height:auto;\n      display:block;\n      margin:0 auto;\n    \"\n  >\n</div>"
           }
         },
         "payment_badges_cpwxwi": {
           "type": "payment_badges",
-          "disabled": true,
           "settings": {
-            "enabled_payment_types": "stripe, apple_pay, visa, paypal, google_pay,american_express, klarna, master, bitcoin",
+            "enabled_payment_types": "apple_pay, visa, paypal, google_pay,american_express, klarna, master",
             "margin_top": 0,
             "margin_bottom": 3
           }
