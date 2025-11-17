@@ -34,13 +34,13 @@
             "alignment": "flex-start",
             "scroll_id": "",
             "margin_top": 0,
-            "margin_bottom": 15
+            "margin_bottom": 6
           }
         },
         "custom_liquid_PTXgfj": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<div id=\"gb-viewing-box\" \n     style=\"\n       margin-top:12px;\n       margin-bottom:2px;\n       font-family:Poppins, sans-serif;\n       font-size:14px;\n       color:#c59cff;\n       display:flex;\n       align-items:center;\n       gap:8px;\n     \">\n  \n  <span style=\"display:inline-block; width:8px; height:8px; background:#c59cff; border-radius:50%; box-shadow:0 0 6px #c59cff;\"></span>\n\n  <span id=\"gb-viewing-text\">12 people are viewing this product right now</span>\n\n</div>\n\n<script>\ndocument.addEventListener(\"DOMContentLoaded\", function() {\n\n  function updateViewers() {\n    const min = 4;\n    const max = 20;\n    const randomNum = Math.floor(Math.random() * (max - min + 1)) + min;\n\n    document.getElementById(\"gb-viewing-text\").textContent =\n      randomNum + \" people are viewing this product right now\";\n  }\n\n  updateViewers();\n  setInterval(updateViewers, 8000); // update every 8 seconds\n\n});\n</script>"
+            "custom_liquid": "<div id=\"gb-viewing-box\" \n     style=\"\n       margin-top:1px;\n       margin-bottom:2px;\n       font-family:Poppins, sans-serif;\n       font-size:13px;\n       color:#c59cff;\n       display:flex;\n       align-items:center;\n       gap:8px;\n     \">\n  \n  <span class=\"gb-pulse-dot\"></span>\n\n  <span id=\"gb-viewing-text\" class=\"gb-blink\">12 people are viewing this product right now</span>\n\n</div>\n\n<style>\n/* Purple pulse dot */\n.gb-pulse-dot {\n  width: 8px;\n  height: 8px;\n  background: #c59cff;\n  border-radius: 50%;\n  box-shadow: 0 0 6px #c59cff;\n  animation: gbPulse 1.3s infinite ease-in-out;\n}\n\n/* Soft urgency blink */\n.gb-blink {\n  animation: gbBlink 2s infinite;\n  display: inline-block;\n}\n\n@keyframes gbPulse {\n  0% { transform: scale(1); opacity: 1; }\n  50% { transform: scale(1.4); opacity: 0.55; }\n  100% { transform: scale(1); opacity: 1; }\n}\n\n@keyframes gbBlink {\n  0% { opacity: 1; }\n  50% { opacity: 0.55; }\n  100% { opacity: 1; }\n}\n</style>\n\n<script>\ndocument.addEventListener(\"DOMContentLoaded\", function() {\n\n  function updateViewers() {\n    const min = 4;\n    const max = 20;\n    const randomNum = Math.floor(Math.random() * (max - min + 1)) + min;\n\n    document.getElementById(\"gb-viewing-text\").textContent =\n      randomNum + \" people are viewing this product right now\";\n  }\n\n  updateViewers();\n  setInterval(updateViewers, 8000);\n});\n</script>"
           }
         },
         "trustpilot_stars_fcfiw7": {
