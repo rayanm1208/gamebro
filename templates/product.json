@@ -279,6 +279,12 @@
             "margin_bottom": 24
           }
         },
+        "custom_liquid_gcMXFx": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": ""
+          }
+        },
         "payment_badges_cpwxwi": {
           "type": "payment_badges",
           "settings": {
@@ -473,6 +479,7 @@
         "04ba004e-2f54-4936-8b1c-8bcadf6573f6",
         "product_upsell_mpi3Jt",
         "buy_buttons",
+        "custom_liquid_gcMXFx",
         "payment_badges_cpwxwi",
         "e7a28cbe-03cb-4c9d-a2c4-0e3e76ffb3e5",
         "custom_liquid_dXzmDW",
