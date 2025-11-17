@@ -374,6 +374,13 @@
               "margin_bottom": 21
             }
           },
+          "custom_liquid_fYAnhq": {
+            "type": "custom_liquid",
+            "settings": {
+              "position": "body",
+              "custom_liquid": "<div id=\"gb-live-stock\"\n     style=\"\n       margin:6px 0 4px;\n       padding:8px 12px;\n       border-radius:6px;\n       background:rgba(197,156,255,0.12);\n       color:#c59cff;\n       font-size:13px;\n       font-family:Poppins,sans-serif;\n     \">\n  Checking stock...\n</div>\n\n<script>\ndocument.addEventListener(\"DOMContentLoaded\", function () {\n\n  // --- SETTINGS ---\n  const minStart = 7;      // Stock min initial\n  const maxStart = 18;     // Stock max initial\n  const minFinal = 2;      // Jamais descendre en dessous\n  let currentStock = Math.floor(Math.random() * (maxStart - minStart + 1)) + minStart;\n\n  const box = document.getElementById(\"gb-live-stock\");\n\n  function updateDisplay() {\n    box.innerHTML = \"⚡ Only <b>\" + currentStock + \"</b> units left for this color!\";\n  }\n\n  // --- Stock decreases automatically over time ---\n  function autoDecrease() {\n    if (currentStock > minFinal) {\n      currentStock--;\n      updateDisplay();\n    }\n  }\n\n  // Random interval between 8s and 12s for realism\n  setInterval(autoDecrease, Math.floor(Math.random() * (12000 - 8000 + 1)) + 8000);\n\n\n  // --- Detect selected variant (color) and reset stock ---\n  function listenForVariantChange() {\n    const selectors = document.querySelectorAll(\"select, input[type='radio']\");\n\n    selectors.forEach(sel => {\n      sel.addEventListener(\"change\", () => {\n        currentStock =\n          Math.floor(Math.random() * (maxStart - minStart + 1)) + minStart;\n\n        updateDisplay();\n      });\n    });\n  }\n\n  listenForVariantChange();\n  updateDisplay();\n\n});\n</script>"
+            }
+          },
           "631b0e34-4299-400e-9f4d-c107c08cce01": {
             "type": "discount_field",
             "disabled": true,
@@ -556,6 +563,7 @@
           "926ea95f-fd8a-43e7-b215-de4f6cbc19f9",
           "058d6d0a-ba0d-48cb-9432-de85da1e5aef",
           "097b7b4f-c0b8-4073-a06b-e6d49a5aad20",
+          "custom_liquid_fYAnhq",
           "631b0e34-4299-400e-9f4d-c107c08cce01",
           "4f3e2a5f-006d-40ed-8370-49b15e0e427d",
           "0935e47c-9604-4faa-b47a-d61ca49c0c16",
@@ -564,7 +572,7 @@
           "product_upsells_xi9TWk"
         ],
         "settings": {
-          "test_mode": false,
+          "test_mode": true,
           "heading_text": "",
           "heading_alignment": "flex-start",
           "desktop_width": "normal",
