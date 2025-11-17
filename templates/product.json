@@ -930,6 +930,18 @@
         "custom_section_gradient_background": ""
       }
     },
+    "custom_liquid_aaLapE": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "custom_liquid": "<div id=\"gb-compare\" style=\"background:#000; padding:40px 10px; font-family:Poppins, sans-serif; color:#fff;\">\n\n  <h2 style=\"text-align:center; font-size:26px; font-weight:900; margin-bottom:25px;\n             text-transform:uppercase; letter-spacing:1px;\">\n    Why Game-bro™ is <span style=\"color:#A06BFF;\">Not</span> Like Other Handhelds\n  </h2>\n\n  <!-- WRAPPER THAT FORCES TWO COLUMNS SIDE BY SIDE -->\n  <div style=\"\n      display:flex;\n      gap:15px;\n      overflow-x:auto;\n      -webkit-overflow-scrolling:touch;\n      padding-bottom:10px;\n  \">\n\n    <!-- GAME-BRO COLUMN -->\n    <div style=\"\n        min-width:50%;\n        max-width:50%;\n        background:#0d0d0d;\n        border:1px solid #2e2e2e;\n        border-radius:14px;\n        padding:18px;\n        box-sizing:border-box;\n    \">\n      <div style=\"text-align:center; margin-bottom:15px;\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0951/3700/5951/files/violet.png?v=1763348832\"\n             style=\"width:110px; filter:drop-shadow(0 0 10px #A06BFF);\" />\n        <div style=\"margin-top:8px; opacity:0.8;\">Game-bro™</div>\n      </div>\n\n      <ul style=\"list-style:none; padding:0; margin:0; font-size:15px;\">\n        <li style=\"padding:10px 0; border-bottom:1px solid #1c1c1c;\">\n          <span style=\"color:#A06BFF;\">✔</span> Smooth, optimized OS\n        </li>\n        <li style=\"padding:10px 0; border-bottom:1px solid #1c1c1c;\">\n          <span style=\"color:#A06BFF;\">✔</span> 15,000+ curated retro games\n        </li>\n        <li style=\"padding:10px 0; border-bottom:1px solid #1c1c1c;\">\n          <span style=\"color:#A06BFF;\">✔</span> Premium exclusive editions\n        </li>\n        <li style=\"padding:10px 0; border-bottom:1px solid #1c1c1c;\">\n          <span style=\"color:#A06BFF;\">✔</span> Multiplayer + WiFi trading\n        </li>\n        <li style=\"padding:10px 0; border-bottom:1px solid #1c1c1c;\">\n          <span style=\"color:#A06BFF;\">✔</span> Translated menus (EN/FR/ES…)\n        </li>\n        <li style=\"padding:10px 0;\">\n          <span style=\"color:#A06BFF;\">✔</span> 1-Year warranty & support\n        </li>\n      </ul>\n    </div>\n\n    <!-- OTHERS COLUMN -->\n    <div style=\"\n        min-width:50%;\n        max-width:50%;\n        background:#0d0d0d;\n        border:1px solid #2e2e2e;\n        border-radius:14px;\n        padding:18px;\n        box-sizing:border-box;\n    \">\n      <div style=\"text-align:center; margin-bottom:15px;\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0951/3700/5951/files/51_4815acd7-57d7-4508-910c-50e2ed8800db.webp?v=1760884119\"\n             style=\"width:110px; opacity:0.7;\" />\n        <div style=\"margin-top:8px; opacity:0.6;\">Others</div>\n      </div>\n\n      <ul style=\"list-style:none; padding:0; margin:0; font-size:15px;\">\n        <li style=\"padding:10px 0; border-bottom:1px solid #1c1c1c;\">\n          <span style=\"color:#ff4b4b;\">✖</span> Lag, stutter, unstable OS\n        </li>\n        <li style=\"padding:10px 0; border-bottom:1px solid #1c1c1c;\">\n          <span style=\"color:#ff4b4b;\">✖</span> Missing / broken ROMs\n        </li>\n        <li style=\"padding:10px 0; border-bottom:1px solid #1c1c1c;\">\n          <span style=\"color:#ff4b4b;\">✖</span> Cheap, generic builds\n        </li>\n        <li style=\"padding:10px 0; border-bottom:1px solid #1c1c1c;\">\n          <span style=\"color:#ff4b4b;\">✖</span> No real multiplayer support\n        </li>\n        <li style=\"padding:10px 0; border-bottom:1px solid #1c1c1c;\">\n          <span style=\"color:#ff4b4b;\">✖</span> Chinese-only menus\n        </li>\n        <li style=\"padding:10px 0;\">\n          <span style=\"color:#ff4b4b;\">✖</span> No warranty, no support\n        </li>\n      </ul>\n    </div>\n\n  </div>\n</div>\n\n<style>\n  /* Scrollbar invisible (clean look) */\n  #gb-compare ::-webkit-scrollbar { display:none; }\n</style>",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "horizontal_ticker_dAyQnU": {
       "type": "horizontal-ticker",
       "blocks": {
@@ -1429,6 +1441,7 @@
     "custom_liquid_qLi3aY",
     "custom_liquid_g4JRER",
     "image_with_text_6CYWfp",
+    "custom_liquid_aaLapE",
     "horizontal_ticker_dAyQnU",
     "image_slider_wmEwLU",
     "related-products",
