@@ -581,7 +581,7 @@
           "custom_liquid_aaah9P"
         ],
         "settings": {
-          "test_mode": true,
+          "test_mode": false,
           "heading_text": "",
           "heading_alignment": "flex-start",
           "desktop_width": "normal",
