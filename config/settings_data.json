@@ -292,15 +292,15 @@
               "font_size": "1.4",
               "color_scheme": "inverse",
               "margin_top": 0,
-              "margin_bottom": 15
+              "margin_bottom": 0
             }
           },
           "926ea95f-fd8a-43e7-b215-de4f6cbc19f9": {
             "type": "checkpoints_bar",
             "settings": {
               "goal_type": "subtotal",
-              "progress_message": "You're [amount] away from [next_goal]!",
-              "success_message": "Congrats! You've unlocked all promotions!",
+              "progress_message": "You're [amount] away from [next_goal] !",
+              "success_message": "Congrats! You've unlocked all promotions !",
               "labels_mobile_text_size": 10,
               "labels_desktop_text_size": 12,
               "accent_color": "accent-1",
@@ -322,8 +322,8 @@
               "goal_3_amount": 170,
               "goal_3_icon": "redeem",
               "goal_3_icon_filled": false,
-              "margin_top": 15,
-              "margin_bottom": 15
+              "margin_top": 6,
+              "margin_bottom": 6
             }
           },
           "058d6d0a-ba0d-48cb-9432-de85da1e5aef": {
