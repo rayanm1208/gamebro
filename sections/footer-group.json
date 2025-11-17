@@ -18,57 +18,18 @@
       "settings": {
         "display_id": false,
         "visibility": "always-display",
-        "custom_liquid": "<style>\n  .gb-footer {\n    background: #000000;\n    padding: 28px 20px 20px 20px;\n    font-family: Poppins, sans-serif;\n    color: #ffffff;\n    border-top: 1px solid rgba(197,156,255,0.2);\n  }\n\n  .gb-footer-logo {\n    text-align: center;\n    margin-bottom: 15px;\n  }\n\n  .gb-footer-logo img {\n    width: 135px;\n    filter: drop-shadow(0 0 6px #c59cff);\n  }\n\n  .gb-footer-cols {\n    display: flex;\n    justify-content: space-between;\n    gap: 20px;\n    flex-wrap: wrap;\n  }\n\n  .gb-footer-col {\n    flex: 1;\n    min-width: 120px;\n  }\n\n  .gb-footer-title {\n    font-size: 14px;\n    font-weight: 700;\n    margin-bottom: 10px;\n    color: #c59cff;\n  }\n\n  .gb-footer-links a {\n    display: block;\n    font-size: 13px;\n    color: #dcdcdc;\n    margin-bottom: 6px;\n    text-decoration: none;\n    transition: 0.2s;\n  }\n\n  .gb-footer-links a:hover {\n    color: #c59cff;\n  }\n\n  .gb-footer-newsletter {\n    margin-top: 20px;\n    text-align: center;\n  }\n\n  .gb-footer-newsletter input {\n    width: 100%;\n    padding: 12px;\n    margin-top: 8px;\n    font-size: 14px;\n    border-radius: 8px;\n    background: #111;\n    border: 1px solid rgba(197,156,255,0.3);\n    color: #fff;\n    outline: none;\n  }\n\n  .gb-footer-note {\n    text-align: center;\n    margin-top: 22px;\n    font-size: 12px;\n    color: #777;\n  }\n\n  @media(max-width: 480px) {\n    .gb-footer-cols {\n      flex-direction: column;\n      gap: 18px;\n    }\n    .gb-footer {\n      padding: 20px 15px;\n    }\n  }\n</style>\n\n<div class=\"gb-footer\">\n\n  <!-- LOGO -->\n  <div class=\"gb-footer-logo\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0951/3700/5951/files/GB_logo.png?v=1\" alt=\"Game-bro™\">\n  </div>\n\n  <!-- FOOTER COLUMNS -->\n  <div class=\"gb-footer-cols\">\n\n    <div class=\"gb-footer-col\">\n      <h3 class=\"gb-footer-title\">Game-bro™</h3>\n      <div class=\"gb-footer-links\">\n        <a href=\"/pages/about-us\">About Us</a>\n        <a href=\"/pages/contact\">Support</a>\n        <a href=\"/pages/warranty\">1-Year Warranty</a>\n        <a href=\"/pages/shipping\">Shipping Info</a>\n      </div>\n    </div>\n\n    <div class=\"gb-footer-col\">\n      <h3 class=\"gb-footer-title\">Legal</h3>\n      <div class=\"gb-footer-links\">\n        <a href=\"/pages/privacy-policy\">Privacy Policy</a>\n        <a href=\"/pages/terms-of-service\">Terms of Service</a>\n        <a href=\"/pages/legal-notice\">Legal Notice</a>\n      </div>\n    </div>\n\n    <div class=\"gb-footer-col\">\n      <h3 class=\"gb-footer-title\">Community</h3>\n      <div class=\"gb-footer-links\">\n        <a href=\"https://instagram.com/gamebro.official\">Instagram</a>\n        <a href=\"/pages/community\">Community Stories</a>\n        <a href=\"/pages/faq\">FAQ</a>\n      </div>\n    </div>\n\n  </div>\n\n  <!-- NEWSLETTER -->\n  <div class=\"gb-footer-newsletter\">\n    <h3 class=\"gb-footer-title\">Join the Squad ⚡</h3>\n    <input type=\"email\" placeholder=\"Your email address\">\n  </div>\n\n  <!-- NOTE -->\n  <div class=\"gb-footer-note\">\n    © 2025 Game-bro™ — All rights reserved.\n  </div>\n\n</div>",
+        "custom_liquid": "<style>\n/* ———————————————\n   SEPARATOR GLOW (haut du footer)\n——————————————— */\n.gb-separator {\n  width: 100%;\n  height: 2px;\n  background: linear-gradient(90deg, #8f5bff, #c59cff, #8f5bff);\n  box-shadow: 0 0 12px #8f5bff;\n  margin-top: 30px;\n}\n\n/* ———————————————\n   FOOTER MAIN CONTAINER\n——————————————— */\n.gb-footer {\n  background: #0b0b10;\n  padding: 35px 22px 25px;\n  font-family: Poppins, sans-serif;\n  color: #fff;\n}\n\n/* ———————————————\n   LOGO\n——————————————— */\n.gb-footer-logo {\n  text-align: center;\n  margin-bottom: 22px;\n}\n.gb-footer-logo img {\n  width: 145px;\n  filter: drop-shadow(0 0 10px rgba(197,156,255,0.4));\n}\n\n/* ———————————————\n   SOCIAL ICONS\n——————————————— */\n.gb-footer-socials {\n  display: flex;\n  justify-content: center;\n  gap: 18px;\n  margin-bottom: 26px;\n}\n\n.gb-footer-socials img {\n  width: 30px;\n  height: 30px;\n  filter: brightness(1.2);\n  transition: 0.2s;\n}\n\n.gb-footer-socials img:hover {\n  filter: brightness(2);\n  transform: scale(1.08);\n}\n\n/* ———————————————\n   NEWSLETTER\n——————————————— */\n.gb-footer-newsletter {\n  text-align: center;\n  max-width: 420px;\n  margin: 0 auto 28px auto;\n}\n\n.gb-footer-newsletter h3 {\n  font-size: 15px;\n  margin-bottom: 10px;\n  font-weight: 600;\n  color: #c59cff;\n}\n\n.gb-footer-newsletter input {\n  width: 100%;\n  padding: 12px;\n  border-radius: 8px;\n  border: 1px solid rgba(197,156,255,0.35);\n  background: #12121a;\n  color: white;\n  font-size: 14px;\n  margin-bottom: 10px;\n}\n\n.gb-footer-newsletter button {\n  width: 100%;\n  background: #8f5bff;\n  padding: 12px;\n  border-radius: 8px;\n  border: none;\n  color: #fff;\n  font-weight: 600;\n  text-transform: uppercase;\n  cursor: pointer;\n  transition: 0.2s;\n}\n\n.gb-footer-newsletter button:hover {\n  background: #a77bff;\n}\n\n/* ———————————————\n   LINKS\n——————————————— */\n.gb-footer-links {\n  display: flex;\n  justify-content: center;\n  gap: 50px;\n  flex-wrap: wrap;\n  margin-bottom: 25px;\n}\n\n.gb-footer-col {\n  text-align: center;\n}\n\n.gb-footer-col h4 {\n  color: #c59cff;\n  font-size: 14px;\n  margin-bottom: 10px;\n  font-weight: 600;\n}\n\n.gb-footer-col a {\n  display: block;\n  color: #c8c8c8;\n  font-size: 13px;\n  margin-bottom: 6px;\n  text-decoration: none;\n  transition: 0.2s;\n}\n\n.gb-footer-col a:hover {\n  color: #fff;\n}\n\n/* ———————————————\n   COPYRIGHT\n——————————————— */\n.gb-footer-copy {\n  text-align: center;\n  font-size: 11.5px;\n  color: #777;\n  margin-top: 10px;\n}\n</style>\n\n<!-- ———————————————\n     SEPARATOR\n——————————————— -->\n<div class=\"gb-separator\"></div>\n\n<!-- ———————————————\n     FOOTER\n——————————————— -->\n<footer class=\"gb-footer\">\n\n  <!-- LOGO -->\n  <div class=\"gb-footer-logo\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0951/3700/5951/files/GB_logo.png?v=1\">\n  </div>\n\n  <!-- SOCIALS -->\n  <div class=\"gb-footer-socials\">\n    <a href=\"https://instagram.com/gamebro.official\" target=\"_blank\">\n      <img src=\"https://cdn-icons-png.flaticon.com/512/2111/2111463.png\">\n    </a>\n    <a href=\"https://facebook.com\" target=\"_blank\">\n      <img src=\"https://cdn-icons-png.flaticon.com/512/733/733547.png\">\n    </a>\n  </div>\n\n  <!-- NEWSLETTER -->\n  <div class=\"gb-footer-newsletter\">\n    <h3>Join the Game-bro™ community</h3>\n    <input type=\"email\" placeholder=\"Enter your email\">\n    <button>Subscribe</button>\n  </div>\n\n  <!-- LINKS -->\n  <div class=\"gb-footer-links\">\n\n    <div class=\"gb-footer-col\">\n      <h4>Info</h4>\n      <a href=\"/pages/contact\">Contact</a>\n      <a href=\"/pages/shipping\">Shipping</a>\n      <a href=\"/pages/warranty\">Warranty</a>\n    </div>\n\n    <div class=\"gb-footer-col\">\n      <h4>Legal</h4>\n      <a href=\"/pages/privacy-policy\">Privacy Policy</a>\n      <a href=\"/pages/terms-of-service\">Terms & Conditions</a>\n      <a href=\"/pages/legal-notice\">Legal Notice</a>\n    </div>\n\n  </div>\n\n  <!-- COPYRIGHT -->\n  <div class=\"gb-footer-copy\">\n    © 2025 Game-bro™ — All rights reserved.\n  </div>\n\n</footer>",
         "color_scheme": "background-1",
         "padding_top": 40,
-        "padding_bottom": 52
+        "padding_bottom": 0
       }
     },
     "footer": {
       "type": "footer",
-      "blocks": {
-        "fc645871-d789-4cfa-8584-4f8a29b6ce92": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/gamelab_pic_d5b81325-f55b-48c5-80a4-359834f46b12.webp",
-            "image_width": 305,
-            "alignment": "center",
-            "url": "shopify://products/game-bro-console",
-            "width_desktop": 4,
-            "width_mobile": "2"
-          }
-        },
-        "1c647602-cc00-4009-a058-976435c8ee9e": {
-          "type": "link_list",
-          "settings": {
-            "heading": "Quick links",
-            "menu": "footer",
-            "width_desktop": 4,
-            "width_mobile": "2"
-          }
-        },
-        "24f208fd-0898-43eb-af23-d74f8420ab37": {
-          "type": "email_signup",
-          "settings": {
-            "heading": "Subscribe to our emails",
-            "subtext": "<p>Join our email list for exclusive offers and the latest news.</p>",
-            "button_type": "solid",
-            "button_label": "Sign up",
-            "button_style_secondary": false,
-            "width_desktop": 4,
-            "width_mobile": "2"
-          }
-        }
-      },
-      "block_order": [
-        "fc645871-d789-4cfa-8584-4f8a29b6ce92",
-        "1c647602-cc00-4009-a058-976435c8ee9e",
-        "24f208fd-0898-43eb-af23-d74f8420ab37"
-      ],
       "settings": {
-        "color_scheme": "accent-1",
+        "color_scheme": "custom",
         "enable_follow_on_shop": false,
-        "show_social": true,
+        "show_social": false,
         "enable_country_selector": true,
         "enable_language_selector": true,
         "payment_enable": true,
@@ -80,9 +41,9 @@
         "padding_bottom": 20,
         "custom_colors_background": "#121212",
         "custom_gradient_background": "",
-        "custom_colors_text": "#000000",
-        "custom_colors_solid_button_background": "#ffffff",
-        "custom_colors_solid_button_text": "#121212",
+        "custom_colors_text": "#ffffff",
+        "custom_colors_solid_button_background": "#6d388b",
+        "custom_colors_solid_button_text": "#ffffff",
         "custom_colors_outline_button": "#ffffff"
       }
     }
