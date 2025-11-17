@@ -405,7 +405,7 @@
               "savings_position": "above",
               "savings_spacing": 10,
               "display_subtotal": true,
-              "subtotal_left_text": "<strong>Subtotal</strong>",
+              "subtotal_left_text": "<strong>Total</strong>",
               "subtotal_right_text": "<strong>[subtotal]</strong>",
               "subtotal_alignment": "spaced",
               "subtotal_text_color": "text",
@@ -413,8 +413,8 @@
               "display_discounts": false,
               "discounts_label": "<strong>Discounts:</strong>",
               "discounts_alignment": "flex-start",
-              "margin_top": 15,
-              "margin_bottom": 15
+              "margin_top": 6,
+              "margin_bottom": 6
             }
           },
           "0935e47c-9604-4faa-b47a-d61ca49c0c16": {
@@ -555,6 +555,14 @@
               "margin_top": 0,
               "margin_bottom": 0
             }
+          },
+          "custom_liquid_aaah9P": {
+            "type": "custom_liquid",
+            "disabled": true,
+            "settings": {
+              "position": "body",
+              "custom_liquid": "<div style=\"\n  width:100%;\n  padding-top:2px;\n  padding-bottom:2px;\n  display:flex;\n  justify-content:center;\n  background:transparent;\n\">\n  <img \n    src=\"https://cdn.shopify.com/s/files/1/0951/3700/5951/files/badge_de_paiement.svg?v=1763383118\"\n    alt=\"Secure payment badges\"\n    style=\"\n      max-width:100%;\n      width:260px;\n      height:auto;\n      display:block;\n      margin:0 auto;\n    \"\n  >\n</div>"
+            }
           }
         },
         "block_order": [
@@ -569,10 +577,11 @@
           "0935e47c-9604-4faa-b47a-d61ca49c0c16",
           "68fdc0a0-cd7c-40b9-97b3-a76eb7917a47",
           "product_upsells_MfMY9m",
-          "product_upsells_xi9TWk"
+          "product_upsells_xi9TWk",
+          "custom_liquid_aaah9P"
         ],
         "settings": {
-          "test_mode": false,
+          "test_mode": true,
           "heading_text": "",
           "heading_alignment": "flex-start",
           "desktop_width": "normal",
