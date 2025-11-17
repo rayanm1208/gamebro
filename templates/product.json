@@ -296,6 +296,7 @@
         },
         "e7a28cbe-03cb-4c9d-a2c4-0e3e76ffb3e5": {
           "type": "sticky_atc",
+          "disabled": true,
           "settings": {
             "function": "add_to_cart",
             "display_when": "after_scroll",
