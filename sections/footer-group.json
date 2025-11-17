@@ -11,6 +11,19 @@
   "name": "t:sections.footer.name",
   "type": "footer",
   "sections": {
+    "custom_liquid_eztjGE": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "custom_liquid": "<style>\n  .gb-footer {\n    background: #000000;\n    padding: 28px 20px 20px 20px;\n    font-family: Poppins, sans-serif;\n    color: #ffffff;\n    border-top: 1px solid rgba(197,156,255,0.2);\n  }\n\n  .gb-footer-logo {\n    text-align: center;\n    margin-bottom: 15px;\n  }\n\n  .gb-footer-logo img {\n    width: 135px;\n    filter: drop-shadow(0 0 6px #c59cff);\n  }\n\n  .gb-footer-cols {\n    display: flex;\n    justify-content: space-between;\n    gap: 20px;\n    flex-wrap: wrap;\n  }\n\n  .gb-footer-col {\n    flex: 1;\n    min-width: 120px;\n  }\n\n  .gb-footer-title {\n    font-size: 14px;\n    font-weight: 700;\n    margin-bottom: 10px;\n    color: #c59cff;\n  }\n\n  .gb-footer-links a {\n    display: block;\n    font-size: 13px;\n    color: #dcdcdc;\n    margin-bottom: 6px;\n    text-decoration: none;\n    transition: 0.2s;\n  }\n\n  .gb-footer-links a:hover {\n    color: #c59cff;\n  }\n\n  .gb-footer-newsletter {\n    margin-top: 20px;\n    text-align: center;\n  }\n\n  .gb-footer-newsletter input {\n    width: 100%;\n    padding: 12px;\n    margin-top: 8px;\n    font-size: 14px;\n    border-radius: 8px;\n    background: #111;\n    border: 1px solid rgba(197,156,255,0.3);\n    color: #fff;\n    outline: none;\n  }\n\n  .gb-footer-note {\n    text-align: center;\n    margin-top: 22px;\n    font-size: 12px;\n    color: #777;\n  }\n\n  @media(max-width: 480px) {\n    .gb-footer-cols {\n      flex-direction: column;\n      gap: 18px;\n    }\n    .gb-footer {\n      padding: 20px 15px;\n    }\n  }\n</style>\n\n<div class=\"gb-footer\">\n\n  <!-- LOGO -->\n  <div class=\"gb-footer-logo\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0951/3700/5951/files/GB_logo.png?v=1\" alt=\"Game-bro™\">\n  </div>\n\n  <!-- FOOTER COLUMNS -->\n  <div class=\"gb-footer-cols\">\n\n    <div class=\"gb-footer-col\">\n      <h3 class=\"gb-footer-title\">Game-bro™</h3>\n      <div class=\"gb-footer-links\">\n        <a href=\"/pages/about-us\">About Us</a>\n        <a href=\"/pages/contact\">Support</a>\n        <a href=\"/pages/warranty\">1-Year Warranty</a>\n        <a href=\"/pages/shipping\">Shipping Info</a>\n      </div>\n    </div>\n\n    <div class=\"gb-footer-col\">\n      <h3 class=\"gb-footer-title\">Legal</h3>\n      <div class=\"gb-footer-links\">\n        <a href=\"/pages/privacy-policy\">Privacy Policy</a>\n        <a href=\"/pages/terms-of-service\">Terms of Service</a>\n        <a href=\"/pages/legal-notice\">Legal Notice</a>\n      </div>\n    </div>\n\n    <div class=\"gb-footer-col\">\n      <h3 class=\"gb-footer-title\">Community</h3>\n      <div class=\"gb-footer-links\">\n        <a href=\"https://instagram.com/gamebro.official\">Instagram</a>\n        <a href=\"/pages/community\">Community Stories</a>\n        <a href=\"/pages/faq\">FAQ</a>\n      </div>\n    </div>\n\n  </div>\n\n  <!-- NEWSLETTER -->\n  <div class=\"gb-footer-newsletter\">\n    <h3 class=\"gb-footer-title\">Join the Squad ⚡</h3>\n    <input type=\"email\" placeholder=\"Your email address\">\n  </div>\n\n  <!-- NOTE -->\n  <div class=\"gb-footer-note\">\n    © 2025 Game-bro™ — All rights reserved.\n  </div>\n\n</div>",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "footer": {
       "type": "footer",
       "blocks": {
@@ -75,6 +88,7 @@
     }
   },
   "order": [
+    "custom_liquid_eztjGE",
     "footer"
   ]
 }
