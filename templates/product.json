@@ -354,6 +354,7 @@
         },
         "description": {
           "type": "description",
+          "disabled": true,
           "settings": {
             "margin_top": 24,
             "margin_bottom": 24
