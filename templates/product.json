@@ -37,6 +37,12 @@
             "margin_bottom": 15
           }
         },
+        "custom_liquid_PTXgfj": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div id=\"gb-viewing-box\" \n     style=\"\n       margin-top:12px;\n       margin-bottom:2px;\n       font-family:Poppins, sans-serif;\n       font-size:14px;\n       color:#c59cff;\n       display:flex;\n       align-items:center;\n       gap:8px;\n     \">\n  \n  <span style=\"display:inline-block; width:8px; height:8px; background:#c59cff; border-radius:50%; box-shadow:0 0 6px #c59cff;\"></span>\n\n  <span id=\"gb-viewing-text\">12 people are viewing this product right now</span>\n\n</div>\n\n<script>\ndocument.addEventListener(\"DOMContentLoaded\", function() {\n\n  function updateViewers() {\n    const min = 4;\n    const max = 20;\n    const randomNum = Math.floor(Math.random() * (max - min + 1)) + min;\n\n    document.getElementById(\"gb-viewing-text\").textContent =\n      randomNum + \" people are viewing this product right now\";\n  }\n\n  updateViewers();\n  setInterval(updateViewers, 8000); // update every 8 seconds\n\n});\n</script>"
+          }
+        },
         "trustpilot_stars_fcfiw7": {
           "type": "trustpilot_stars",
           "disabled": true,
@@ -458,6 +464,7 @@
       "block_order": [
         "title_DAhbgV",
         "rating_stars_car3yH",
+        "custom_liquid_PTXgfj",
         "trustpilot_stars_fcfiw7",
         "price",
         "variant_picker_DEWbrQ",
