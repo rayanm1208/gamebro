@@ -1277,7 +1277,7 @@
         "per_move_desktop": 1,
         "desktop_spacing": 28,
         "desktop_side_padding": 0,
-        "desktop_padding_calc": true,
+        "desktop_padding_calc": false,
         "desktop_adaptive_height": false,
         "desktop_dots_position": "hidden",
         "desktop_arrows_position": "hidden",
