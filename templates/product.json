@@ -1287,7 +1287,7 @@
         "per_move_mobile": 1,
         "mobile_spacing": 12,
         "mobile_side_padding": 16,
-        "mobile_padding_calc": true,
+        "mobile_padding_calc": false,
         "mobile_adaptive_height": true,
         "mobile_dots_position": "hidden",
         "mobile_arrows_position": "hidden",
