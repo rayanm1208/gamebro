@@ -117,7 +117,7 @@
         "custom_liquid_xWwMVD": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<!-- 💜 BLACK FRIDAY SALE BAR -->\n<div id=\"black-friday-bar\"\n     style=\"background:linear-gradient(90deg, #4B0082, #6A0DAD);\n            color:#fff; font-family:Poppins, sans-serif;\n            text-align:center; padding:10px 0;\n            font-size:15px; font-weight:800;\n            text-transform:uppercase; letter-spacing:1px;\n            line-height:1.3;\">\n  <span class=\"blink-text\">\n   BLACK FRIDAY SALE :<br>\n    BUY 1, GET 1 HALF PRICE\n  </span>\n</div>\n\n<style>\n  @keyframes blink {\n    0%, 100% { opacity: 1; }\n    50% { opacity: 0.4; }\n  }\n\n  .blink-text {\n    animation: blink 1.3s infinite ease-in-out;\n  }\n</style>"
+            "custom_liquid": "<!-- 💜 BLACK FRIDAY SALE BAR -->\n<div id=\"black-friday-bar\"\n     style=\"background:linear-gradient(90deg, #4B0082, #6A0DAD);\n            color:#fff; font-family:Poppins, sans-serif;\n            text-align:center; padding:10px 0;\n            font-size:15px; font-weight:800;\n            text-transform:uppercase; letter-spacing:1px;\n            line-height:1.3;\">\n  <span class=\"blink-text\">\n    BLACK FRIDAY SALE :<br>\n    GET 30% OFF THE FIRST CONSOLE AND 50% OFF THE SECOND !\n  </span>\n</div>\n\n<style>\n  @keyframes blink {\n    0%, 100% { opacity: 1; }\n    50% { opacity: 0.4; }\n  }\n\n  .blink-text {\n    animation: blink 1.3s infinite ease-in-out;\n  }\n</style>"
           }
         },
         "04ba004e-2f54-4936-8b1c-8bcadf6573f6": {
