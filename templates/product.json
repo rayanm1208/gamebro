@@ -709,6 +709,177 @@
         "custom_section_gradient_background": ""
       }
     },
+    "image_slider_hWrRHG": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slide_KbddLz": {
+          "type": "image_slide",
+          "settings": {
+            "image": "shopify://shop_images/mario_kart.gif",
+            "link": "",
+            "description": "",
+            "desc_alignment": "center",
+            "desc_color_scheme": "background-2"
+          }
+        },
+        "image_slide_Gd8jCY": {
+          "type": "image_slide",
+          "settings": {
+            "image": "shopify://shop_images/sonic2.webp",
+            "link": "",
+            "description": "",
+            "desc_alignment": "center",
+            "desc_color_scheme": "background-2"
+          }
+        },
+        "image_slide_bWwGTE": {
+          "type": "image_slide",
+          "settings": {
+            "image": "shopify://shop_images/crash.gif",
+            "link": "",
+            "description": "",
+            "desc_alignment": "center",
+            "desc_color_scheme": "background-2"
+          }
+        },
+        "image_slide_PM37qn": {
+          "type": "image_slide",
+          "settings": {
+            "image": "shopify://shop_images/pokemon.gif",
+            "link": "",
+            "description": "",
+            "desc_alignment": "center",
+            "desc_color_scheme": "background-2"
+          }
+        },
+        "image_slide_pwtewt": {
+          "type": "image_slide",
+          "settings": {
+            "image": "shopify://shop_images/minecraft.gif",
+            "link": "",
+            "description": "",
+            "desc_alignment": "center",
+            "desc_color_scheme": "background-2"
+          }
+        },
+        "image_slide_PraRc3": {
+          "type": "image_slide",
+          "settings": {
+            "link": "",
+            "description": "",
+            "desc_alignment": "center",
+            "desc_color_scheme": "background-2"
+          }
+        },
+        "image_slide_t4jWmp": {
+          "type": "image_slide",
+          "settings": {
+            "image": "shopify://shop_images/zelda.gif",
+            "link": "",
+            "description": "",
+            "desc_alignment": "center",
+            "desc_color_scheme": "background-2"
+          }
+        },
+        "image_slide_P68YJG": {
+          "type": "image_slide",
+          "settings": {
+            "image": "shopify://shop_images/gta.webp",
+            "link": "",
+            "description": "",
+            "desc_alignment": "center",
+            "desc_color_scheme": "background-2"
+          }
+        },
+        "image_slide_Jyjfbh": {
+          "type": "image_slide",
+          "settings": {
+            "image": "shopify://shop_images/fifa.gif",
+            "link": "",
+            "description": "",
+            "desc_alignment": "center",
+            "desc_color_scheme": "background-2"
+          }
+        },
+        "image_slide_FbqPGJ": {
+          "type": "image_slide",
+          "settings": {
+            "image": "shopify://shop_images/mortal_kombat.gif",
+            "link": "",
+            "description": "",
+            "desc_alignment": "center",
+            "desc_color_scheme": "background-2"
+          }
+        },
+        "image_slide_JKK39L": {
+          "type": "image_slide",
+          "settings": {
+            "image": "shopify://shop_images/pokemon_2.webp",
+            "link": "",
+            "description": "",
+            "desc_alignment": "center",
+            "desc_color_scheme": "background-2"
+          }
+        }
+      },
+      "block_order": [
+        "image_slide_KbddLz",
+        "image_slide_Gd8jCY",
+        "image_slide_bWwGTE",
+        "image_slide_PM37qn",
+        "image_slide_pwtewt",
+        "image_slide_PraRc3",
+        "image_slide_t4jWmp",
+        "image_slide_P68YJG",
+        "image_slide_Jyjfbh",
+        "image_slide_FbqPGJ",
+        "image_slide_JKK39L"
+      ],
+      "name": "Image/Video Slider",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "title": "<strong>Recognize the Code ? You're Game-bro.</strong>",
+        "title_highlight_color": "#ffffff",
+        "heading_size": "h2",
+        "color_scheme": "custom",
+        "type": "slide",
+        "drag": "enabled",
+        "autoplay": false,
+        "autoplay_speed": 2,
+        "center_mode": false,
+        "arrows_color_scheme": "inverse",
+        "transparent_arrows": false,
+        "dots_color_scheme": "inverse",
+        "desktop_full_page": false,
+        "desktop_border_radius": 20,
+        "slides_desktop": 3,
+        "per_move_desktop": 1,
+        "desktop_spacing": 16,
+        "desktop_side_padding": 0,
+        "desktop_padding_calc": true,
+        "desktop_adaptive_height": false,
+        "desktop_dots_position": "hidden",
+        "desktop_arrows_position": "hidden",
+        "mobile_full_page": false,
+        "mobile_border_radius": 8,
+        "slides_mobile": 3,
+        "per_move_mobile": 1,
+        "mobile_spacing": 6,
+        "mobile_side_padding": 0,
+        "mobile_padding_calc": true,
+        "mobile_adaptive_height": false,
+        "mobile_dots_position": "hidden",
+        "mobile_arrows_position": "hidden",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_colors_background": "#000000",
+        "custom_gradient_background": "",
+        "custom_image_background": "shopify://shop_images/gamelab_2.webp",
+        "custom_mobile_image_background": "shopify://shop_images/gamelab_2.webp",
+        "custom_colors_text": "#121212"
+      }
+    },
     "icon_bar_9RgTTV": {
       "type": "icon-bar",
       "blocks": {
@@ -1523,6 +1694,7 @@
     "custom_liquid_Rz8DiE",
     "horizontal_ticker_9qycyU",
     "image_with_text_g6mKVa",
+    "image_slider_hWrRHG",
     "icon_bar_9RgTTV",
     "image_banner_VmhjmM",
     "custom_liquid_qLi3aY",
