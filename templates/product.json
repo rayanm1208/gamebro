@@ -743,29 +743,10 @@
             "desc_color_scheme": "background-2"
           }
         },
-        "image_slide_PM37qn": {
-          "type": "image_slide",
-          "settings": {
-            "image": "shopify://shop_images/pokemon.gif",
-            "link": "",
-            "description": "",
-            "desc_alignment": "center",
-            "desc_color_scheme": "background-2"
-          }
-        },
         "image_slide_pwtewt": {
           "type": "image_slide",
           "settings": {
             "image": "shopify://shop_images/minecraft.gif",
-            "link": "",
-            "description": "",
-            "desc_alignment": "center",
-            "desc_color_scheme": "background-2"
-          }
-        },
-        "image_slide_PraRc3": {
-          "type": "image_slide",
-          "settings": {
             "link": "",
             "description": "",
             "desc_alignment": "center",
@@ -782,30 +763,10 @@
             "desc_color_scheme": "background-2"
           }
         },
-        "image_slide_P68YJG": {
-          "type": "image_slide",
-          "settings": {
-            "image": "shopify://shop_images/gta.webp",
-            "link": "",
-            "description": "",
-            "desc_alignment": "center",
-            "desc_color_scheme": "background-2"
-          }
-        },
         "image_slide_Jyjfbh": {
           "type": "image_slide",
           "settings": {
             "image": "shopify://shop_images/fifa.gif",
-            "link": "",
-            "description": "",
-            "desc_alignment": "center",
-            "desc_color_scheme": "background-2"
-          }
-        },
-        "image_slide_FbqPGJ": {
-          "type": "image_slide",
-          "settings": {
-            "image": "shopify://shop_images/mortal_kombat.gif",
             "link": "",
             "description": "",
             "desc_alignment": "center",
@@ -827,13 +788,9 @@
         "image_slide_KbddLz",
         "image_slide_Gd8jCY",
         "image_slide_bWwGTE",
-        "image_slide_PM37qn",
         "image_slide_pwtewt",
-        "image_slide_PraRc3",
         "image_slide_t4jWmp",
-        "image_slide_P68YJG",
         "image_slide_Jyjfbh",
-        "image_slide_FbqPGJ",
         "image_slide_JKK39L"
       ],
       "name": "Image/Video Slider",
@@ -847,7 +804,7 @@
         "type": "loop",
         "drag": "enabled",
         "autoplay": true,
-        "autoplay_speed": 2,
+        "autoplay_speed": 1,
         "center_mode": false,
         "arrows_color_scheme": "inverse",
         "transparent_arrows": false,
