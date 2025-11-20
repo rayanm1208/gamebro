@@ -210,6 +210,7 @@
         },
         "product_upsell_mpi3Jt": {
           "type": "product_upsell",
+          "disabled": true,
           "settings": {
             "style": "toggle_switch",
             "btn_position": "right",
